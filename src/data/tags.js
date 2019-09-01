@@ -8,31 +8,36 @@ module.exports = [
   {
     name: "HTML",
     desc:
-      "Hypertext Markup Language, the standard syntax for structuring web pages.",
+      "HyperText Markup Language, the syntax for building web pages.",
     emoji: "✏️"
   },
   {
     name: "CSS",
-    desc: "Cascading Style Sheets, the standard syntax for styling web pages.",
+    desc: "Cascading Style Sheets, the syntax for styling web pages.",
     emoji: "🖍️"
-  },
-  {
-    name: "Programming-Fundamentals",
-    desc:
-      "Basic computer science knowledge that does not pertain to a single language.",
-    emoji: "🌎"
-  },
-  {
-    name: "Operating-Systems",
-    desc: "Software that handles a computer's basic functions.",
-    emoji: "💽",
-    color: "#000000"
   },
   {
     name: "Networking",
     desc: "Communications between computers.",
     emoji: "📡",
     color: "#595959"
+  },
+  {
+    name: "Security",
+    desc: "Keeping hardware and software safe.",
+    emoji: "🔒"
+  },
+  {
+    name: "Programming Fundamentals",
+    desc:
+      "Basic computer science knowledge that does not pertain to a single language.",
+    emoji: "🌎"
+  },
+  {
+    name: "Operating Systems",
+    desc: "Software that handles a computer's basic functions.",
+    emoji: "💽",
+    color: "#000000"
   },
   {
     name: "React.js",
@@ -51,23 +56,18 @@ module.exports = [
     emoji: "🖥️"
   },
   {
-    name: "Security",
-    desc: "The study of making computer's safe and secure.",
-    emoji: "🔒"
-  },
-  {
     name: "DOM",
     desc:
       "The Document Object Model or the API that lets scripting languages change HTML.",
     emoji: "📝"
   },
   {
-    name: "Software-Engineering",
+    name: "Software Engineering",
     desc: "The study of building computer software efficiently.",
     emoji: "🤝🏼"
   },
   {
-    name: "JS-Libraries",
+    name: "JS Libraries",
     desc: "Packages and libraries that extend a particular language",
     emoji: "📦"
   },
@@ -83,7 +83,7 @@ module.exports = [
     emoji: "📐"
   },
   {
-    name: "Artificial-Intelligence",
+    name: "Artificial Intelligence",
     desc: "The simulation of human intelligence by machines.",
     emoji: "🧠"
   },
@@ -93,13 +93,13 @@ module.exports = [
     emoji: "🚧"
   },
   {
-    name: "Web-Browsers",
+    name: "Web Browsers",
     desc:
       "Software application that accesses and displays information from the internet.",
     emoji: "🔎"
   },
   {
-    name: "User-Experience",
+    name: "User Experience",
     desc: "The user's experience througha  front-end application.",
     emoji: "😍"
   },
@@ -121,7 +121,7 @@ module.exports = [
     emoji: "💤"
   },
   {
-    name: "Design-Patterns",
+    name: "Design Patterns",
     desc: "Blueprints for organizing code to solve particular problems.",
     emoji: "🗺️"
   },
@@ -130,5 +130,5 @@ module.exports = [
     desc:
       "The world's most popular operating system and the powerhouse of the internet.",
     emoji: "🐧"
-  }
+  },
 ];

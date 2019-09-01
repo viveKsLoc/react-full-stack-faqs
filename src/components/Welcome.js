@@ -1,14 +1,12 @@
 import React from "react";
 import { Jumbotron, Button } from "reactstrap";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Welcome = props => {
   return (
     <div
       style={{
-        left: "50%",
-        marginLeft: "-350px",
-        marginTop: "40px",
+        margin: "20px",
         width: "700px",
         position: "absolute",
         zIndex: 1
@@ -22,17 +20,35 @@ const Welcome = props => {
         <hr className="my-2" />
         <p />
         <p className="lead">
-          <Button color="primary" style={{ width: "125px", margin: "5px" }}>
-            <Link to="/api" style={{color: "white"}}>swagger</Link>
+          <Button
+            color="secondary"
+            disabled
+            style={{ width: "125px", margin: "5px" }}
+          >
+            Swagger
           </Button>
-          <Button color="primary" style={{ width: "125px", margin: "5px" }}>
-          faqs.json
+          <Button
+            color="secondary"
+            disabled
+            style={{ width: "125px", margin: "5px" }}
+          >
+            faqs.json
           </Button>
-          <Button color="primary" style={{ width: "125px", margin: "5px" }}>
-          <Link to="/bot" style={{color: "white"}}>docs</Link>
+          <Button
+            color="secondary"
+            disabled
+            style={{ width: "125px", margin: "5px" }}
+          >
+            <Link to="/bot" style={{ color: "white" }}>
+              docs
+            </Link>
           </Button>
-          <Button color="primary" style={{ width: "125px", margin: "5px" }}>
-          <Link to="/bot" style={{color: "white"}}>Chatbot</Link>
+          <Button
+            color="secondary"
+            disabled
+            style={{ width: "125px", margin: "5px" }}
+          >
+            Chatbot
           </Button>
         </p>
       </Jumbotron>

@@ -9,7 +9,7 @@ import {
   NavLink
 } from "reactstrap";
 
-export default class Example extends React.Component {
+export default class AppBar extends React.Component {
   constructor(props) {
     super(props);
 
@@ -32,16 +32,7 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Tags</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/components/">Types</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/components/">Sets</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink style={{color: "white"}} href="https://github.com/masautt">
                   @masautt
                 </NavLink>
               </NavItem>
