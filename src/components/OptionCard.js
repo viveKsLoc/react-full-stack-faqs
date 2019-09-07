@@ -1,15 +1,14 @@
 import React from "react";
-import { Card, CardBody, Button, CardTitle, CardText, CardImg } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardText, Badge } from 'reactstrap';
 
-export default function OptionCard({set, clickHandler}) {
+export default function OptionCard({content, clickHandler, activeOption, type}) {
   return (
-    <Card onClick={() => clickHandler(set.faqs)} className="element">
+    <Card onClick={() => clickHandler(content)} className="element"
+    style = {{ background: activeOption.name === content.name ? "lightgray": "white"}}>
     <CardBody>
-      <CardTitle>{set.emoji} <b>{set.name}</b></CardTitle>
-      <CardText>{set.desc}</CardText>
-      <CardText>
-        <small className="text-muted">{set.faqs.length} FAQs</small>
-      </CardText>
+      <CardTitle>{content.emoji} <Badge color={activeOption.name === content.name ? "light": "secondary"}>{content.faqs &&  content.faqs.length}
+        {content.total &&  content.total} </Badge>{" "}<b>{content.name}</b>        </CardTitle>
+      {type !=="Tags" && <CardText><small>{content.desc}</small></CardText>}
     </CardBody>
   </Card>
     )

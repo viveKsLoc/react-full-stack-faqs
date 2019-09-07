@@ -135,7 +135,8 @@ module.exports = [
       }
     ],
     id: "you-dont-know-js",
-    emoji: "💩"
+    emoji: "💩",
+    url: "https://8snib.csb.app/set/you-dont-know-js"
   },
   {
     name: "Programming 101",
@@ -206,7 +207,8 @@ module.exports = [
       }
     ],
     id: "programming-101",
-    emoji: "🍏"
+    emoji: "🍏",
+    url: "https://8snib.csb.app/set/programming-101"
   },
   {
     name: "JS Interview Questions - Strings",
@@ -398,7 +400,8 @@ module.exports = [
         id: "etqai3t"
       }
     ],
-    emoji: "🌟"
+    emoji: "🌟",
+    url: "https://8snib.csb.app/set/javascript-interview-questions-strings"
   },
   {
     name: "JS Interview Questions - Arrays",
@@ -562,6 +565,7 @@ module.exports = [
         id: "pkjkh4p"
       }
     ],
-    emoji: "🌟"
+    emoji: "🌟",
+    url: "https://8snib.csb.app/set/javascript-interview-questions-arrays"
   }
 ];

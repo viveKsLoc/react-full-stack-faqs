@@ -9,10 +9,4 @@ html {
 
 .element :hover {
   cursor: pointer;
-  background-color: #F8F9FA 
-}
-
-.element-active {
-  cursor: pointer;
-  background-color: rgb(211, 211, 212) 
 }

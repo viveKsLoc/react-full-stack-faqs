@@ -17,7 +17,7 @@ export default function SetCard({ faq }) {
       <Card>
         <CardBody>
           <CardTitle>
-          <b>{faq.number}. {faq.question}</b>
+          <b>{faq.question}</b>
           </CardTitle>
           {faq.type === "Code" ? (
             <Gist id={faq.answer.slice(-32)} />
@@ -25,7 +25,7 @@ export default function SetCard({ faq }) {
             <CardText>{faq.answer}</CardText>
           )}
 
-          <CardText>Tags: {faq.tags.map((tag) => <a href="https://8snib.sse.codesandbox.io/tag/">#{tag}</a>)}</CardText>
+          <CardText>{faq.tags.map((tag) => <a href={`https://8snib.sse.codesandbox.io/tag/${tag}`} style={{color: "black"}}>{tag}{" "}</a>)}</CardText>
         </CardBody>
       </Card>
     </div>
