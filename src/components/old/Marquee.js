@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles/Marquee.scss";
-import tags from "../data/tags";
+import "./Marquee.scss";
 
 function Marquee({ content }) {
   let filteredContent = content.map(item => (

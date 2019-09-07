@@ -1,77 +1,50 @@
 import React, { useState, useEffect } from "react";
+import NavBar from "./components/NavBar";
+import OptionsBar from "./components/OptionsBar";
 import ReactDOM from "react-dom";
+import { Container, Row, Col, Collapse, Alert } from "reactstrap";
+
+
 import "./styles.css";
-import Marquee from "./components/Marquee";
-import Appbar from "./components/Appbar";
-import Welcome from "./components/Welcome";
-import TagsCards from "./components/TagsCards";
-import TypesCards from "./components/TypesCards";
-import SetsCards from "./components/SetsCards";
-import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Alert } from "reactstrap";
 
+import OptionCard from "./components/OptionCard";
+import FAQCard from "./components/FAQCard";
+import sets from "./data/sets";
 function App() {
-  const [faqs, setFaqs] = useState(null);
-  const [sets, setSets] = useState(null);
-  const [types, setTypes] = useState(null);
-  const [tags, setTags] = useState(null);
-  useEffect(() => {
-    fetch("https://8snib.sse.codesandbox.io/rand/50")
-      .then(res => res.json())
-      .then(data => setFaqs(data));
-    fetch("https://8snib.sse.codesandbox.io/types")
-      .then(res => res.json())
-      .then(data => setTypes(data));
-    fetch("https://8snib.sse.codesandbox.io/tags")
-      .then(res => res.json())
-      .then(data => setTags(data));
-    fetch("https://8snib.sse.codesandbox.io/sets")
-      .then(res => res.json())
-      .then(data => setSets(data));
-  }, []);
+  const [selectedOptionBar, setSelectedOptionBar] = useState("Sets");
+  const [selectedOptionCard, setSelectedOptionCard] = useState(sets[3].faqs);
 
+  function handleOptionBarClick(bar) {
+    setSelectedOptionBar(bar);
+  }
+
+  function handleOptionCardClick(card) {
+    setSelectedOptionCard(card);
+  }
   return (
-    <Router>
-      <Appbar />
-      <div>
-        <div
-          style={{
-            width: "80%",
-            left: "20%",
-            overflow: "hidden",
-            position: "absolute"
-          }}
-        >
-          {faqs !== null && (
-            <div style={{ marginTop: "10px" }}>
-              <Marquee content={faqs.slice(0, 10)} />
-              <Marquee content={faqs.slice(10, 20)} />
-              <Marquee content={faqs.slice(20, 30)} />
-              <Marquee content={faqs.slice(30, 40)} />
-              <Marquee content={faqs.slice(40, 50)} />
-            </div>
-          )}
-        </div>
-        <Welcome />
-        <div
-          style={{
-            marginTop: "390px",
-            position: "absolute",
-            width: "100%"
-          }}
-        >
-          <hr style={{ backgroundColor: "#E9ECEF", height: "5px" }} />
-          <div style={{ margin: "auto", width: "100%" }}>
-            {types && <TypesCards content={types} />}
-            {tags && <TagsCards content={tags} />}
-            {sets && <SetsCards content={sets} />}
-            <br />
-            {/* <Footer /> */}
-          </div>
-        </div>
-      </div>
-    </Router>
+    <>
+      <NavBar />
+      <br />
+      <Container style={{ background: "white", padding: "0"}} >
+        <Row>
+        <Col>
+         <Alert color="warning">WARNING: This is a work in progress React App. All data is loaded on the client until I figure out how to host <a href="https://codesandbox.io/s/full-stack-faqs-back-end-8snib">the backend</a> on firebase.</Alert>
+          </Col>
+          </Row>
+          <Row>
+          <Col xs="4">
+            <Collapse isOpen={selectedOptionBar === "Sets"}>
+              {sets.map(set => (
+                <OptionCard set={set} clickHandler={handleOptionCardClick} className={selectedOptionCard === set.faqs ? "element": "active-element"} />
+              ))}
+            </Collapse>
+          </Col>
+          <Col xs="8">
+          {selectedOptionCard.map(faq => <FAQCard faq={faq} />)}
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
 
