@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import TopBar from "./components/TopBar";
 import ReactDOM from "react-dom";
 import Scrollbar from "react-scrollbars-custom";
@@ -6,7 +6,6 @@ import {
   Container,
   Row,
   Col,
-  Badge,
   NavItem,
   NavLink,
   TabContent,
@@ -14,15 +13,17 @@ import {
   Nav,
   Navbar,
   NavbarBrand,
-  Button
 } from "reactstrap";
 
 import OptionCard from "./components/OptionCard";
 import DisplayCard from "./components/DisplayCard";
+import DisplayBar from "./components/DisplayBar";
 import OptionBar from "./components/OptionBar";
 import sets from "./data/sets";
 import tags from "./data/tags";
 import types from "./data/types";
+
+
 function App() {
   const [activeTab, setActiveTab] = useState("Sets");
   const [activeOption, setActiveOption] = useState(sets[0]);
@@ -92,16 +93,7 @@ function App() {
             </TabContent>
           </Col>
           <Col xs="8">
-            <Navbar color="light" light expand="md">
-              <NavbarBrand href="">
-                {activeOption.emoji} {activeOption.name}
-              </NavbarBrand>
-              <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <NavLink href={activeOption.url}>API Call</NavLink>
-                </NavItem>
-              </Nav>
-            </Navbar>
+            <DisplayBar activeOption={activeOption}/>
             <Scrollbar
               style={{
                 height: "45rem"
