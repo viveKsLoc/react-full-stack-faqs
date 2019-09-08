@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "./components/NavBar";
+import TopBar from "./components/TopBar";
 import ReactDOM from "react-dom";
 import Scrollbar from "react-scrollbars-custom";
 import {
@@ -18,7 +18,7 @@ import {
 } from "reactstrap";
 
 import OptionCard from "./components/OptionCard";
-import FAQCard from "./components/FAQCard";
+import DisplayCard from "./components/DisplayCard";
 import sets from "./data/sets";
 import tags from "./data/tags";
 import types from "./data/types";
@@ -31,7 +31,7 @@ function App() {
   }
   return (
     <>
-      <NavBar />
+      <TopBar />
       <Container
         style={{ background: "white", padding: "0", marginTop: "1em" }}
         className="rounded"
@@ -146,8 +146,8 @@ function App() {
                 height: "45rem"
               }}
             >
-              {activeOption.faqs.map(faq => (
-                <FAQCard faq={faq} />
+              {activeOption.faqs.map(item => (
+                <DisplayCard content={item} />
               ))}
             </Scrollbar>
           </Col>
