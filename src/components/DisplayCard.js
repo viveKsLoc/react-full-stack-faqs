@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardBody,
-  CardTitle,
-  CardText,
-} from "reactstrap";
+import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import Gist from "react-gist";
 
 import tagsData from "../data/tags";
@@ -17,15 +12,34 @@ export default function SetCard({ content }) {
       <Card>
         <CardBody>
           <CardTitle>
-            <b>{content.question}</b>
+            <a
+              href={`https://8snib.sse.codesandbox.io/faq/${content.id}`}
+              style={{ color: "black" }}
+            >
+              <b>{content.question}</b>
+            </a>
           </CardTitle>
           {content.type === "Code" ? (
             <Gist id={content.answer.slice(-32)} />
           ) : (
-              <CardText>{content.answer}</CardText>
-            )}
+            <CardText>{content.answer}</CardText>
+          )}
 
-          <CardText>{content.tags.map((tag) => <a href={`https://8snib.sse.codesandbox.io/tag/${tag}`} style={{ color: "black" }}>{tag}{" "}</a>)}</CardText>
+          <CardText>
+            {content.tags.map(tag => (
+              <a
+                href={`https://8snib.sse.codesandbox.io/tag/${tag}`}
+                style={{ color: "black" }}
+              >
+                <b>
+                  {tagsData.find(tagData => tagData.name === tag) === undefined
+                    ? ""
+                    : tagsData.find(tagData => tagData.name === tag).emoji}{" "}
+                  {tag}{" "}
+                </b>
+              </a>
+            ))}
+          </CardText>
         </CardBody>
       </Card>
     </div>

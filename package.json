@@ -1,7 +1,7 @@
 {
   "name": "full-stack-faqs-front-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "React app for full-stack faqs",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

@@ -9,7 +9,7 @@ export default function DisplayBar({ activeOption }) {
       </NavbarBrand>
       <Nav className="ml-auto" navbar>
         <NavItem>
-          <NavLink href={activeOption.url}>API Call</NavLink>
+          <NavLink href={activeOption.url}>	&#123; &#125;</NavLink>
         </NavItem>
       </Nav>
     </Navbar>

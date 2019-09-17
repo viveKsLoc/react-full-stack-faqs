@@ -27,7 +27,7 @@ export default function OptionBar({activeTab, setActiveTab}) {
           {sets.length}
         </Badge>
       </Button>{" "}
-      <Button
+      <Button disabled
         style={{
           color: activeTab === "Types" ? "white" : "black",
           textDecoration: "none"
@@ -40,7 +40,7 @@ export default function OptionBar({activeTab, setActiveTab}) {
           {types.length}
         </Badge>
       </Button>{" "}
-      <Button
+      <Button disabled
         style={{
           color: activeTab === "Tags" ? "white" : "black",
           textDecoration: "none"

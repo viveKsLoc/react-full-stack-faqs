@@ -7,7 +7,7 @@ module.exports = [
         question: "What are the 2 ways to cheat lexical scope in JavaScript?",
         answer:
           '1. eval ( ) : passing in a string like "var a = 3" will modify the lexical scope of where the eval statement is at runtime. 2. with ( ) : this statement takes an object, which has zero or more properties and threats that object as if it is a wholly separate lexical scope, and thus the object\'s properties are treated as lexically defined in that scope.',
-        tags: ["JavaScript"],
+        tags: ["JavaScript", "Software Engineering"],
         type: "List",
         number: 301,
         id: "1kxmhgp"
@@ -186,15 +186,6 @@ module.exports = [
         type: "Definition",
         number: 309,
         id: "gg14f8e"
-      },
-      {
-        question: "How do you get a timestamp in JavaScript?",
-        answer:
-          "https://gist.github.com/masautt/c95a8d98fadc2878a3fdcbdfb2c99e30",
-        tags: ["JavaScript"],
-        type: "Code",
-        number: 199,
-        id: "q72rjvf"
       },
       {
         question: "What is scope?",

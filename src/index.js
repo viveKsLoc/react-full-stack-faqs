@@ -6,13 +6,8 @@ import {
   Container,
   Row,
   Col,
-  NavItem,
-  NavLink,
   TabContent,
   TabPane,
-  Nav,
-  Navbar,
-  NavbarBrand,
 } from "reactstrap";
 
 import OptionCard from "./components/OptionCard";
