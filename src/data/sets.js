@@ -2,210 +2,517 @@ module.exports = [
   {
     name: "YDKJS Review",
     desc: "FAQ's based on Kyle Simpson's You Don't Know JS Series",
+    id: "you-dont-know-js",
+    emoji: "💩",
+    url: "https://8snib.csb.app/set/you-dont-know-js",
     faqs: [
       {
         question: "What are the 2 ways to cheat lexical scope in JavaScript?",
         answer:
           '1. eval ( ) : passing in a string like "var a = 3" will modify the lexical scope of where the eval statement is at runtime. 2. with ( ) : this statement takes an object, which has zero or more properties and threats that object as if it is a wholly separate lexical scope, and thus the object\'s properties are treated as lexically defined in that scope.',
-        tags: ["JavaScript", "Software Engineering"],
-        type: "List",
+        tags: ["javascript"],
+        type: "list",
         number: 301,
-        id: "1kxmhgp"
+        id: "1kxmhgp",
+        sources: [
+          {
+            name: "Cheating Lexical Scope: eval",
+            site: "globe",
+            url: "https://frontendmasters.com/courses/advanced-javascript/cheating-lexical-scope-eval/"
+          },
+          {
+            name: "Cheating lexical scoping in JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=W_StzOwiKXk"
+          },
+          {
+            name: "Cheating Lexical - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#cheating-lexical"
+          },
+        ]
       },
       {
         question:
           "What is the difference between lexical scope and dynamic scope in JavaScript?",
         answer:
           "When we traverse up the lexical scope we are looking at the nesting of brackets {} but when we traverse up dynamic scope we are following the function call's scopes.",
-        tags: ["JavaScript"],
-        type: "Comparison",
-        number: 77,
-        id: "swl1uaa"
+        tags: ["programming-fundamentals", "javascript"],
+        type: "comparison",
+        number: 67,
+        id: "swl1uaa",
+        sources: [
+          {
+            name: "Static (Lexical) Scoping vs Dynamic Scoping (Pseudocode)",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/22395580/9715166",
+          },
+          {
+            name: "006 Lexical Scope",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=dHYhMP8ESuk",
+          },
+          {
+            name: "Chapter 2: Lexical Scope - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#chapter-2-lexical-scope",
+          },
+        ]
       },
       {
         question:
           "What are the 3 drawbacks with anonymous functions in JavaScript?",
         answer:
           '1. They have no useful name to display in stack traces, which can make debugging difficult. 2. Without a name, the function needs to refer to itself for recursion which requires the deprecated "arguments.callee" reference. 3. Without a name it is difficult to determine the purpose of the function.',
-        tags: ["JavaScript"],
-        type: "List",
+        tags: ["javascript"],
+        type: "list",
         number: 302,
-        id: "az6wgql"
+        id: "az6wgql",
+        sources: [
+          {
+            name: "what are the advantages and disadvantages of anonymous methods in javascript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/9123921/9715166"
+          },
+          {
+            name: "16.3: ES6 Arrow Function - Topics of JavaScript/ES6",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=mrYMzpbFz18"
+          },
+          {
+            name: "Unlexical - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch6.md#unlexical"
+          },
+        ]
       },
       {
         question: "What is an IIFE in JavaScript?",
         answer:
           "An IIFE is an Immediately Invoked Function Expression which runs as soon as it's defined by adding ( ) to the end of the function scope. These functions don't need names so the most common form is an anonymous function.",
-        tags: ["JavaScript"],
-        type: "Definition",
-        number: 35,
-        id: "7h9x8fl"
+        tags: ["javascript"],
+        type: "definition",
+        number: 34,
+        id: "7h9x8fl",
+        sources: [
+          {
+            name: "What is the (function() { } )() construct in JavaScript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/8228308"
+          },
+          {
+            name: "Scopes and Closures In-dept 06 - IIFE",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=q21QSRpNaAQ"
+          },
+          {
+            name: "Invoking Function Expressions Immediately - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch3.md#invoking-function-expressions-immediately"
+          }
+    
+        ]
       },
       {
         question:
           "What's the difference between the var, let, and const keywords in JavaScript?",
         answer:
           "Each are used to declare a variable, but var has been a part of JavaScript since the start while let and const were introduced in ES6. var has functional scope while the others have block scope. const is identical to let but you aren't allowed to redeclare a variable declared with const",
-        tags: ["JavaScript"],
-        type: "Comparison",
-        number: 6,
-        id: "bnxjlb"
+        tags: ["javascript"],
+        type: "comparison",
+        number: 7,
+        id: "bnxjlb",
+        sources: [
+          {
+            name: "What's the difference between using \"let\" and \"var\"?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var"
+          },
+          {
+            name: "JavaScript Let, Const & Var: A Complete Guide",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=dzEieWaOJE0"
+          },
+          {
+            name: "Function vs. Block Scope Review - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch3.md#review-tldr"
+          }
+        ]
       },
       {
         question: "What is hoisting?",
         answer:
-          "Before run-time JavaScript looks for all variable and function declarations and then hoists them ot the top of the function before they are declared.",
-        tags: ["JavaScript"],
-        type: "Definition",
-        number: 90,
-        id: "c7mwo7"
+          "Before run-time JavaScript looks for all variable and function declarations in the scope and then hoists them ot the top of the function before they are declared.",
+        tags: ["javascript"],
+        type: "definition",
+        number: 78,
+        id: "c7mwo7",
+        sources: [
+          {
+            name: "Javascript function scoping and hoisting",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/7506937"
+          },
+          {
+            name: "Hoisting - Beau teaches JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=C1PZh_ea-7I"
+          },
+          {
+            name: "Review (TL;DR) - You Don't Know JS",
+            site: "github",
+            url: "In JavaScript, what code executes at runtime and what code executes at parsetime?"
+          },
+        ],
       },
       {
         question: "What is closure?",
         answer:
           "Closure is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.",
-        tags: ["JavaScript", "Programming Fundamentals"],
-        type: "Definition",
-        number: 4,
-        id: "v8e59bt"
+        tags: ["javascript", "programming-fundamentals"],
+        type: "definition",
+        number: 5,
+        id: "v8e59bt",
+        sources: [
+          {
+            name: "How do JavaScript closures work?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/questions/111102/how-do-javascript-closures-work"
+          },
+          {
+            name: "Nitty Gritty - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch5.md#nitty-gritty"
+          }
+        ]
       },
       {
         question: "What is the this keyword in JavaScript?",
         answer:
           '"this" refers to a binding that is made when a function is invoked, and what it references is determined entirely by the call-site where the function is called.',
-        tags: ["JavaScript"],
-        type: "Definition",
-        number: 2,
-        id: "0fg1g5"
+        tags: ["javascript"],
+        type: "definition",
+        number: 3,
+        id: "0fg1g5",
+        sources: [
+          {
+            name: "How does the \"this\" keyword work?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work"
+          },
+          {
+            name: "JavaScript for Developers 38 - Understanding the this keyword",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=URVdQG96MUw"
+          },
+          {
+            name: "What's this? - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch1.md#whats-this"
+          }
+        ],
       },
       {
         question:
           'What are the 4 rules for determining what "this" refers to in JavaScript?',
         answer:
           "1. Called with new? Use the newly constructed object. 2. Called with call, apply, or bind? Use that specified object. 3. Called with a context object owning the call? Use that context object. 4. Default: undefined in strict mode and global object otherwise.",
-        tags: ["JavaScript"],
-        type: "List",
-        number: 30,
-        id: "8gkoaid"
+        tags: ["javascript"],
+        type: "list",
+        number: 31,
+        id: "8gkoaid",
+        sources: [
+          {
+            name: "How does the \"this\" keyword work?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/17514482"
+          },
+          {
+            name: "this all Makes Sense Now! - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#review-tldr"
+          }
+        ]
       },
       {
-        question: "What are the 6 JavaScript Primary Types?",
-        answer: "Number, String, Boolean, Object, Null, and Undefined",
-        tags: ["JavaScript"],
-        type: "List",
-        number: 72,
-        id: "qpw4l0b"
-      },
-      {
-        question: "What are the 9 Built-in Objects in JavaScript?",
-        answer:
-          "String, Number, Boolean, Object, Function, Array, Date, RegExp, Error",
-        tags: ["JavaScript"],
-        type: "List",
-        number: 303,
-        id: "dxmugsh"
+        question: "What are the 7 JavaScript Primary Data Types?",
+        answer: "Number, String, Boolean, Object, Null, Undefined and Symbol",
+        tags: ["javascript"],
+        type: "list",
+        number: 63,
+        id: "qpw4l0b",
+        sources: [
+          {
+            name: "JavaScript data types and data structures - MDN Web Docs",
+            site: "firefox",
+            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types",
+          },
+          {
+            name: "Data Types - Beau teaches JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=808eYu9B9Yw",
+          },
+          {
+            name: "Built-in Types - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#built-in-types",
+          },
+        ]
       },
       {
         question:
           "What's the difference between accessing an object through the property method and key method?",
         answer:
           'The property method (object.property) is the common method to declare an access an object\'s properties. The key method (object["property"]) takes in a string as the property which means you can access variable unusual characters like spaces. You can also pass in computed property names in the key method.',
-        tags: ["JavaScript"],
-        type: "Comparison",
-        number: 32,
-        id: "88x8ub"
+        tags: ["javascript"],
+        type: "comparison",
+        number: 33,
+        id: "88x8ub",
+        sources: [
+          {
+            name: "Property Accessors - MDN Web Docs",
+            site: "firefox",
+            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
+          },
+          {
+            name: "Object properties and propety accessors in JS",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=sXed76BTqfA"
+          },
+          {
+            name: "Objects - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#contents"
+          }
+        ]
       },
       {
         question: "What's the difference between a shallow copy and deep copy?",
         answer:
           "Shallow copies do not consider the fields of an object that are references to other objects so it keeps the same memory addresses. Deep copies make a copy of dynamically allocated memory that is pointed to by the fields.",
-        tags: ["JavaScript", "Programming Fundamentals"],
-        type: "Comparison",
-        number: 14,
-        id: "q0u9qzk"
+        tags: ["javascript", "programming-fundamentals"],
+        type: "comparison",
+        number: 15,
+        id: "q0u9qzk",
+        sources: [
+          {
+            name: "What is the difference between a deep copy and a shallow copy?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/questions/184710/what-is-the-difference-between-a-deep-copy-and-a-shallow-copy"
+          },
+          {
+            name: "Copying Arrays (deep and shallow) - Beau teaches JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=EeZBKv34mm4"
+          },
+          {
+            name: "How to differentiate between deep and shallow copies in JavaScript",
+            site: "free-code-camp",
+            url: "https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/"
+          }
+        ]
       },
       {
         question: "What are the 3 property descriptors in JavaScript?",
         answer:
           "1. configurable: alters ability to change other property descriptors and delete the property. 2. enumerable : changes whether the property is displayed when the object is looped over. 3. writable : whether the value can be changed.",
-        tags: ["JavaScript"],
-        type: "List",
-        number: 25,
-        id: "8ap4fbp"
-      }
+        tags: ["javascript"],
+        type: "list",
+        number: 26,
+        id: "8ap4fbp",
+        sources: [
+          {
+            name: "JavaScript Object Property Descriptors",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=LD1tQEWsjz4"
+          },
+          {
+            name: "JavaScript — Property Descriptor",
+            site: "medium",
+            url: "https://codeburst.io/javascript-object-property-attributes-ac012be317e2"
+          },
+          {
+            name: "Property Descriptors - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#property-descriptors"
+          }
+        ]
+      },
     ],
-    id: "you-dont-know-js",
-    emoji: "💩",
-    url: "https://8snib.csb.app/set/you-dont-know-js"
   },
   {
     name: "Programming 101",
     desc: "Quick QnA for any beginner programmer",
+    id: "programming-101",
+    emoji: "🍏",
+    url: "https://8snib.csb.app/set/programming-101",
     faqs: [
       {
         question: "What's the difference between a variable and a value?",
         answer:
           "A variable is a holder for a representation of a value. Consider {let a = 4}, a is the variable and 4 is the value.",
-        tags: ["Programming Fundamentals"],
-        type: "Comparison",
+        tags: ["programming-fundamentals"],
+        type: "comparison",
         number: 304,
-        id: "o1m8bh8"
+        id: "o1m8bh8",
+        sources: [
+          {
+            name: "What is a variable?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-a-variable"
+          },
+          {
+            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+            site: "youtube",
+            url: "https://youtu.be/l26oaHV7D40?t=56"
+          },
+          {
+            name: "The Visual Guide To JavaScript Variable Definitions & Scope",
+            site: "medium",
+            url: "https://medium.com/@js_tut/the-visual-guide-to-javascript-variable-definitions-scope-abfb86edad"
+          },
+        ]
       },
       {
         question: "What is a loop?",
         answer:
           "A loop is a sequence of instructions that is continually repeated until a certain condition is reached.",
-        tags: ["Programming Fundamentals"],
-        type: "Definition",
+        tags: ["programming-fundamentals"],
+        type: "definition",
         number: 305,
-        id: "1fn4aw5"
+        id: "1fn4aw5",
+        sources: [
+          {
+            name: "What is a for loop?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-a-for-loop"
+          },
+          {
+            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+            site: "youtube",
+            url: "https://youtu.be/l26oaHV7D40?t=256"
+          },
+          {
+            name: "The Complete Guide To Loops",
+            site: "medium",
+            url: "https://medium.com/@js_tut/the-complete-guide-to-loops-cfa6522157e9"
+          },
+        ]
       },
       {
         question: "What is a data structure?",
         answer:
-          "A data structure is a particular way of organizing data in a computer so that it can be used effectively. Arrays, Linked Lists, Stacks...",
-        tags: ["Programming Fundamentals"],
-        type: "Definition",
+          "A data structure is a particular way of organizing data in a computer so that it can be used effectively. Arrays, Linked lists, Stacks...",
+        tags: ["programming-fundamentals"],
+        type: "definition",
         number: 307,
-        id: "6bdumv6"
+        id: "6bdumv6",
+        sources: [
+          {
+            name: "What exactly is a data structure?",
+            site: "quora",
+            url: "https://www.quora.com/What-exactly-is-a-data-structure"
+          },
+          {
+            name: "Data Structures: Crash Course Computer Science #14",
+            site: "youtube",
+            url: "https://youtu.be/DuDz6B4cqVc"
+          },
+          {
+            name: "Introduction to Data Structures",
+            site: "medium",
+            url: "https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6"
+          },
+        ]
       },
       {
         question: "What is a function?",
         answer:
           "A function is a named section of a program that performs a specific task. This task can be jumped to by calling the name of that section.",
-        tags: ["Programming Fundamentals"],
-        type: "Definition",
+        tags: ["programming-fundamentals"],
+        type: "definition",
         number: 308,
-        id: "uxyt91a"
+        id: "uxyt91a",
+        sources: [
+          {
+            name: "What is a function in computer programming?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-a-function-in-computer-programming"
+          },
+          {
+            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+            site: "youtube",
+            url: "https://youtu.be/l26oaHV7D40?t=459"
+          },
+          {
+            name: "Basic JavaScript: Write Reusable JavaScript with Functions",
+            site: "free-code-camp",
+            url: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions/"
+          },
+        ]
       },
       {
         question: "What is recursion?",
         answer:
           "Recursion refers to the process of a function calling itself directly or indirectly.",
-        tags: ["Programming Fundamentals"],
-        type: "Definition",
+        tags: ["programming-fundamentals"],
+        type: "definition",
         number: 309,
-        id: "gg14f8e"
+        id: "gg14f8e",
+        sources: [
+          {
+            name: "What is recursion?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-recursion"
+          },
+          {
+            name: "What Is Recursion - Recursion Explained In 3 Minutes",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=YZcO_jRhvxs"
+          },
+          {
+            name: "Recursion Made Simple",
+            site: "medium",
+            url: "https://medium.com/code-zen/recursion-demystified-24867f045c62"
+          },
+        ]
       },
       {
         question: "What is scope?",
         answer:
           "Scope refers to the visibility of variables. Variables that are out of scope are not recognized. Only variables in scope can be accessed.",
-        tags: ["Programming Fundamentals"],
-        type: "Definition",
+        tags: ["programming-fundamentals"],
+        type: "definition",
         number: 312,
-        id: "e1bejw9"
-      }
+        id: "e1bejw9",
+        sources: [
+          {
+            name: "What is scope of the variable?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-scope-of-the-variable"
+          },
+          {
+            name: "Scope - Programming Languages",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=wTn6oQ56MV8"
+          },
+          {
+            name: "Scope vs. Context in JavaScript",
+            site: "medium",
+            url: "https://medium.com/better-programming/scope-vs-context-in-javascript-b31818f58558"
+          },
+        ]
+      },
     ],
-    id: "programming-101",
-    emoji: "🍏",
-    url: "https://8snib.csb.app/set/programming-101"
   },
   {
     name: "JS Interview Questions - Strings",
     desc:
       "FAQ's for all interview questions involving strings",
     id: "javascript-interview-questions-strings",
+    emoji: "🌟",
+    url: "https://8snib.csb.app/set/javascript-interview-questions-strings",
     faqs: [
       {
         question:
@@ -391,8 +698,6 @@ module.exports = [
         id: "etqai3t"
       }
     ],
-    emoji: "🌟",
-    url: "https://8snib.csb.app/set/javascript-interview-questions-strings"
   },
   {
     name: "JS Interview Questions - Arrays",

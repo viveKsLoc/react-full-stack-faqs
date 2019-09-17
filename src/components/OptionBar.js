@@ -4,52 +4,51 @@ import sets from "../data/sets";
 import tags from "../data/tags";
 import types from "../data/types";
 
-export default function OptionBar({activeTab, setActiveTab}) {
+
+export default function OptionBar({ activeTab, setActiveTab }) {
   const styles = {
-    buttonStyle : {
-      color: activeTab === "Sets" ? "white" : "black", 
-      textDecoration: "none"
+    getButton: (option) => {
+      return {
+        color: activeTab === option ? "white" : "black",
+        textDecoration: "none"
+      }
     },
-    buttonColorStyle : activeTab === "Sets" ? "secondary" : "link"
+    getButtonColor: (option) => {
+      return activeTab === option ? "secondary" : "link"
+    },
+    getBadgeColor: (option) => {
+      return activeTab === option ? "light" : "secondary"
+    }
   }
   return (
     <Navbar color="light" light expand="md">
       <Button
-        style={{
-          color: activeTab === "Sets" ? "white" : "black",
-          textDecoration: "none"
-        }}
-        color={activeTab === "Sets" ? "secondary" : "link"}
+        style={styles.getButton("Sets")}
+        color={styles.getButtonColor("Sets")}
         onClick={() => setActiveTab("Sets")}
       >
         Sets{" "}
-        <Badge color={activeTab === "Sets" ? "light" : "secondary"}>
+        <Badge color={styles.getBadgeColor("Sets")}>
           {sets.length}
         </Badge>
       </Button>{" "}
-      <Button disabled
-        style={{
-          color: activeTab === "Types" ? "white" : "black",
-          textDecoration: "none"
-        }}
-        color={activeTab === "Types" ? "secondary" : "link"}
+      <Button
+        style={styles.getButton("Types")}
+        color={styles.getButtonColor("Types")}
         onClick={() => setActiveTab("Types")}
       >
         Types{" "}
-        <Badge color={activeTab === "Types" ? "light" : "secondary"}>
+        <Badge color={styles.getBadgeColor("Types")}>
           {types.length}
         </Badge>
       </Button>{" "}
-      <Button disabled
-        style={{
-          color: activeTab === "Tags" ? "white" : "black",
-          textDecoration: "none"
-        }}
-        color={activeTab === "Tags" ? "secondary" : "link"}
+      <Button
+        style={styles.getButton("Tags")}
+        color={styles.getButtonColor("Tags")}
         onClick={() => setActiveTab("Tags")}
       >
         Tags{" "}
-        <Badge color={activeTab === "Tags" ? "light" : "secondary"}>
+        <Badge color={styles.getBadgeColor("Tags")}>
           {tags.length}
         </Badge>
       </Button>

@@ -32,14 +32,20 @@ export default function SetCard({ content }) {
                 style={{ color: "black" }}
               >
                 <b>
-                  {tagsData.find(tagData => tagData.name === tag) === undefined
+                  {tagsData.find(tagData => tagData.id === tag) === undefined
                     ? ""
-                    : tagsData.find(tagData => tagData.name === tag).emoji}{" "}
+                    : tagsData.find(tagData => tagData.id === tag).emoji}{" "}
                   {tag}{" "}
                 </b>
               </a>
             ))}
+             {content.sources.map(source => (
+               <>
+               <a>{source.site}</a> <br></br>
+               </>
+             ))}
           </CardText>
+         
         </CardBody>
       </Card>
     </div>
