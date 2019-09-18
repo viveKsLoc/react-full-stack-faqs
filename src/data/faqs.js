@@ -136,7 +136,7 @@ module.exports = [
       },
       {
         name: "HTML DOM",
-        site: "free-code0camp",
+        site: "free-code-camp",
         url: "https://guide.freecodecamp.org/javascript/html-dom/"
       }
     ]
