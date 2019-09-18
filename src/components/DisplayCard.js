@@ -1,6 +1,12 @@
 import React from "react";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import Gist from "react-gist";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFileDownload,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
+
 
 import tagsData from "../data/tags";
 
@@ -40,9 +46,9 @@ export default function SetCard({ content }) {
               </a>
             ))}
              {content.sources.map(source => (
-               <>
-               <a>{source.site}</a> <br></br>
-               </>
+               <a href={source.url}>
+              {" "}<FontAwesomeIcon icon={faUser} />{" "}
+               </a>
              ))}
           </CardText>
          
