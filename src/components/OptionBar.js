@@ -1,8 +1,8 @@
 import React from "react";
 import { Navbar, Button, Badge } from "reactstrap";
-import sets from "../data/sets";
-import tags from "../data/tags";
-import types from "../data/types";
+import sets from "../data/setsData";
+import tags from "../data/tagsData";
+import types from "../data/typesData";
 
 
 export default function OptionBar({ activeTab, setActiveTab }) {

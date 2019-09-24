@@ -2,15 +2,15 @@ import React from "react";
 import { Card, CardBody, CardTitle, CardText, Tooltip } from "reactstrap";
 import Gist from "react-gist";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab, faYoutube, faQuora, faStackOverflow, faFreeCodeCamp, faGithub, faFirefox } from '@fortawesome/free-brands-svg-icons'
+import { fab, faYoutube, faQuora, faStackOverflow, faFreeCodeCamp, faGithub, faFirefox, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import tagsData from "../data/tags";
+import tagsData from "../data/tagsData";
 
 import "../styles.css";
 
 export default function SetCard({ content }) {
   return (
-    <div>
+    <div style={{marginTop: "1rem", marginRight: "1rem"}}>
       <Card>
         <CardBody>
           <CardTitle>
@@ -41,6 +41,7 @@ export default function SetCard({ content }) {
                 </b>
               </a>
             ))}
+                          <hr></hr>
             {content.sources.map(source => (
               <div>
                 {source.site === "youtube" && <FontAwesomeIcon icon={faYoutube} size="lg" />}
@@ -50,6 +51,7 @@ export default function SetCard({ content }) {
                 {source.site === "globe" && <FontAwesomeIcon icon={faGlobe} size="lg" />}
                 {source.site === "firefox" && <FontAwesomeIcon icon={faFirefox} size="lg" />}
                 {source.site === "github" && <FontAwesomeIcon icon={faGithub} size="lg" />}
+                {source.site === "medium" && <FontAwesomeIcon icon={faMedium} size="lg" />}
                 <a href={source.url} class="text-dark m-1" target="_blank">
                   {" "}
                   {source.name}

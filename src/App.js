@@ -13,9 +13,9 @@ import DisplayCard from "./components/DisplayCard";
 import DisplayBar from "./components/DisplayBar";
 import OptionBar from "./components/OptionBar";
 import TopBar from "./components/TopBar";
-import sets from "./data/sets";
-import tags from "./data/tags";
-import types from "./data/types";
+import sets from "./data/setsData";
+import tags from "./data/tagsData";
+import types from "./data/typesData";
 
 const App = () => {
     const [activeTab, setActiveTab] = useState("Sets");
