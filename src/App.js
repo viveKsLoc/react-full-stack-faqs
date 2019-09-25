@@ -13,13 +13,13 @@ import DisplayCard from "./components/DisplayCard";
 import DisplayBar from "./components/DisplayBar";
 import OptionBar from "./components/OptionBar";
 import TopBar from "./components/TopBar";
-import sets from "./data/setsData";
-import tags from "./data/tagsData";
-import types from "./data/typesData";
+import setsData from "./data/setsData";
+import tagsData from "./data/tagsData";
+import typesData from "./data/typesData";
 
 const App = () => {
     const [activeTab, setActiveTab] = useState("Sets");
-    const [activeOption, setActiveOption] = useState(sets[0]);
+    const [activeOption, setActiveOption] = useState(setsData[0]);
   
     function handleOptionClick(content) {
       setActiveOption(content);
@@ -41,11 +41,12 @@ const App = () => {
                       height: "45rem"
                     }}
                   >
-                    {!!sets && sets.map(item => (
+                    {setsData.map(item => (
                       <OptionCard
                         content={item}
                         clickHandler={handleOptionClick}
                         activeOption={activeOption}
+                        activeTab={activeTab}
                         type="Sets"
                       />
                     ))}
@@ -57,11 +58,12 @@ const App = () => {
                       height: "45rem"
                     }}
                   >
-                    {types && types.map(item => (
+                    {typesData.map(item => (
                       <OptionCard
                         content={item}
                         clickHandler={handleOptionClick}
                         activeOption={activeOption}
+                        activeTab={activeTab}
                         type="Types"
                       />
                     ))}
@@ -73,11 +75,12 @@ const App = () => {
                       height: "45rem"
                     }}
                   >
-                    {tags.map(item => (
+                    {tagsData.map(item => (
                       <OptionCard
                         content={item}
                         clickHandler={handleOptionClick}
                         activeOption={activeOption}
+                        activeTab={activeTab}
                         type="Tags"
                       />
                     ))}
@@ -89,7 +92,7 @@ const App = () => {
               <DisplayBar activeOption={activeOption}/>
               <Scrollbar
                 style={{
-                  height: "45rem"
+                  height: "50rem"
                 }}
               >
                 {activeOption.faqs.map(item => (

@@ -27,30 +27,33 @@ export default function OptionBar({ activeTab, setActiveTab }) {
         color={styles.getButtonColor("Sets")}
         onClick={() => setActiveTab("Sets")}
       >
-        Sets{" "}
         <Badge color={styles.getBadgeColor("Sets")}>
           {sets.length}
         </Badge>
+        {" "}Sets
+        
       </Button>{" "}
       <Button
         style={styles.getButton("Types")}
         color={styles.getButtonColor("Types")}
         onClick={() => setActiveTab("Types")}
       >
-        Types{" "}
-        <Badge color={styles.getBadgeColor("Types")}>
+               <Badge color={styles.getBadgeColor("Types")}>
           {types.length}
         </Badge>
+        {" "}Types
+ 
       </Button>{" "}
       <Button
         style={styles.getButton("Tags")}
         color={styles.getButtonColor("Tags")}
         onClick={() => setActiveTab("Tags")}
       >
-        Tags{" "}
-        <Badge color={styles.getBadgeColor("Tags")}>
+                <Badge color={styles.getBadgeColor("Tags")}>
           {tags.length}
         </Badge>
+       {" "}Tags
+
       </Button>
     </Navbar>
   );

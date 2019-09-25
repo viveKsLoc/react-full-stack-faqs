@@ -4433,7 +4433,7 @@ module.exports = [
     answer:
       "If the object does not have any functions a simple conversion to JSON and back will deep clone --> JSON.parse(JSON.stringify(objectToClone)). But if there are functions in the object or the object is a function, you should look at external libraries such as underscore or lodash.",
     tags: ["javascript"],
-    type: "code",
+    type: "explanation",
     number: 172,
     id: "l40vuie",
     sources: [
@@ -5615,7 +5615,7 @@ module.exports = [
     question: "What is REST?",
     answer:
       "The REpresentational State Transfer is a style for providing standards between computer systems on the web, making it easier to communicate with each other. ",
-    tags: ["rest", "design-patterns"],
+    tags: ["apis", "design-patterns"],
     type: "definition",
     number: 218,
     id: "6pehq9o",
@@ -7369,7 +7369,7 @@ module.exports = [
     question: "What's the difference between unit tests and integreation tests?",
     answer: "A unit test checks if a relatively small piece of code is doing what it is intended to do, whereas an integration test is done to demonstrate that different pieces of the system work together. These tend to cover whole applications rather than just one component.",
     tags: ["software-engineering"],
-    type: "code",
+    type: "comparison",
     number: 287,
     id: "wmqw6kj",
     sources: [

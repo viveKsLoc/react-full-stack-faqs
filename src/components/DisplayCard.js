@@ -10,18 +10,18 @@ import "../styles.css";
 
 export default function SetCard({ content }) {
   return (
-    <div style={{marginTop: "1rem", marginRight: "1rem"}}>
-      <Card>
+    <div style={{marginTop: "2rem", marginRight: "0.5rem",  marginLeft: "0.5rem"}}>
+      <Card className="shadow-lg p-3 mb-5 bg-white rounded">
         <CardBody>
           <CardTitle>
-            <a
-              href={`https://8snib.sse.codesandbox.io/faq/${content.id}`}
+            <h5>#{content.number} <a
+              // href={`https://8snib.sse.codesandbox.io/faq/${content.id}`}
               style={{ color: "black" }}
             >
               <b>{content.question}</b>
-            </a>
+            </a></h5>
           </CardTitle>
-          {content.type === "Code" ? (
+          {content.type === "code" ? (
             <Gist id={content.answer.slice(-32)} />
           ) : (
               <CardText>{content.answer}</CardText>
@@ -30,7 +30,7 @@ export default function SetCard({ content }) {
           <CardText>
             {content.tags.map(tag => (
               <a
-                href={`https://8snib.sse.codesandbox.io/tag/${tag}`}
+                // href={`https://8snib.sse.codesandbox.io/tag/${tag}`}
                 style={{ color: "black" }}
               >
                 <b>
@@ -41,7 +41,7 @@ export default function SetCard({ content }) {
                 </b>
               </a>
             ))}
-                          <hr></hr>
+            <hr></hr>
             {content.sources.map(source => (
               <div>
                 {source.site === "youtube" && <FontAwesomeIcon icon={faYoutube} size="lg" />}

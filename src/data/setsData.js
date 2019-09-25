@@ -588,7 +588,7 @@ module.exports = [
                 answer:
                     "If the object does not have any functions a simple conversion to JSON and back will deep clone --> JSON.parse(JSON.stringify(objectToClone)). But if there are functions in the object or the object is a function, you should look at external libraries such as underscore or lodash.",
                 tags: ["javascript"],
-                type: "code",
+                type: "explanation",
                 number: 172,
                 id: "l40vuie",
                 sources: [
@@ -776,7 +776,7 @@ module.exports = [
         ],
     },
     {
-        name: "JavaScript Interview Questions - Strings",
+        name: "JS Interview Questions - Strings",
         desc:
             "FAQ's for all those StackOverflow questions you've been digging through.",
         emoji: "🌟",
@@ -1288,7 +1288,7 @@ module.exports = [
         ],
     },
     {
-        name: "JavaScript Interview Questions - Arrays",
+        name: "JS Interview Questions - Arrays",
         desc:
             "FAQ's for all those StackOverflow questions you've been digging through.",
         emoji: "🌟",
