@@ -36,13 +36,16 @@ const App = () => {
               <OptionBar activeTab={activeTab} setActiveTab={setActiveTab} />
               <TabContent activeTab={activeTab}>
                 <TabPane tabId="Sets">
+                <br></br>
                   <Scrollbar
                     style={{
                       height: "45rem"
                     }}
                   >
+                  <div>
                     {setsData.map(item => (
                       <OptionCard
+                        key={item.id}
                         content={item}
                         clickHandler={handleOptionClick}
                         activeOption={activeOption}
@@ -50,9 +53,11 @@ const App = () => {
                         type="Sets"
                       />
                     ))}
+                    </div>
                   </Scrollbar>
                 </TabPane>
                 <TabPane tabId="Types">
+                <br></br>
                   <Scrollbar
                     style={{
                       height: "45rem"
@@ -60,6 +65,7 @@ const App = () => {
                   >
                     {typesData.map(item => (
                       <OptionCard
+                        key={item.id}
                         content={item}
                         clickHandler={handleOptionClick}
                         activeOption={activeOption}
@@ -70,6 +76,7 @@ const App = () => {
                   </Scrollbar>
                 </TabPane>
                 <TabPane tabId="Tags">
+                <br></br>
                   <Scrollbar
                     style={{
                       height: "45rem"
@@ -77,6 +84,7 @@ const App = () => {
                   >
                     {tagsData.map(item => (
                       <OptionCard
+                        key={item.id}
                         content={item}
                         clickHandler={handleOptionClick}
                         activeOption={activeOption}
@@ -96,7 +104,7 @@ const App = () => {
                 }}
               >
                 {activeOption.faqs.map(item => (
-                  <DisplayCard content={item} />
+                  <DisplayCard content={item} key={item.id} />
                 ))}
               </Scrollbar>
             </Col>

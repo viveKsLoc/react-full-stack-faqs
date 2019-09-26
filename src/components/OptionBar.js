@@ -1,60 +1,32 @@
 import React from "react";
 import { Navbar, Button, Badge } from "reactstrap";
-import sets from "../data/setsData";
-import tags from "../data/tagsData";
-import types from "../data/typesData";
-
+import setsData from "../data/setsData";
+import tagsData from "../data/tagsData";
+import typesData from "../data/typesData";
 
 export default function OptionBar({ activeTab, setActiveTab }) {
-  const styles = {
-    getButton: (option) => {
-      return {
-        color: activeTab === option ? "white" : "black",
-        textDecoration: "none"
-      }
-    },
-    getButtonColor: (option) => {
-      return activeTab === option ? "secondary" : "link"
-    },
-    getBadgeColor: (option) => {
-      return activeTab === option ? "light" : "secondary"
-    }
-  }
+  const options = ["Sets", "Types", "Tags"]
   return (
     <Navbar color="light" light expand="md">
-      <Button
-        style={styles.getButton("Sets")}
-        color={styles.getButtonColor("Sets")}
-        onClick={() => setActiveTab("Sets")}
-      >
-        <Badge color={styles.getBadgeColor("Sets")}>
-          {sets.length}
-        </Badge>
-        {" "}Sets
-        
-      </Button>{" "}
-      <Button
-        style={styles.getButton("Types")}
-        color={styles.getButtonColor("Types")}
-        onClick={() => setActiveTab("Types")}
-      >
-               <Badge color={styles.getBadgeColor("Types")}>
-          {types.length}
-        </Badge>
-        {" "}Types
- 
-      </Button>{" "}
-      <Button
-        style={styles.getButton("Tags")}
-        color={styles.getButtonColor("Tags")}
-        onClick={() => setActiveTab("Tags")}
-      >
-                <Badge color={styles.getBadgeColor("Tags")}>
-          {tags.length}
-        </Badge>
-       {" "}Tags
-
-      </Button>
+      {options.map(elem =>
+        <Button
+          style={{
+            color: activeTab === elem ? "white" : "black",
+            textDecoration: "none"
+          }}
+          color= {activeTab === elem ? "dark" : "link"}
+          onClick= {() => setActiveTab(elem)}
+        >
+          <Badge
+            color={activeTab === elem ? "light" : "dark"}
+            className="m-1"
+          >
+            {elem === "Sets" && setsData.length}
+            {elem === "Tags" && tagsData.length}
+            {elem === "Types" && typesData.length}
+          </Badge>
+          {elem}
+        </Button>)}
     </Navbar>
   );
 }

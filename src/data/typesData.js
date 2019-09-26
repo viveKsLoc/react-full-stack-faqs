@@ -5,7 +5,6 @@ module.exports = [
     emoji: "👯",
     total: 65,
     id: "comparison",
-    url: "https://8snib.csb.app/type/comparison",
   },
   {
     name: "Definition",
@@ -13,7 +12,6 @@ module.exports = [
     emoji: "👨‍🏫",
     total: 117,
     id: "definition",
-    url: "https://8snib.csb.app/type/definition",
   },
   {
     name: "Explanation",
@@ -21,7 +19,6 @@ module.exports = [
     emoji: "🗣️",
     total: 23,
     id: "explanation",
-    url: "https://8snib.csb.app/type/explanation",
   },
   {
     name: "List",
@@ -29,7 +26,6 @@ module.exports = [
     emoji: "👪",
     total: 26,
     id: "list",
-    url: "https://8snib.csb.app/type/list",
   },
   {
     name: "Code",
@@ -37,6 +33,5 @@ module.exports = [
     emoji: "👨‍🔬",
     total: 56,
     id: "code",
-    url: "https://8snib.csb.app/type/code",
   }
 ]

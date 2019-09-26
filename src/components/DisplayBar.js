@@ -5,7 +5,7 @@ export default function DisplayBar({ activeOption }) {
   return (
     <Navbar color="light" light expand="md">
       <NavbarBrand href="">
-        {activeOption.emoji} {activeOption.name}
+       {activeOption.name}
       </NavbarBrand>
       <Nav className="ml-auto" navbar>
         <NavItem>

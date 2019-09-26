@@ -12,17 +12,17 @@ module.exports = [
       {
         name: "Vanilla CSS vs Bootstrap vs Tailwind CSS - Which one should you choose?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=vmXIGdP8KN8"
+        link: "https://www.youtube.com/watch?v=vmXIGdP8KN8"
       },
       {
         name: "Tailwind Or Bootstrap?",
         site: "medium",
-        url: "https://medium.com/@dolonhunt/tailwind-or-bootstrap-f62c1ac6c0b3"
+        link: "https://medium.com/@dolonhunt/tailwind-or-bootstrap-f62c1ac6c0b3"
       },
       {
         name: "Utility-first CSS - You have to try it first!",
         site: "dev",
-        url: "https://dev.to/mzanggl/utility-first-css-you-have-to-try-it-first-3m85"
+        link: "https://dev.to/mzanggl/utility-first-css-you-have-to-try-it-first-3m85"
       },
     ],
   },
@@ -38,17 +38,17 @@ module.exports = [
       {
         name: "What is TypeScript and why would I use it in place of JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript"
+        link: "https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript"
       },
       {
         name: "TypeScript Basics 4 - TypeScript versus JavaScript",
-        sites: "youtube",
-        url: "https://www.youtube.com/watch?v=JAT0xC-5_Jk"
+        site: "youtube",
+        link: "https://www.youtube.com/watch?v=JAT0xC-5_Jk"
       },
       {
         name: "JavaScript vs TypeScript",
         site: "free-code-camp",
-        url: "https://guide.freecodecamp.org/typescript/javascript-vs-typescript/"
+        link: "https://guide.freecodecamp.org/typescript/javascript-vs-typescript/"
       }
     ],
   },
@@ -64,17 +64,17 @@ module.exports = [
       {
         name: "How does the \"this\" keyword work?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work"
+        link: "https://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work"
       },
       {
         name: "JavaScript for Developers 38 - Understanding the this keyword",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=URVdQG96MUw"
+        link: "https://www.youtube.com/watch?v=URVdQG96MUw"
       },
       {
         name: "What's this? - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch1.md#whats-this"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch1.md#whats-this"
       }
     ],
   },
@@ -90,17 +90,17 @@ module.exports = [
       {
         name: "What does \"use strict\" do in JavaScript, and what is the reasoning behind it?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it"
+        link: "https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it"
       },
       {
           name: "Strict Mode — \"use strict\" - Beau teaches JavaScript",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=uqUYNqZx0qY"
+          link: "https://www.youtube.com/watch?v=uqUYNqZx0qY"
       },
       {
         name: "Strict Mode - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch2.md#strict-mode"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch2.md#strict-mode"
       }
     ]
   },
@@ -116,12 +116,12 @@ module.exports = [
       {
         name: "How do JavaScript closures work?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/111102/how-do-javascript-closures-work"
+        link: "https://stackoverflow.com/questions/111102/how-do-javascript-closures-work"
       },
       {
         name: "Nitty Gritty - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch5.md#nitty-gritty"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch5.md#nitty-gritty"
       }
     ]
   },
@@ -137,12 +137,12 @@ module.exports = [
       {
         name: "The DOM: What's the Document Object Model? -freeCodeCamp.org",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=80Mr2Z6Qikc"
+        link: "https://www.youtube.com/watch?v=80Mr2Z6Qikc"
       },
       {
         name: "HTML DOM",
         site: "free-code0camp",
-        url: "https://guide.freecodecamp.org/javascript/html-dom/"
+        link: "https://guide.freecodecamp.org/javascript/html-dom/"
       }
     ]
   },
@@ -159,17 +159,17 @@ module.exports = [
       {
         name: "What's the difference between using \"let\" and \"var\"?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var"
+        link: "https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var"
       },
       {
         name: "JavaScript Let, Const & Var: A Complete Guide",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=dzEieWaOJE0"
+        link: "https://www.youtube.com/watch?v=dzEieWaOJE0"
       },
       {
         name: "Function vs. Block Scope Review - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch3.md#review-tldr"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch3.md#review-tldr"
       }
     ]
   },
@@ -185,17 +185,17 @@ module.exports = [
       {
         name: "The box model for beginners web design tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=MrAnu4zdjjY"
+        link: "https://www.youtube.com/watch?v=MrAnu4zdjjY"
       },
       {
           name: "Learn CSS Box Model In 8 Minutes",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=rIO5326FgPE"
+          link: "https://www.youtube.com/watch?v=rIO5326FgPE"
       },
       {
         name: "Introduction to the CSS basic box model - MDN Web Docs",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"
       }
     ]
   },
@@ -211,17 +211,17 @@ module.exports = [
       {
         name: "Which equals operator (== vs ===) should be used in JavaScript comparisons?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons"
+        link: "https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons"
       },
       {
         name: "== vs === - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=kVOmc7NK1M0"
+        link: "https://www.youtube.com/watch?v=kVOmc7NK1M0"
       },
       {
         name: "Loose Equals vs. Strict Equals - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch4.md#loose-equals-vs-strict-equals"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch4.md#loose-equals-vs-strict-equals"
       }
     ]
   },
@@ -237,17 +237,17 @@ module.exports = [
       {
         name: "What is the difference between null and undefined in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript"
+        link: "https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript"
       },
       {
         name: "JavaScript for Developers 14 - Difference between undefined and null",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=JM-fQHknjh8"
+        link: "https://www.youtube.com/watch?v=JM-fQHknjh8"
       },
       {
         name: "JavaScript — Null vs. Undefined",
         site: "medium",
-        url: "https://codeburst.io/javascript-null-vs-undefined-20f955215a2"
+        link: "https://codeburst.io/javascript-null-vs-undefined-20f955215a2"
       }
     ]
   },
@@ -264,17 +264,17 @@ module.exports = [
       {
         name: "variable === undefined vs. typeof variable === \"undefined\"",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/4725603/variable-undefined-vs-typeof-variable-undefined"
+        link: "https://stackoverflow.com/questions/4725603/variable-undefined-vs-typeof-variable-undefined"
       },
       {
         name: "JavaScript for Developers 12 - Understanding undefined",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=oYhyG1M-W-o"
+        link: "https://www.youtube.com/watch?v=oYhyG1M-W-o"
       },
       {
         name: "undefined vs \"undeclared\" - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#undefined-vs-undeclared"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#undefined-vs-undeclared"
       }
     ]
 
@@ -292,17 +292,17 @@ module.exports = [
       {
         name: "What is the difference between window, screen, and document in Javascript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript"
+        link: "https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript"
       },
       {
         name: "Javascript Window vs. Document vs. Screen WHAT??",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=pIBKyooZrJQ"
+        link: "https://www.youtube.com/watch?v=pIBKyooZrJQ"
       },
       {
         name: "Window - MDN",
         site: "medium",
-        url: "https://developer.mozilla.org/en-US/docs/Web/API/Window"
+        link: "https://developer.mozilla.org/en-US/docs/Web/API/Window"
       }
     ]
   },
@@ -318,17 +318,17 @@ module.exports = [
       {
         name: "What is event bubbling and capturing?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing"
+        link: "https://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing"
       },
       {
         name: "Event Bubbling and Capturing in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=sfKDOOJgbSI"
+        link: "https://www.youtube.com/watch?v=sfKDOOJgbSI"
       },
       {
         name: "Event Bubbling and Event Capturing in JavaScript",
         site: "medium",
-        url: "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"
+        link: "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"
       }
     ]
   },
@@ -345,17 +345,17 @@ module.exports = [
       {
         name: "Javascript call() & apply() vs bind()?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind"
+        link: "https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind"
       },
       {
         name: "JavaScript Practical Applications of Call, Apply and Bind functions",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=AYVYxezrMWA"
+        link: "https://www.youtube.com/watch?v=AYVYxezrMWA"
       },
       {
         name: "Javascript tips — Apply vs. Call vs. Bind",
         site: "medium",
-        url: "https://medium.com/@leonardobrunolima/javascript-tips-apply-vs-call-vs-bind-d738a9e8b4e1"
+        link: "https://medium.com/@leonardobrunolima/javascript-tips-apply-vs-call-vs-bind-d738a9e8b4e1"
       }
     ]
   },
@@ -371,17 +371,17 @@ module.exports = [
       {
         name: "What is the difference between a deep copy and a shallow copy?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/184710/what-is-the-difference-between-a-deep-copy-and-a-shallow-copy"
+        link: "https://stackoverflow.com/questions/184710/what-is-the-difference-between-a-deep-copy-and-a-shallow-copy"
       },
       {
         name: "Copying Arrays (deep and shallow) - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=EeZBKv34mm4"
+        link: "https://www.youtube.com/watch?v=EeZBKv34mm4"
       },
       {
         name: "How to differentiate between deep and shallow copies in JavaScript",
         site: "free-code-camp",
-        url: "https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/"
+        link: "https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/"
       }
     ]
   },
@@ -397,17 +397,17 @@ module.exports = [
       {
         name: "What does immutable mean?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/3200211/what-does-immutable-mean"
+        link: "https://stackoverflow.com/questions/3200211/what-does-immutable-mean"
       },
       {
         name: "Programming Terms: Mutable vs Immutable",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=5qQQ3yzbKp8",
+        link: "https://www.youtube.com/watch?v=5qQQ3yzbKp8",
       },
       {
         name: "Learn immutability with JavaScript",
         site: "medium",
-        url: "https://medium.com/@cristiansalcescu/learn-immutability-with-javascript-6a67e4a48d7f"
+        link: "https://medium.com/@cristiansalcescu/learn-immutability-with-javascript-6a67e4a48d7f"
       }
     ]
   },
@@ -424,17 +424,17 @@ module.exports = [
       {
         name: "What's the purpose of using React.js?",
         site: "quora",
-        url: "https://www.quora.com/Whats-the-purpose-of-using-React-js"
+        link: "https://www.quora.com/Whats-the-purpose-of-using-React-js"
       },
       {
         name: "Why React is Awesome",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=SH2tck0pHWI"
+        link: "https://www.youtube.com/watch?v=SH2tck0pHWI"
       },
       {
         name: "Why React Should Be Your First Choice?",
         site: "medium",
-        url: "https://medium.com/swlh/why-react-should-be-your-first-choice-d469fe201c08"
+        link: "https://medium.com/swlh/why-react-should-be-your-first-choice-d469fe201c08"
       }
     ]
   },
@@ -450,17 +450,17 @@ module.exports = [
       {
         name: "What is the rationale behind how CSS specificity works?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-rationale-behind-how-CSS-specificity-works"
+        link: "https://www.quora.com/What-is-the-rationale-behind-how-CSS-specificity-works"
       },
       {
         name: "CSS Basics (Part6) — Specificity",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=fy07HYm-geM"
+        link: "https://www.youtube.com/watch?v=fy07HYm-geM"
       },
       {
         name: "CSS Specificity Didn’t Work the Way I Thought",
         site: "medium",
-        url: "https://medium.com/@TedYav/css-specificity-didnt-work-the-way-i-thought-752148275033"
+        link: "https://medium.com/@TedYav/css-specificity-didnt-work-the-way-i-thought-752148275033"
       }
     ]
   },
@@ -476,17 +476,17 @@ module.exports = [
       {
         name: "What is the difference between visibility:hidden and display:none?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone/27939784"
+        link: "https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone/27939784"
       },
       {
         name: "CSS display none vs visibility hidden",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=xZexBjHWSOs"
+        link: "https://www.youtube.com/watch?v=xZexBjHWSOs"
       },
       {
         name: "visbility",
         site: "mozilla",
-        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/visibility"
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/visibility"
       }
     ]
   },
@@ -502,17 +502,17 @@ module.exports = [
       {
         name: "What is meant by 'first class object'?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/705173/what-is-meant-by-first-class-object"
+        link: "https://stackoverflow.com/questions/705173/what-is-meant-by-first-class-object"
       },
       {
         name: "First Class Functions in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=4UeWzn4jzwM"
+        link: "https://www.youtube.com/watch?v=4UeWzn4jzwM"
       },
       {
         name: "JavaScript Weekly: An Introduction to First-Class Functions",
         site: "medium",
-        url: "https://medium.com/launch-school/javascript-weekly-an-introduction-to-first-class-functions-9d069e6fb137"
+        link: "https://medium.com/launch-school/javascript-weekly-an-introduction-to-first-class-functions-9d069e6fb137"
       }
     ]
   },
@@ -527,17 +527,17 @@ module.exports = [
       {
         name: "When and what is NPM used for?",
         site: "quora",
-        url: "https://www.quora.com/When-and-what-is-NPM-used-for?"
+        link: "https://www.quora.com/When-and-what-is-NPM-used-for?"
       },
       {
         name: "What is npm? In 2 minutes - npm tutorial for beginners",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ZNbFagCBlwo"
+        link: "https://www.youtube.com/watch?v=ZNbFagCBlwo"
       },
       {
         name: "What the heck is npm?",
         site: "medium",
-        url: "https://medium.com/@tanya/what-the-heck-is-npm-b8168f61e3b5"
+        link: "https://medium.com/@tanya/what-the-heck-is-npm-b8168f61e3b5"
       }
     ]
   },
@@ -553,17 +553,17 @@ module.exports = [
       {
         name: "What is the arrow function in ES6? Why are we using arrow function?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-arrow-function-in-ES6-Why-are-we-using-arrow-function"
+        link: "https://www.quora.com/What-is-the-arrow-function-in-ES6-Why-are-we-using-arrow-function"
       },
       {
         name: "ARROW FUNCTIONS IN JAVASCRIPT",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=tHT_YdtVEaE"
+        link: "https://www.youtube.com/watch?v=tHT_YdtVEaE"
       },
       {
         name: "ES6 Arrow Function Is Simple, This Article Just Made It Simpler For JS Beginners",
         site: "medium",
-        url: "https://medium.com/ph-devconnect/es6-arrow-function-is-simple-this-article-just-made-it-simpler-for-js-beginners-e5a944af7fc6"
+        link: "https://medium.com/ph-devconnect/es6-arrow-function-is-simple-this-article-just-made-it-simpler-for-js-beginners-e5a944af7fc6"
       }
     ]
   },
@@ -579,17 +579,17 @@ module.exports = [
       {
         name: "Functional programming and non-functional programming",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/24279/functional-programming-and-non-functional-programming"
+        link: "https://stackoverflow.com/questions/24279/functional-programming-and-non-functional-programming"
       },
       {
         name: "Functional Programming & Haskell - Computerphile",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=LnX3B9oaKzw"
+        link: "https://www.youtube.com/watch?v=LnX3B9oaKzw"
       },
       {
         name: "Functional Programming",
         site: "medium",
-        url: "https://medium.com/the-renaissance-developer/functional-programming-40dfe049461e"
+        link: "https://medium.com/the-renaissance-developer/functional-programming-40dfe049461e"
       }
     ]
   },
@@ -605,17 +605,17 @@ module.exports = [
       {
         name: "What is a simple explanation of higher order functions and callbacks in JavaScript?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-simple-explanation-of-higher-order-functions-and-callbacks-in-JavaScript"
+        link: "https://www.quora.com/What-is-a-simple-explanation-of-higher-order-functions-and-callbacks-in-JavaScript"
       },
       {
         name: "Higher Order Functions Solution - Programming Languages",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Bci13zZe3yc"
+        link: "https://www.youtube.com/watch?v=Bci13zZe3yc"
       },
       {
         name: "Higher-order Functions In JavaScript",
         site: "medium",
-        url: "https://medium.com/@js_tut/higher-order-functions-in-javascript-732dc7a1952d"
+        link: "https://medium.com/@js_tut/higher-order-functions-in-javascript-732dc7a1952d"
       }
     ]
   },
@@ -632,17 +632,17 @@ module.exports = [
       {
         name: "Benefits of prototypal inheritance over classical?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/2800964/benefits-of-prototypal-inheritance-over-classical/16872315"
+        link: "https://stackoverflow.com/questions/2800964/benefits-of-prototypal-inheritance-over-classical/16872315"
       },
       {
         name: "[JavaScript Tutorials] 15 Conceptual Aside Classical vs Prototypal Inheritance",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=gX1GMwOXOxk"
+        link: "https://www.youtube.com/watch?v=gX1GMwOXOxk"
       },
       {
         name: "Classical vs. Prototypal Inheritance",
         site: "dev",
-        url: "https://dev.to/crishanks/classical-vs-prototypal-inheritance-2o5a"
+        link: "https://dev.to/crishanks/classical-vs-prototypal-inheritance-2o5a"
       }
     ]
   },
@@ -658,17 +658,17 @@ module.exports = [
       {
         name: "JavaScript Object Property Descriptors",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=LD1tQEWsjz4"
+        link: "https://www.youtube.com/watch?v=LD1tQEWsjz4"
       },
       {
         name: "JavaScript — Property Descriptor",
         site: "medium",
-        url: "https://codeburst.io/javascript-object-property-attributes-ac012be317e2"
+        link: "https://codeburst.io/javascript-object-property-attributes-ac012be317e2"
       },
       {
         name: "Property Descriptors - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#property-descriptors"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#property-descriptors"
       }
     ]
   },
@@ -685,17 +685,17 @@ module.exports = [
       {
         name: "Object.preventExtensions() - MDN Web Docs",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions"
       },
       {
         name: "JavaScript Video Tutorial - Preventing Extensions on an Object",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=EzWcVZ1QSM8"
+        link: "https://www.youtube.com/watch?v=EzWcVZ1QSM8"
       },
       {
         name: "Prevent Extensions - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#prevent-extensions"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#prevent-extensions"
       }
     ]
   },
@@ -712,17 +712,17 @@ module.exports = [
       {
         name: "Variable immutability with Object freeze, seal and preventExtensions methods",
         site: "medium",
-        url: "https://medium.com/@obaranovskyi/variable-immutability-with-object-freeze-seal-and-preventextensions-methods-7e0d2ebfd920"
+        link: "https://medium.com/@obaranovskyi/variable-immutability-with-object-freeze-seal-and-preventextensions-methods-7e0d2ebfd920"
       },
       {
         name: "Object seal, freeze, and preventExtensions",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ZdF2aOYpIqw"
+        link: "https://www.youtube.com/watch?v=ZdF2aOYpIqw"
       },
       {
         name: "Seal, Freeze - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#seal"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#seal"
       },
     ]
   },
@@ -739,17 +739,17 @@ module.exports = [
       {
         name: "What is the difference between typeof and instanceof and when should one be used vs. the other?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/899574/what-is-the-difference-between-typeof-and-instanceof-and-when-should-one-be-used"
+        link: "https://stackoverflow.com/questions/899574/what-is-the-difference-between-typeof-and-instanceof-and-when-should-one-be-used"
       },
       {
         name: "JavaScript for Developers 16 - The typeof operator",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ol_su88I3kw"
+        link: "https://www.youtube.com/watch?v=ol_su88I3kw"
       },
       {
         name: "instanceof vs. typeof",
         site: "globe",
-        url: "https://bambielli.com/til/2017-06-18-typeof-vs-instanceof/"
+        link: "https://bambielli.com/til/2017-06-18-typeof-vs-instanceof/"
       }
     ]
   },
@@ -766,17 +766,17 @@ module.exports = [
       {
         name: "if (key in object) or if(object.hasOwnProperty(key)",
         type: "stack-overflow",
-        url: "https://stackoverflow.com/questions/13632999/if-key-in-object-or-ifobject-hasownpropertykey"
+        link: "https://stackoverflow.com/questions/13632999/if-key-in-object-or-ifobject-hasownpropertykey"
       },
       {
         name: "Check if a property is in an object - Beau teaches JavaScript",
         type: "youtube",
-        url: "https://www.youtube.com/watch?v=dpTFcPUe2oo"
+        link: "https://www.youtube.com/watch?v=dpTFcPUe2oo"
       },
       {
         name: "The Uses of 'in' vs 'hasOwnProperty'",
         type: "globe",
-        url: "http://adripofjavascript.com/blog/drips/the-uses-of-in-vs-hasownproperty.html"
+        link: "http://adripofjavascript.com/blog/drips/the-uses-of-in-vs-hasownproperty.html"
       }
     ]
   },
@@ -793,17 +793,17 @@ module.exports = [
       {
         name: "How does the \"this\" keyword work?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/17514482"
+        link: "https://stackoverflow.com/a/17514482"
       },
       {
         name: "JavaScript Tutorial For Beginners #29 - THIS Keyword",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=yVdU2coJ1VQ"
+        link: "https://www.youtube.com/watch?v=yVdU2coJ1VQ"
       },
       {
         name: "this all Makes Sense Now! - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#review-tldr"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#review-tldr"
       }
     ]
   },
@@ -820,17 +820,17 @@ module.exports = [
       {
         name: "What is the 'new' keyword in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/3658673"
+        link: "https://stackoverflow.com/a/3658673"
       },
       {
         name: "Using the new Keyword in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=I2CdrKlPdAY"
+        link: "https://www.youtube.com/watch?v=I2CdrKlPdAY"
       },
       {
         name: "new Binding - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#new-binding"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#new-binding"
       }
     ]
   },
@@ -847,17 +847,17 @@ module.exports = [
       {
         name: "Property Accessors - MDN Web Docs",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
       },
       {
         name: "Object properties and propety accessors in JS",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=sXed76BTqfA"
+        link: "https://www.youtube.com/watch?v=sXed76BTqfA"
       },
       {
         name: "Objects - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#contents"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#contents"
       }
     ]
   },
@@ -873,17 +873,17 @@ module.exports = [
       {
         name: "What is the (function() { } )() construct in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/8228308"
+        link: "https://stackoverflow.com/a/8228308"
       },
       {
         name: "Scopes and Closures In-dept 06 - IIFE",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=q21QSRpNaAQ"
+        link: "https://www.youtube.com/watch?v=q21QSRpNaAQ"
       },
       {
         name: "Invoking Function Expressions Immediately - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch3.md#invoking-function-expressions-immediately"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch3.md#invoking-function-expressions-immediately"
       }
 
     ]
@@ -900,12 +900,12 @@ module.exports = [
       {
         name: "A guide to SEO FOr the Impatient",
         site: "medium",
-        url: "https://medium.com/swlh/a-guide-to-seo-for-the-impatient-2878b5d02967"
+        link: "https://medium.com/swlh/a-guide-to-seo-for-the-impatient-2878b5d02967"
       },
       {
         name: "What is SEO and How Does it Work? (2019)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=D7UxlkwdYc0"
+        link: "https://www.youtube.com/watch?v=D7UxlkwdYc0"
       }
     ]
   },
@@ -921,17 +921,17 @@ module.exports = [
       {
         name: "What are the best ways to increase a site's position in Google?",
         site: "stack-overflow",
-        url: "https://webmasters.stackexchange.com/questions/2/what-are-the-best-ways-to-increase-a-sites-position-in-google"
+        link: "https://webmasters.stackexchange.com/questions/2/what-are-the-best-ways-to-increase-a-sites-position-in-google"
       },
       {
         name: "How to Improve Your Google Rankings Fast: 9 Steps to Rank Higher Using Analytics",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=xI1SicZRve0"
+        link: "https://www.youtube.com/watch?v=xI1SicZRve0"
       },
       {
         name: "SEO best practices - 17 tips to seriously improve SEO",
         site: "medium",
-        url: "https://medium.com/@felixtarcomnicu/seo-best-practices-17-tips-to-seriously-improve-seo-e4f4af6d57ef"
+        link: "https://medium.com/@felixtarcomnicu/seo-best-practices-17-tips-to-seriously-improve-seo-e4f4af6d57ef"
       }
     ]
   },
@@ -947,17 +947,17 @@ module.exports = [
       {
         name: "What is the difference between HTML sitemaps and XML sitemaps?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-difference-between-HTML-sitemaps-and-XML-sitemaps"
+        link: "https://www.quora.com/What-is-the-difference-between-HTML-sitemaps-and-XML-sitemaps"
       },
       {
         name: "31: How to Create an XML Sitemap | Register a Sitemap with Google | Learn HTML & CSS | HTML Tutorial",
         site: "youtube",
-        url: "https://youtu.be/xtoAfUB6Ubw?t=178"
+        link: "https://youtu.be/xtoAfUB6Ubw?t=178"
       },
       {
         name: "Search the Daily Egg What Are the SEO Benefits of XML & HTML Sitemaps?",
         site: "globe",
-        url: "https://www.crazyegg.com/blog/seo-benefits-of-xml-html-sitemaps/"
+        link: "https://www.crazyegg.com/blog/seo-benefits-of-xml-html-sitemaps/"
       }
     ]
   },
@@ -973,17 +973,17 @@ module.exports = [
       {
         name: "What is robots.txt and what is it used for?",
         site: "quora",
-        url: "https://www.quora.com/What-is-robots-txt-and-what-is-it-used-for"
+        link: "https://www.quora.com/What-is-robots-txt-and-what-is-it-used-for"
       },
       {
         name: "What is a Robots.txt File? (An Overview for SEO + Key Insight)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=LlJy5LRkUfs"
+        link: "https://www.youtube.com/watch?v=LlJy5LRkUfs"
       },
       {
         name: "What is a robots.txt file?",
         site: "medium",
-        url: "https://medium.com/@sourabhnagori/what-is-a-robots-txt-file-8c398ac9f8b4"
+        link: "https://medium.com/@sourabhnagori/what-is-a-robots-txt-file-8c398ac9f8b4"
       }
     ]
   },
@@ -999,17 +999,17 @@ module.exports = [
       {
         name: "What is the real difference between a minified and uncompressed file? What are the benefits of each?",
         site: "stack-overflow",
-        url: "https://softwareengineering.stackexchange.com/a/232588"
+        link: "https://softwareengineering.stackexchange.com/a/232588"
       },
       {
         name: "Website Performance Tutorial #8 - Minify Your CSS & JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=8aAuNQqgGAg",
+        link: "https://www.youtube.com/watch?v=8aAuNQqgGAg",
       },
       {
         name: "Gzipping vs Minification: What the heck?",
         site: "medium",
-        url: "https://medium.com/@manuelro/gzipping-vs-minification-what-the-heck-ba698fa6037c"
+        link: "https://medium.com/@manuelro/gzipping-vs-minification-what-the-heck-ba698fa6037c"
       }
     ]
   },
@@ -1025,17 +1025,17 @@ module.exports = [
       {
         name: "How to set-up a favicon?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/54826033"
+        link: "https://stackoverflow.com/a/54826033"
       },
       {
         name: "Add A Favicon to A Website in HTML | Learn HTML and CSS | HTML Tutorial | HTML for Beginners",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=kEf1xSwX5D8"
+        link: "https://www.youtube.com/watch?v=kEf1xSwX5D8"
       },
       {
         name: "How to Create a Favicon For Your Website",
         site: "medium",
-        url: "https://medium.com/@hansfinest/how-to-create-a-favicon-for-your-website-89b031e6448b"
+        link: "https://medium.com/@hansfinest/how-to-create-a-favicon-for-your-website-89b031e6448b"
       }
     ]
   },
@@ -1051,17 +1051,17 @@ module.exports = [
       {
         name: "What is SSL and how does it relate to HTTPS?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/45122215"
+        link: "https://stackoverflow.com/a/45122215"
       },
       {
         name: "What is SSL and how does it work?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=rROgWTfA5qE"
+        link: "https://www.youtube.com/watch?v=rROgWTfA5qE"
       },
       {
         name: "What is SSL and How Does it Work?",
         site: "medium",
-        url: "https://medium.com/@User3141592/what-is-ssl-and-how-does-it-work-a5465d19b494"
+        link: "https://medium.com/@User3141592/what-is-ssl-and-how-does-it-work-a5465d19b494"
       }
     ]
   },
@@ -1077,17 +1077,17 @@ module.exports = [
       {
         name: "two-way handshake and three-way handshake",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/23774096"
+        link: "https://stackoverflow.com/a/23774096"
       },
       {
         name: "TCP Three Way Handshake",
         site: "youtube",
-        url: "https://youtu.be/8-WpoF1cLtc?t=17"
+        link: "https://youtu.be/8-WpoF1cLtc?t=17"
       },
       {
         name: "TCP 3-Way Handshake",
         site: "medium",
-        url: "https://medium.com/@yildirimabdrhm/tcp-3-way-handshake-2e4d4d674ff6"
+        link: "https://medium.com/@yildirimabdrhm/tcp-3-way-handshake-2e4d4d674ff6"
       }
     ]
   },
@@ -1103,17 +1103,17 @@ module.exports = [
       {
         name: "What is SYN flood?",
         site: "quora",
-        url: "https://www.quora.com/What-is-SYN-flood"
+        link: "https://www.quora.com/What-is-SYN-flood"
       },
       {
         name: "02 05 SYN Flood Attacks",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=-FPawMupsKY"
+        link: "https://www.youtube.com/watch?v=-FPawMupsKY"
       },
       {
         name: "Understanding DDOS Attack",
         site: "medium",
-        url: "https://medium.com/@kapil.sharma91812/understanding-ddos-attack-15dd2cbce2a"
+        link: "https://medium.com/@kapil.sharma91812/understanding-ddos-attack-15dd2cbce2a"
       }
     ]
   },
@@ -1129,17 +1129,17 @@ module.exports = [
       {
         name: "What is a DoS Attack and how does it differ from a DDoS attack?",
         site: "stack-overflow",
-        url: "https://security.stackexchange.com/questions/22809/what-is-a-dos-attack-and-how-does-it-differ-from-a-ddos-attack",
+        link: "https://security.stackexchange.com/questions/22809/what-is-a-dos-attack-and-how-does-it-differ-from-a-ddos-attack",
       },
       {
         name: "DDoS Attack — Explained",
         site: "medium",
-        url: "https://medium.com/datadriveninvestor/ddos-attack-explained-9d67d467b1aa",
+        link: "https://medium.com/datadriveninvestor/ddos-attack-explained-9d67d467b1aa",
       },
       {
         name: "DDoS Attacks as Fast As Possible",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=0I4O4hoKzb8",
+        link: "https://www.youtube.com/watch?v=0I4O4hoKzb8",
       }
     ]
   },
@@ -1155,17 +1155,17 @@ module.exports = [
       {
         name: "What is a meta tag?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-meta-tag",
+        link: "https://www.quora.com/What-is-a-meta-tag",
       },
       {
         name: "27: Which HTML Meta Tags Are Required in A Website? | Learn HTML and CSS | HTML Tutorial | HTML SEO",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=o3Gfsc6kihk",
+        link: "https://www.youtube.com/watch?v=o3Gfsc6kihk",
       },
       {
         name: "Beginners Guide: Meta tags",
         site: "medium",
-        url: "https://medium.com/@vinesheg/beginners-guide-meta-tags-217e6e0dfda6",
+        link: "https://medium.com/@vinesheg/beginners-guide-meta-tags-217e6e0dfda6",
       }
     ]
   },
@@ -1181,17 +1181,17 @@ module.exports = [
       {
         name: "What is DOCTYPE?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/414993",
+        link: "https://stackoverflow.com/a/414993",
       },
       {
         name: "What is DOCTYPE in HTML",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=-nzV5MlFIkM",
+        link: "https://www.youtube.com/watch?v=-nzV5MlFIkM",
       },
       {
         name: "Why Do We Write <! DOCTYPE html> ?",
         site: "medium",
-        url: "https://medium.com/@islam.sayed8/why-do-we-write-doctype-html-fe2797a3f1c8",
+        link: "https://medium.com/@islam.sayed8/why-do-we-write-doctype-html-fe2797a3f1c8",
       }
     ]
   },
@@ -1207,17 +1207,17 @@ module.exports = [
       {
         name: "How does http keep-alive work?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/20764180",
+        link: "https://stackoverflow.com/a/20764180",
       },
       {
         name: "2.08 - Non Persistent & Persistent HTTP Connection - Part II",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=-Zzb95r0bxg",
+        link: "https://www.youtube.com/watch?v=-Zzb95r0bxg",
       },
       {
         name: "Persistent HTTPS Connections: Reduce API call time by 50%",
         site: "medium",
-        url: "https://medium.com/@msyshani/persistent-https-connections-reduce-api-call-time-by-50-3ca23723b336",
+        link: "https://medium.com/@msyshani/persistent-https-connections-reduce-api-call-time-by-50-3ca23723b336",
       }
     ]
   },
@@ -1233,17 +1233,17 @@ module.exports = [
       {
         name: "What is DNS? How does it work?",
         site: "quora",
-        url: "https://www.quora.com/What-is-DNS-How-does-it-work",
+        link: "https://www.quora.com/What-is-DNS-How-does-it-work",
       },
       {
         name: "DNS as Fast As Possible",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Rck3BALhI5c",
+        link: "https://www.youtube.com/watch?v=Rck3BALhI5c",
       },
       {
         name: "DNS in One Picture",
         site: "medium",
-        url: "https://medium.com/@kamranahmedse/dns-in-one-picture-d7f4783db06a",
+        link: "https://medium.com/@kamranahmedse/dns-in-one-picture-d7f4783db06a",
       }
     ]
   },
@@ -1260,17 +1260,17 @@ module.exports = [
       {
         name: "Difference between HTML implementation for Art Direction and Resolution Switching (responsive images)",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/52347345",
+        link: "https://stackoverflow.com/a/52347345",
       },
       {
         name: "8 Responsive Images in HTML Art Direction and Density Switching",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=vfd10kL5skA",
+        link: "https://www.youtube.com/watch?v=vfd10kL5skA",
       },
       {
         name: "Responsive images - MDN Web Docs",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images",
+        link: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images",
       }
     ]
   },
@@ -1286,17 +1286,17 @@ module.exports = [
       {
         name: "Should I use Flexbox or Grid?",
         site: "quora",
-        url: "https://www.quora.com/Should-I-use-Flexbox-or-Grid",
+        link: "https://www.quora.com/Should-I-use-Flexbox-or-Grid",
       },
       {
         name: "Flexbox vs. CSS Grid — Which is Better?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=hs3piaN4b5I",
+        link: "https://www.youtube.com/watch?v=hs3piaN4b5I",
       },
       {
         name: "Beginner’s Guide To CSS Grid And Flexbox",
         site: "medium",
-        url: "https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412",
+        link: "https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412",
       }
     ]
   },
@@ -1312,17 +1312,17 @@ module.exports = [
       {
         name: "Can't seem to understand SOLID principles and design patterns [closed]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/13692196",
+        link: "https://stackoverflow.com/a/13692196",
       },
       {
         name: "S.O.L.I.D. Principles of Object-Oriented Design - A Tutorial on Object-Oriented Design",
         site: "youtube",
-        url: "https://youtu.be/GtZtQ2VFweA?t=112",
+        link: "https://youtu.be/GtZtQ2VFweA?t=112",
       },
       {
         name: "The SOLID Principles",
         site: "medium",
-        url: "https://blog.usejournal.com/the-solid-principles-80f8dbdec114",
+        link: "https://blog.usejournal.com/the-solid-principles-80f8dbdec114",
       }
     ]
   },
@@ -1339,17 +1339,17 @@ module.exports = [
       {
         name: "What advantages does two-way data binding have over unitary data flow models?",
         site: "quora",
-        url: "https://www.quora.com/What-advantages-does-two-way-data-binding-have-over-unitary-data-flow-models"
+        link: "https://www.quora.com/What-advantages-does-two-way-data-binding-have-over-unitary-data-flow-models"
       },
       {
         name: "Tech Talk: 1 vs 2 way Data Binding in React and Angular",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=DUP5TJtBL3I"
+        link: "https://www.youtube.com/watch?v=DUP5TJtBL3I"
       },
       {
         name: "React.js vs Angular",
         site: "medium",
-        url: "https://medium.com/@davisonpro/react-js-vs-angular-7a7bed92b5f6"
+        link: "https://medium.com/@davisonpro/react-js-vs-angular-7a7bed92b5f6"
       }
     ]
   },
@@ -1366,17 +1366,17 @@ module.exports = [
       {
         name: "Microservices vs Monolithic Architecture [closed]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/33662057",
+        link: "https://stackoverflow.com/a/33662057",
       },
       {
         name: "Monolithic vs Microservice Architecture Debate",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=RJkn9VHM7lc",
+        link: "https://www.youtube.com/watch?v=RJkn9VHM7lc",
       },
       {
         name: "Monolithic vs Microservice Architecture",
         site: "medium",
-        url: "https://medium.com/@raycad.seedotech/monolithic-vs-microservice-architecture-e74bd951fc14",
+        link: "https://medium.com/@raycad.seedotech/monolithic-vs-microservice-architecture-e74bd951fc14",
       },
     ],
   },
@@ -1393,17 +1393,17 @@ module.exports = [
       {
         name: "Asynchronous vs synchronous execution, what does it really mean?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/748235",
+        link: "https://stackoverflow.com/a/748235",
       },
       {
         name: "Asynchronous Vs Synchronous Programming",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Kpn2ajSa92c",
+        link: "https://www.youtube.com/watch?v=Kpn2ajSa92c",
       },
       {
         name: "Async vs Sync",
         site: "medium",
-        url: "https://medium.com/@pjbrn26/async-vs-sync-d369a4ef95e5",
+        link: "https://medium.com/@pjbrn26/async-vs-sync-d369a4ef95e5",
       },
     ]
   },
@@ -1419,17 +1419,17 @@ module.exports = [
       {
         name: "What is the meaning and reasoning behind the Open/Closed Principle?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/59427",
+        link: "https://stackoverflow.com/a/59427",
       },
       {
         name: "Understanding the Open Closed Principle",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Ryhy7333mqQ",
+        link: "https://www.youtube.com/watch?v=Ryhy7333mqQ",
       },
       {
         name: "OCP: The Open-Closed Principle",
         site: "medium",
-        url: "https://medium.com/@gabriellamedas/ocp-the-open-closed-principle-b994922bed94",
+        link: "https://medium.com/@gabriellamedas/ocp-the-open-closed-principle-b994922bed94",
       },
     ]
   },
@@ -1445,17 +1445,17 @@ module.exports = [
       {
         name: "What is an example of the Liskov Substitution Principle?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/584732",
+        link: "https://stackoverflow.com/a/584732",
       },
       {
         name: "Understanding the Liskov Substitution Principle",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Mmy1EUKC_iE",
+        link: "https://www.youtube.com/watch?v=Mmy1EUKC_iE",
       },
       {
         name: "The Liskov Substitution Principle",
         site: "medium",
-        url: "https://medium.com/@dholnessii/the-liskov-substitution-principle-3d2b65ae6a65",
+        link: "https://medium.com/@dholnessii/the-liskov-substitution-principle-3d2b65ae6a65",
       },
     ]
   },
@@ -1470,17 +1470,17 @@ module.exports = [
       {
         name: "What is the interface segregation principle (ISP)?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-interface-segregation-principle-ISP",
+        link: "https://www.quora.com/What-is-the-interface-segregation-principle-ISP",
       },
       {
         name: "OOP Design Principles: Interface Segregation Principle",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Ye1h3zKl1lg",
+        link: "https://www.youtube.com/watch?v=Ye1h3zKl1lg",
       },
       {
         name: "Interface Segregation Principle",
         site: "medium",
-        url: "https://medium.com/@bean00/interface-segregation-principle-433b39ba5303",
+        link: "https://medium.com/@bean00/interface-segregation-principle-433b39ba5303",
       },
     ]
   },
@@ -1496,17 +1496,17 @@ module.exports = [
       {
         name: "What is the dependency inversion principle and why is it important?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/62577",
+        link: "https://stackoverflow.com/a/62577",
       },
       {
         name: "OOP Design Principles: Dependency Inversion Principle",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=qL2-5g_lJTs",
+        link: "https://www.youtube.com/watch?v=qL2-5g_lJTs",
       },
       {
         name: "Dependency Inversion Principle",
         site: "medium",
-        url: "https://medium.com/@mglover/dependency-inversion-principle-c0264a405d57",
+        link: "https://medium.com/@mglover/dependency-inversion-principle-c0264a405d57",
       },
     ]
   },
@@ -1522,17 +1522,17 @@ module.exports = [
       {
         name: "What's the difference between principles YAGNI and KISS?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/52804673",
+        link: "https://stackoverflow.com/a/52804673",
       },
       {
         name: "Software Development Principles - DRY, KISS, & YAGNI - #09",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=4qPYWBHkS4w",
+        link: "https://www.youtube.com/watch?v=4qPYWBHkS4w",
       },
       {
         name: "How to become a better programmer?",
         site: "medium",
-        url: "https://medium.com/@derodu/design-patterns-kiss-dry-tda-yagni-soc-828c112b89ee",
+        link: "https://medium.com/@derodu/design-patterns-kiss-dry-tda-yagni-soc-828c112b89ee",
       },
     ]
   },
@@ -1548,17 +1548,17 @@ module.exports = [
       {
         name: "What are React hooks?",
         site: "quora",
-        url: "https://www.quora.com/What-are-React-hooks",
+        link: "https://www.quora.com/What-are-React-hooks",
       },
       {
         name: "#1 What Are React Hooks?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=d-aAs_4SQ7c",
+        link: "https://www.youtube.com/watch?v=d-aAs_4SQ7c",
       },
       {
         name: "React Hooks — Why and How",
         site: "medium",
-        url: "https://medium.com/frontmen/react-hooks-why-and-how-e4d2a5f0347",
+        link: "https://medium.com/frontmen/react-hooks-why-and-how-e4d2a5f0347",
       },
     ]
   },
@@ -1574,17 +1574,17 @@ module.exports = [
       {
         name: "React Context vs React Redux, when should I use each one? [closed]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/49569183",
+        link: "https://stackoverflow.com/a/49569183",
       },
       {
         name: "Redux or Context in React",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=5gUHfe-ETuo",
+        link: "https://www.youtube.com/watch?v=5gUHfe-ETuo",
       },
       {
         name: "React Context vs Redux",
         site: "medium",
-        url: "https://medium.com/@hnkn1998/react-context-vs-redux-e507e9059a06",
+        link: "https://medium.com/@hnkn1998/react-context-vs-redux-e507e9059a06",
       },
     ]
   },
@@ -1600,17 +1600,17 @@ module.exports = [
       {
         name: "What is the difference between test driven development (TDD) and behaviour driven development (BDD)?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-difference-between-test-driven-development-TDD-and-behaviour-driven-development-BDD",
+        link: "https://www.quora.com/What-is-the-difference-between-test-driven-development-TDD-and-behaviour-driven-development-BDD",
       },
       {
         name: "Test Driven Development vs Behaviour Driven Development + FREE CHEAT SHEET",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=4QFYTQy47yA",
+        link: "https://www.youtube.com/watch?v=4QFYTQy47yA",
       },
       {
         name: "TDD vs BDD",
         site: "medium",
-        url: "https://medium.com/@pkentrytest/tdd-vs-bdd-9361f632ee4e",
+        link: "https://medium.com/@pkentrytest/tdd-vs-bdd-9361f632ee4e",
       },
     ]
   },
@@ -1625,17 +1625,17 @@ module.exports = [
       {
         name: "JavaScript data types and data structures - MDN Web Docs",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types",
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types",
       },
       {
         name: "Data Types - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=808eYu9B9Yw",
+        link: "https://www.youtube.com/watch?v=808eYu9B9Yw",
       },
       {
         name: "Built-in Types - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#built-in-types",
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#built-in-types",
       },
     ]
   },
@@ -1650,17 +1650,17 @@ module.exports = [
       {
         name: "Who made JavaScript?",
         site: "qoura",
-        url: "https://www.quora.com/Who-made-JavaScript",
+        link: "https://www.quora.com/Who-made-JavaScript",
       },
       {
         name: "The Weird History of JavaScript",
         site: "youtube",
-        url: "https://youtu.be/Sh6lK57Cuk4?t=84",
+        link: "https://youtu.be/Sh6lK57Cuk4?t=84",
       },
       {
         name: "A brief history of JavaScript",
         site: "medium",
-        url: "https://medium.com/@benastontweet/lesson-1a-the-history-of-javascript-8c1ce3bffb17",
+        link: "https://medium.com/@benastontweet/lesson-1a-the-history-of-javascript-8c1ce3bffb17",
       },
     ]
   },
@@ -1676,17 +1676,17 @@ module.exports = [
       {
         name: "What does `void 0` mean? [duplicate]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/7452352/9715166",
+        link: "https://stackoverflow.com/a/7452352/9715166",
       },
       {
         name: "javascript void(0) - Explaination and How to use",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=xcQPwaig4nI",
+        link: "https://www.youtube.com/watch?v=xcQPwaig4nI",
       },
       {
         name: "What is the difference between href=“”, href=“#” and href=“javascript:void(0)”",
         site: "medium",
-        url: "https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-href-javascript-void-0-54e3cf31c9bd",
+        link: "https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-href-javascript-void-0-54e3cf31c9bd",
       },
     ]
   },
@@ -1702,17 +1702,17 @@ module.exports = [
       {
         name: "How cookies work?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1968734/9715166",
+        link: "https://stackoverflow.com/a/1968734/9715166",
       },
       {
         name: "Cookies As Fast As Possible",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=BTlq6WmWqMk",
+        link: "https://www.youtube.com/watch?v=BTlq6WmWqMk",
       },
       {
         name: "Sessions and cookies",
         site: "medium",
-        url: "https://medium.com/@piraveenaparalogarajah/sessions-and-cookies-2c0919552f29",
+        link: "https://medium.com/@piraveenaparalogarajah/sessions-and-cookies-2c0919552f29",
       },
     ]
   },
@@ -1729,17 +1729,17 @@ module.exports = [
       {
         name: "Static (Lexical) Scoping vs Dynamic Scoping (Pseudocode)",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/22395580/9715166",
+        link: "https://stackoverflow.com/a/22395580/9715166",
       },
       {
         name: "006 Lexical Scope",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=dHYhMP8ESuk",
+        link: "https://www.youtube.com/watch?v=dHYhMP8ESuk",
       },
       {
         name: "Chapter 2: Lexical Scope - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#chapter-2-lexical-scope",
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#chapter-2-lexical-scope",
       },
     ]
   },
@@ -1755,17 +1755,17 @@ module.exports = [
       {
         name: "Difference between innerText and innerHTML",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/19032002/9715166",
+        link: "https://stackoverflow.com/a/19032002/9715166",
       },
       {
         name: ".innerHTML vs .innerText",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=A0inUUp5Q3o",
+        link: "https://www.youtube.com/watch?v=A0inUUp5Q3o",
       },
       {
         name: "What’s Best: innerText vs. innerHTML vs. textContent",
         site: "medium",
-        url: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
+        link: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
       },
     ]
   },
@@ -1781,17 +1781,17 @@ module.exports = [
       {
         name: "Difference between textContent vs innerText",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/35213639/9715166",
+        link: "https://stackoverflow.com/a/35213639/9715166",
       },
       {
         name: "textContent vs innerHTML in the JavaScript DOM",
         site: "youtube",
-        url: "textContent vs innerHTML in the JavaScript DOM",
+        link: "textContent vs innerHTML in the JavaScript DOM",
       },
       {
         name: "What’s Best: innerText vs. innerHTML vs. textContent",
         site: "medium",
-        url: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
+        link: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
       },
     ]
   },
@@ -1807,17 +1807,17 @@ module.exports = [
       {
         name: "Error - MDN Web Docs",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Error_types"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Error_types"
       },
       {
         name: "Errors in JavaScript / Intro to JavaScript ES6 programming, lesson 7",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=O0EHKBi7iXU"
+        link: "https://www.youtube.com/watch?v=O0EHKBi7iXU"
       },
       {
         name: "Type of errors in JavaScript",
         site: "medium",
-        url: "https://medium.com/@wlodarczyk_j/type-of-errors-in-javascript-18458ba9d818"
+        link: "https://medium.com/@wlodarczyk_j/type-of-errors-in-javascript-18458ba9d818"
       }
     ]
   },
@@ -1834,12 +1834,12 @@ module.exports = [
       {
         name: "window.onload vs $(document).ready()",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/3698214/9715166"
+        link: "https://stackoverflow.com/a/3698214/9715166"
       },
       {
         name: "🔥 window.onload VS document.ready 🔥 The Difference",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=3dnc-gmlDvw"
+        link: "https://www.youtube.com/watch?v=3dnc-gmlDvw"
       },
     ]
   },
@@ -1855,17 +1855,17 @@ module.exports = [
       {
         name: "How does the JSONP work?",
         site: "quora",
-        url: "https://www.quora.com/How-does-the-JSONP-work"
+        link: "https://www.quora.com/How-does-the-JSONP-work"
       },
       {
         name: "2.5 cors, json, jsonp - undergrad webdev summer 1 2017",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=stvCHJZq5MI"
+        link: "https://www.youtube.com/watch?v=stvCHJZq5MI"
       },
       {
         name: "Cross domain, cross browser ajax with JSONP",
         site: "medium",
-        url: "https://medium.com/creative-technology-concepts-code/cross-domain-cross-browser-ajax-with-jsonp-96f49484d765"
+        link: "https://medium.com/creative-technology-concepts-code/cross-domain-cross-browser-ajax-with-jsonp-96f49484d765"
       },
     ],
   },
@@ -1882,17 +1882,17 @@ module.exports = [
       {
         name: "What's the difference between Event Listeners & Handlers in Java?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/4725342"
+        link: "https://stackoverflow.com/a/4725342"
       },
       {
         name: "33: What Are JavaScript Events | JavaScript Events | JavaScript Tutorial | mmtuts",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=mlxi1WUSO_8"
+        link: "https://www.youtube.com/watch?v=mlxi1WUSO_8"
       },
       {
         name: "Programmer dictionary: Event listener vs event handler",
         site: "medium",
-        url: "https://blog.kotlin-academy.com/programmer-dictionary-event-listener-vs-event-handler-305c667d0e3c"
+        link: "https://blog.kotlin-academy.com/programmer-dictionary-event-listener-vs-event-handler-305c667d0e3c"
       },
     ],
   },
@@ -1909,12 +1909,12 @@ module.exports = [
       {
         name: "screen.width and screen.availwidth difference in javascript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/5456601"
+        link: "https://stackoverflow.com/a/5456601"
       },
       {
-        name: "JavaScript: screen.width vs. screen.availWidth",
+        name: "JavaScript : screen.width vs. screen.availWidth",
         site: "codepen",
-        url: "https://codepen.io/machal/pen/gjNpYg"
+        link: "https://codepen.io/machal/pen/gjNpYg"
       },
     ],
   },
@@ -1931,17 +1931,17 @@ module.exports = [
       {
         name: "What is “Escaped” & “Unescaped” output",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/20727923"
+        link: "https://stackoverflow.com/a/20727923"
       },
       {
         name: "JavaScript Unicode Characters and Escape Sequences",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=UsVbdOgd3kM"
+        link: "https://www.youtube.com/watch?v=UsVbdOgd3kM"
       },
       {
         name: "Working with strings in JavaScript",
         site: "medium",
-        url: "https://medium.com/swlh/working-with-strings-in-javascript-34060a1c17a9"
+        link: "https://medium.com/swlh/working-with-strings-in-javascript-34060a1c17a9"
       },
     ],
   },
@@ -1958,17 +1958,17 @@ module.exports = [
       {
         name: "Private properties in JavaScript ES6 classes",
         site: "stack-overflow",
-        url: "Javascript Tutorial 15: Private Methods And Properties"
+        link: "Javascript Tutorial 15: Private Methods And Properties"
       },
       {
         name: "Javascript Tutorial 15: Private Methods And Properties",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=P-w_SXPfVY8"
+        link: "https://www.youtube.com/watch?v=P-w_SXPfVY8"
       },
       {
         name: "Natural JavaScript private methods",
         site: "blogger",
-        url: "http://webreflection.blogspot.com/2008/04/natural-javascript-private-methods.html"
+        link: "http://webreflection.blogspot.com/2008/04/natural-javascript-private-methods.html"
       },
     ],
   },
@@ -1985,7 +1985,7 @@ module.exports = [
       {
         name: "In JavaScript, what code executes at runtime and what code executes at parsetime?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/4023769"
+        link: "https://stackoverflow.com/a/4023769"
       },
     ],
   },
@@ -2001,17 +2001,17 @@ module.exports = [
       {
         name: "Javascript function scoping and hoisting",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/7506937"
+        link: "https://stackoverflow.com/a/7506937"
       },
       {
         name: "Hoisting - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=C1PZh_ea-7I"
+        link: "https://www.youtube.com/watch?v=C1PZh_ea-7I"
       },
       {
         name: "Review (TL;DR) - You Don't Know JS",
         site: "github",
-        url: "In JavaScript, what code executes at runtime and what code executes at parsetime?"
+        link: "In JavaScript, what code executes at runtime and what code executes at parsetime?"
       },
     ],
   },
@@ -2028,17 +2028,17 @@ module.exports = [
       {
         name: "What is the difference between indexed arrays and the associative arrays?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-difference-between-indexed-arrays-and-the-associative-arrays"
+        link: "https://www.quora.com/What-is-the-difference-between-indexed-arrays-and-the-associative-arrays"
       },
       {
         name: "5.2: Associative Arrays in JavaScript - Programming with Text",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=_5jdE6RKxVk"
+        link: "https://www.youtube.com/watch?v=_5jdE6RKxVk"
       },
       {
         name: "Symbol Tables (Associative Arrays)",
         site: "medium",
-        url: "https://medium.com/omarelgabrys-blog/symbol-tables-associative-arrays-ece1f52aa07f"
+        link: "https://medium.com/omarelgabrys-blog/symbol-tables-associative-arrays-ece1f52aa07f"
       },
     ],
   },
@@ -2054,17 +2054,17 @@ module.exports = [
       {
         name: "What is HTML?",
         site: "quora",
-        url: "https://www.quora.com/What-is-HTML-6"
+        link: "https://www.quora.com/What-is-HTML-6"
       },
       {
         name: "HTML5 as Fast As Possible",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=IsXEVQRaTX8"
+        link: "https://www.youtube.com/watch?v=IsXEVQRaTX8"
       },
       {
         name: "Learn HTML in 5 minutes",
         site: "free-code-camp",
-        url: "https://www.freecodecamp.org/news/learn-html-in-5-minutes-ccd378d2ab72/"
+        link: "https://www.freecodecamp.org/news/learn-html-in-5-minutes-ccd378d2ab72/"
       },
     ],
   },
@@ -2080,17 +2080,17 @@ module.exports = [
       {
         name: "What is a tag in HTML?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-tag-in-HTML"
+        link: "https://www.quora.com/What-is-a-tag-in-HTML"
       },
       {
         name: "What are HTML Tags?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=aSiI9B6rzRM"
+        link: "https://www.youtube.com/watch?v=aSiI9B6rzRM"
       },
       {
         name: "Tag - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Glossary/Tag"
+        link: "https://developer.mozilla.org/en-US/docs/Glossary/Tag"
       },
     ],
   },
@@ -2105,17 +2105,17 @@ module.exports = [
       {
         name: "Do we still need end slashes in HTML5?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/3558119/are-non-void-self-closing-tags-valid-in-html5"
+        link: "https://stackoverflow.com/questions/3558119/are-non-void-self-closing-tags-valid-in-html5"
       },
       {
         name: "HTML5 tutorial 22 | HTML Void Elements",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=PkE7edyf6xk"
+        link: "https://www.youtube.com/watch?v=PkE7edyf6xk"
       },
       {
         name: "Empty Element - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Glossary/Empty_element"
+        link: "https://developer.mozilla.org/en-US/docs/Glossary/Empty_element"
       },
     ],
   },
@@ -2131,17 +2131,17 @@ module.exports = [
       {
         name: "What are the most common font-sizes for H1-H6 tags [closed]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/6140504"
+        link: "https://stackoverflow.com/a/6140504"
       },
       {
         name: "Learn HTML code: H1 - H6",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ErfDXNmHOWU"
+        link: "https://www.youtube.com/watch?v=ErfDXNmHOWU"
       },
       {
         name: "<h1>–<h6>: The HTML Section Heading elements -MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
       },
     ],
   },
@@ -2156,17 +2156,17 @@ module.exports = [
       {
         name: "How to make HTML open a hyperlink in another window or tab?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/2343939"
+        link: "https://stackoverflow.com/a/2343939"
       },
       {
         name: "How to make links in html | open link in another tab in html | Learn HTML5",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=hBsZ5XR6WDI"
+        link: "https://www.youtube.com/watch?v=hBsZ5XR6WDI"
       },
       {
         name: "Creating hyperlinks - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks"
+        link: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks"
       },
     ],
   },
@@ -2182,17 +2182,17 @@ module.exports = [
       {
         name: "How many types of list are in HTML? Can you define each?",
         site: "quora",
-        url: "https://www.quora.com/How-many-types-of-list-are-in-HTML-Can-you-define-each"
+        link: "https://www.quora.com/How-many-types-of-list-are-in-HTML-Can-you-define-each"
       },
       {
         name: "Learn HTML code: lists",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Dl1V6CagWfU"
+        link: "https://www.youtube.com/watch?v=Dl1V6CagWfU"
       },
       {
         name: "Day 13: Using HTML Lists — Spaghetti Recipe",
         site: "medium",
-        url: "https://medium.com/@kbrook10/day-13-using-html-lists-spaghetti-recipe-efaa86b0cf09"
+        link: "https://medium.com/@kbrook10/day-13-using-html-lists-spaghetti-recipe-efaa86b0cf09"
       },
     ],
   },
@@ -2208,17 +2208,17 @@ module.exports = [
       {
         name: "What is the difference between HTML tags and elements?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/8937454"
+        link: "https://stackoverflow.com/a/8937454"
       },
       {
         name: "HTML Tags, Attributes and Elements",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=vNOyRZIkC7o"
+        link: "https://www.youtube.com/watch?v=vNOyRZIkC7o"
       },
       {
         name: "What Is An HTML Tag Versus an HTML Element? - Lifewire",
         site: "globe",
-        url: "https://www.lifewire.com/html-tag-vs-element-3466507"
+        link: "https://www.lifewire.com/html-tag-vs-element-3466507"
       },
     ],
   },
@@ -2235,17 +2235,17 @@ module.exports = [
       {
         name: "Semantic and non Semantic elements",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/54924899"
+        link: "https://stackoverflow.com/a/54924899"
       },
       {
         name: "Semantic HTML5 Tags vs Formatting Tags",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=rKcAjg9wC5I"
+        link: "https://www.youtube.com/watch?v=rKcAjg9wC5I"
       },
       {
         name: "The importance of Semantic HTML",
         site: "medium",
-        url: "https://medium.com/adalab/the-importance-of-semantic-html-78e74fb75ff0"
+        link: "https://medium.com/adalab/the-importance-of-semantic-html-78e74fb75ff0"
       },
     ],
   },
@@ -2261,17 +2261,17 @@ module.exports = [
       {
         name: "What is an image map in HTML?",
         site: "quora",
-        url: "https://www.quora.com/What-is-an-image-map-in-HTML"
+        link: "https://www.quora.com/What-is-an-image-map-in-HTML"
       },
       {
         name: "How to make an HTML image map",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ZomNtWJEFfs"
+        link: "https://www.youtube.com/watch?v=ZomNtWJEFfs"
       },
       {
         name: "Creating an Interactive Map using SVG and CSS",
         site: "medium",
-        url: "https://medium.com/@mattcroak718/creating-an-interactive-map-using-svg-and-css-94a688c11bd6"
+        link: "https://medium.com/@mattcroak718/creating-an-interactive-map-using-svg-and-css-94a688c11bd6"
       },
     ],
   },
@@ -2287,17 +2287,17 @@ module.exports = [
       {
         name: "difference between iframe, embed and object elements",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/21115112/9715166"
+        link: "https://stackoverflow.com/a/21115112/9715166"
       },
       {
         name: "HTML video tutorial - 77 - iframe tag vs object embed tags",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ZNy2ajRiGXc"
+        link: "https://www.youtube.com/watch?v=ZNy2ajRiGXc"
       },
       {
         name: "From object to iframe — other embedding technologies - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies"
+        link: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies"
       },
     ],
   },
@@ -2313,17 +2313,17 @@ module.exports = [
       {
         name: "Is there an easy way to change the color of a bullet in a list?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/76626/9715166"
+        link: "https://stackoverflow.com/a/76626/9715166"
       },
       {
         name: "Bulleted List HTML, Change the color of Bullets | Quick Tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=oGHguEotnDY"
+        link: "https://www.youtube.com/watch?v=oGHguEotnDY"
       },
       {
         name: "Styling Lists - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists"
+        link: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists"
       },
     ],
   },
@@ -2339,17 +2339,17 @@ module.exports = [
       {
         name: "What is the difference between HTML tags <div> and <span>?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/183536/9715166"
+        link: "https://stackoverflow.com/a/183536/9715166"
       },
       {
         name: "Divs vs Spans",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=UBWl37Rr9_c"
+        link: "https://www.youtube.com/watch?v=UBWl37Rr9_c"
       },
       {
         name: "Span and Div",
         site: "globe",
-        url: "https://www.google.com/search?q=medium+span+vs+div+tags&rlz=1C1GCEB_enUS850US850&oq=medium+span+vs+div+tags&aqs=chrome..69i57j33l5.4840j0j4&sourceid=chrome&ie=UTF-8"
+        link: "https://www.google.com/search?q=medium+span+vs+div+tags&rlz=1C1GCEB_enUS850US850&oq=medium+span+vs+div+tags&aqs=chrome..69i57j33l5.4840j0j4&sourceid=chrome&ie=UTF-8"
       },
     ],
   },
@@ -2366,17 +2366,17 @@ module.exports = [
       {
         name: "What is the difference between an expression and a statement in Python?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/4728073/what-is-the-difference-between-an-expression-and-a-statement-in-python"
+        link: "https://stackoverflow.com/questions/4728073/what-is-the-difference-between-an-expression-and-a-statement-in-python"
       },
       {
         name: "Expressions vs. Statements in JS / Intro to JavaScript ES6 programming, lesson 15",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=WVyCrI1cHi8"
+        link: "https://www.youtube.com/watch?v=WVyCrI1cHi8"
       },
       {
         name: "Statements - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md#statements"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md#statements"
       },
     ],
   },
@@ -2392,17 +2392,17 @@ module.exports = [
       {
         name: "Compiled vs. Interpreted Languages",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/3265602/9715166"
+        link: "https://stackoverflow.com/a/3265602/9715166"
       },
       {
         name: "Short Lesson - Compilation vs Interpretation",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=JNMy969SjyU"
+        link: "https://www.youtube.com/watch?v=JNMy969SjyU"
       },
       {
         name: "Executing a Program - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md#executing-a-program"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md#executing-a-program"
       },
     ],
   },
@@ -2417,17 +2417,17 @@ module.exports = [
       {
         name: "What are Cascading Style Sheets (CSS)?",
         site: "quora",
-        url: "https://www.quora.com/What-are-Cascading-Style-Sheets-CSS"
+        link: "https://www.quora.com/What-are-Cascading-Style-Sheets-CSS"
       },
       {
         name: "CSS Basics (Part1) — What is CSS?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=s7ONvIgOWdM"
+        link: "https://www.youtube.com/watch?v=s7ONvIgOWdM"
       },
       {
         name: "CSS for Beginners: What is CSS and How to Use it in Web Development?",
         site: "medium",
-        url: "https://medium.com/swlh/css-for-beginners-what-is-css-and-how-to-use-it-in-web-development-5985afe53096"
+        link: "https://medium.com/swlh/css-for-beginners-what-is-css-and-how-to-use-it-in-web-development-5985afe53096"
       },
     ],
   },
@@ -2443,17 +2443,17 @@ module.exports = [
       {
         name: "Comparison of loading CSS inline, embedded and from external files",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/2455658/9715166"
+        link: "https://stackoverflow.com/a/2455658/9715166"
       },
       {
         name: "How to Link CSS to HTML Document",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=y4gWr2fya0I"
+        link: "https://www.youtube.com/watch?v=y4gWr2fya0I"
       },
       {
         name: "How to add CSS to HTML",
         site: "globe",
-        url: "https://matthewjamestaylor.com/add-css-to-html"
+        link: "https://matthewjamestaylor.com/add-css-to-html"
       },
     ],
   },
@@ -2469,17 +2469,17 @@ module.exports = [
       {
         name: "What does CSS selector mean?",
         site: "quora",
-        url: "https://www.quora.com/What-does-CSS-selector-mean"
+        link: "https://www.quora.com/What-does-CSS-selector-mean"
       },
       {
         name: "What's A CSS Selector?",
         site: "youtube",
-        url: "https://youtu.be/9YNJkJ2hdno?t=34"
+        link: "https://youtu.be/9YNJkJ2hdno?t=34"
       },
       {
         name: "Understanding CSS Selectors",
         site: "medium",
-        url: "https://medium.com/front-end-weekly/understanding-css-selectors-1c03267e7cd2"
+        link: "https://medium.com/front-end-weekly/understanding-css-selectors-1c03267e7cd2"
       },
     ],
   },
@@ -2495,17 +2495,17 @@ module.exports = [
       {
         name: "What are CSS sprites? How is it useful?",
         site: "quora",
-        url: "https://www.quora.com/What-are-CSS-sprites-How-is-it-useful"
+        link: "https://www.quora.com/What-are-CSS-sprites-How-is-it-useful"
       },
       {
         name: "CSS Tutorials #21 - CSS Sprites",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=zfKI2ltz7K0"
+        link: "https://www.youtube.com/watch?v=zfKI2ltz7K0"
       },
       {
         name: "CSS Sprites: What They Are, Why They’re Cool, and How To Use Them",
         site: "globe",
-        url: "https://css-tricks.com/css-sprites/"
+        link: "https://css-tricks.com/css-sprites/"
       },
     ],
   },
@@ -2521,17 +2521,17 @@ module.exports = [
       {
         name: "Using CSS Counters - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters"
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters"
       },
       {
         name: "What is counters in css and how to use them?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=1t6G8LDPrbk"
+        link: "https://www.youtube.com/watch?v=1t6G8LDPrbk"
       },
       {
         name: "A Guide to CSS counter",
         site: "dev",
-        url: "https://dev.to/samanthaming/a-guide-to-css-counter-3aaa"
+        link: "https://dev.to/samanthaming/a-guide-to-css-counter-3aaa"
       },
     ],
   },
@@ -2547,17 +2547,17 @@ module.exports = [
       {
         name: "Can I create a div with a Curved bottom?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/17040896/9715166"
+        link: "https://stackoverflow.com/a/17040896/9715166"
       },
       {
         name: "Advanced CSS Border-Radius Tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=j3Z4DR0o8bk"
+        link: "https://www.youtube.com/watch?v=j3Z4DR0o8bk"
       },
       {
         name: "CSS Border-Radius Can Do That?",
         site: "medium",
-        url: "https://medium.com/9elements/css-border-radius-can-do-that-d46df1d013ae"
+        link: "https://medium.com/9elements/css-border-radius-can-do-that-d46df1d013ae"
       },
     ],
   },
@@ -2573,17 +2573,17 @@ module.exports = [
       {
         name: "How do you code in CSS with linear-gradient?",
         site: "quora",
-        url: "https://www.quora.com/How-do-you-code-in-CSS-with-linear-gradient"
+        link: "https://www.quora.com/How-do-you-code-in-CSS-with-linear-gradient"
       },
       {
         name: "CSS Gradients and repeating gradients",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=4kWHW7da4U8"
+        link: "https://www.youtube.com/watch?v=4kWHW7da4U8"
       },
       {
         name: "HTML Gradients with CSS — Colorful Slippery Slope",
         site: "medium",
-        url: "https://medium.com/@js_tut/html-gradients-with-css-colorful-slippery-slope-59f98c6b99cf"
+        link: "https://medium.com/@js_tut/html-gradients-with-css-colorful-slippery-slope-59f98c6b99cf"
       },
     ],
   },
@@ -2599,17 +2599,17 @@ module.exports = [
       {
         name: "What is flex-box?",
         site: "quora",
-        url: "https://www.quora.com/What-is-flex-box"
+        link: "https://www.quora.com/What-is-flex-box"
       },
       {
         name: "Learn Flexbox in 15 Minutes",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=fYq5PXgSsbE"
+        link: "https://www.youtube.com/watch?v=fYq5PXgSsbE"
       },
       {
         name: "A 10 Step Guide to Flexbox",
         site: "medium",
-        url: "https://medium.com/@ensallee/a-10-step-guide-to-flexbox-fa00e7b03bf7"
+        link: "https://medium.com/@ensallee/a-10-step-guide-to-flexbox-fa00e7b03bf7"
       },
     ],
   },
@@ -2625,17 +2625,17 @@ module.exports = [
       {
         name: "When to use margin vs padding in CSS [closed]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/9183818/9715166"
+        link: "https://stackoverflow.com/a/9183818/9715166"
       },
       {
         name: "CSS : the difference between padding and margin",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=gBj8fxRBBNg"
+        link: "https://www.youtube.com/watch?v=gBj8fxRBBNg"
       },
       {
         name: "Margin vs Padding",
         site: "medium",
-        url: "https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf"
+        link: "https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf"
       },
     ],
   },
@@ -2651,17 +2651,17 @@ module.exports = [
       {
         name: "What is the difference between a pseudo-class and a pseudo-element in CSS?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/11701951/9715166"
+        link: "https://stackoverflow.com/a/11701951/9715166"
       },
       {
         name: "Pseudo-Classes vs Pseudo-Elements in CSS",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=0VDx1570X3U"
+        link: "https://www.youtube.com/watch?v=0VDx1570X3U"
       },
       {
         name: "Summaries of Pseudo-classes & Pseudo-elements",
         site: "medium",
-        url: "https://medium.com/@keisei.jia/summaries-of-pseudo-classes-pseudo-elements-359403885c9c"
+        link: "https://medium.com/@keisei.jia/summaries-of-pseudo-classes-pseudo-elements-359403885c9c"
       },
     ],
   },
@@ -2676,17 +2676,17 @@ module.exports = [
       {
         name: "Can you explain positioning in CSS?",
         site: "quora",
-        url: "https://www.quora.com/Can-you-explain-positioning-in-CSS"
+        link: "https://www.quora.com/Can-you-explain-positioning-in-CSS"
       },
       {
         name: "Learn CSS Position In 9 Minutes",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=jx5jmI0UlXU"
+        link: "https://www.youtube.com/watch?v=jx5jmI0UlXU"
       },
       {
         name: "Understanding Position in CSS",
         site: "medium",
-        url: "https://medium.com/@jacobgreenaway12/taming-the-css-beast-master-positioning-5882bad14458"
+        link: "https://medium.com/@jacobgreenaway12/taming-the-css-beast-master-positioning-5882bad14458"
       },
     ],
   },
@@ -2702,17 +2702,17 @@ module.exports = [
       {
         name: "CSS display: inline vs inline-block [duplicate]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/9189873/9715166"
+        link: "https://stackoverflow.com/a/9189873/9715166"
       },
       {
         name: "#5 - The Difference Between Block and Inline Elements",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=NfwBn1ItXhM"
+        link: "https://www.youtube.com/watch?v=NfwBn1ItXhM"
       },
       {
         name: "Understanding HTML Block and Inline Elements: A Learning Journey to Web Development",
         site: "medium",
-        url: "https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599"
+        link: "https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599"
       },
     ],
   },
@@ -2727,17 +2727,17 @@ module.exports = [
       {
         name: "What's the difference between an id and a class?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/544052/9715166"
+        link: "https://stackoverflow.com/a/544052/9715166"
       },
       {
         name: "8: Introduction to Classes and IDs in HTML | Learn HTML and CSS | HTML Tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=wXUhTZpF_HQ"
+        link: "https://www.youtube.com/watch?v=wXUhTZpF_HQ"
       },
       {
         name: "The Difference Between ID and Class",
         site: "medium",
-        url: "https://medium.com/@jennylaister/the-difference-between-id-and-class-689377b22e6d"
+        link: "https://medium.com/@jennylaister/the-difference-between-id-and-class-689377b22e6d"
       },
     ],
   },
@@ -2753,17 +2753,17 @@ module.exports = [
       {
         name: "What is software engineering?",
         site: "quora",
-        url: "https://www.quora.com/What-is-software-engineering"
+        link: "https://www.quora.com/What-is-software-engineering"
       },
       {
         name: "Software Engineering: Crash Course Computer Science #16",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=O753uuutqH8"
+        link: "https://www.youtube.com/watch?v=O753uuutqH8"
       },
       {
         name: "Software Engineering is different from Programming",
         site: "medium",
-        url: "https://medium.com/edge-coders/software-engineering-is-different-from-programming-b108c135af26"
+        link: "https://medium.com/edge-coders/software-engineering-is-different-from-programming-b108c135af26"
       },
     ],
   },
@@ -2779,17 +2779,17 @@ module.exports = [
       {
         name: "What is software development lifecycle?",
         site: "quora",
-        url: "https://www.quora.com/What-is-software-development-lifecycle"
+        link: "https://www.quora.com/What-is-software-development-lifecycle"
       },
       {
         name: "Software Development Lifecycle in 9 minutes!",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=i-QyW8D3ei0"
+        link: "https://www.youtube.com/watch?v=i-QyW8D3ei0"
       },
       {
         name: "What Are the Software Development Life Cycle (SDLC) Stages?",
         site: "medium",
-        url: "https://medium.com/@bydrecinc/what-are-the-software-development-life-cycle-sdlc-stages-7f505ed0dd18"
+        link: "https://medium.com/@bydrecinc/what-are-the-software-development-life-cycle-sdlc-stages-7f505ed0dd18"
       },
     ],
   },
@@ -2805,17 +2805,17 @@ module.exports = [
       {
         name: "What are the pros and cons of the waterfall and agile/scrum project management approach?",
         site: "quora",
-        url: "https://www.quora.com/What-are-the-pros-and-cons-of-the-waterfall-and-agile-scrum-project-management-approach"
+        link: "https://www.quora.com/What-are-the-pros-and-cons-of-the-waterfall-and-agile-scrum-project-management-approach"
       },
       {
         name: "Agile vs. Waterfall",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=e1_eD-5zkGY"
+        link: "https://www.youtube.com/watch?v=e1_eD-5zkGY"
       },
       {
         name: "Waterfall vs Agile",
         site: "medium",
-        url: "https://medium.com/@101/waterfall-vs-agile-9da25daf18e8"
+        link: "https://medium.com/@101/waterfall-vs-agile-9da25daf18e8"
       },
     ],
   },
@@ -2831,17 +2831,17 @@ module.exports = [
       {
         name: "Difference between these 3 manager roles [closed]",
         site: "stack-overflow",
-        url: "https://softwareengineering.stackexchange.com/a/107213"
+        link: "https://softwareengineering.stackexchange.com/a/107213"
       },
       {
         name: "Product Manager vs Project Manager - Project Management Training",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=WGvj_I2L020"
+        link: "https://www.youtube.com/watch?v=WGvj_I2L020"
       },
       {
         name: "Software Project Team Roles and Responsibilities",
         site: "medium",
-        url: "https://medium.com/@SherrieRose/software-project-team-roles-and-responsibilities-152a7d575759"
+        link: "https://medium.com/@SherrieRose/software-project-team-roles-and-responsibilities-152a7d575759"
       },
     ],
   },
@@ -2857,17 +2857,17 @@ module.exports = [
       {
         name: "What is A/B testing?",
         site: "quora",
-        url: "https://www.quora.com/What-is-A-B-testing-1"
+        link: "https://www.quora.com/What-is-A-B-testing-1"
       },
       {
         name: "A/B Testing",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=8H6QmMQWPEI"
+        link: "https://www.youtube.com/watch?v=8H6QmMQWPEI"
       },
       {
         name: "A/B and see: a beginner’s guide to A/B testing",
         site: "medium",
-        url: "https://medium.com/@InVisionApp/a-b-and-see-a-beginner-s-guide-to-a-b-testing-a16406f1a239"
+        link: "https://medium.com/@InVisionApp/a-b-and-see-a-beginner-s-guide-to-a-b-testing-a16406f1a239"
       },
     ],
   },
@@ -2883,17 +2883,17 @@ module.exports = [
       {
         name: "What is the meaning of baseline in software configuration management?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-meaning-of-baseline-in-software-configuration-management"
+        link: "https://www.quora.com/What-is-the-meaning-of-baseline-in-software-configuration-management"
       },
       {
         name: "What is a baseline?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Tr5_mh4oOiw"
+        link: "https://www.youtube.com/watch?v=Tr5_mh4oOiw"
       },
       {
         name: "Modern Software Configuration Management",
         site: "medium",
-        url: "https://medium.com/@ReganKoopmans/modern-software-configuration-management-69e2eb9e40c9"
+        link: "https://medium.com/@ReganKoopmans/modern-software-configuration-management-69e2eb9e40c9"
       },
     ],
   },
@@ -2908,17 +2908,17 @@ module.exports = [
       {
         name: "What is software configuration management?",
         site: "quora",
-        url: "https://www.quora.com/What-is-software-configuration-management"
+        link: "https://www.quora.com/What-is-software-configuration-management"
       },
       {
         name: "What is Configuration Management? - Course Introduction",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=W49zokvnL2g"
+        link: "https://www.youtube.com/watch?v=W49zokvnL2g"
       },
       {
         name: "Software Configuration Management (SCM) Process and Procedure",
         site: "medium",
-        url: "https://medium.com/@sudarhtc/software-configuration-management-scm-process-and-procedure-80a73c40915d"
+        link: "https://medium.com/@sudarhtc/software-configuration-management-scm-process-and-procedure-80a73c40915d"
       },
     ],
   },
@@ -2934,17 +2934,17 @@ module.exports = [
       {
         name: "What is Change Management?",
         site: "quora",
-        url: "https://www.quora.com/What-is-Change-Management"
+        link: "https://www.quora.com/What-is-Change-Management"
       },
       {
         name: "What Is Change Management In Project Management Terms?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=KSHyvLjZHcw"
+        link: "https://www.youtube.com/watch?v=KSHyvLjZHcw"
       },
       {
         name: "Change Management Process",
         site: "medium",
-        url: "https://medium.com/@stangarfield/change-management-process-98948aa347bf"
+        link: "https://medium.com/@stangarfield/change-management-process-98948aa347bf"
       },
     ],
   },
@@ -2960,17 +2960,17 @@ module.exports = [
       {
         name: "What are software requirements?",
         site: "quora",
-        url: "https://www.quora.com/What-are-software-requirements"
+        link: "https://www.quora.com/What-are-software-requirements"
       },
       {
         name: "Software Requirements",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=8uk-2-mX53U"
+        link: "https://www.youtube.com/watch?v=8uk-2-mX53U"
       },
       {
         name: "Software requirements specification. What do you need to know.",
         site: "medium",
-        url: "https://medium.com/globalluxsoft/software-requirements-specification-what-do-you-need-to-know-22a6b8585945"
+        link: "https://medium.com/globalluxsoft/software-requirements-specification-what-do-you-need-to-know-22a6b8585945"
       },
     ],
   },
@@ -2986,17 +2986,17 @@ module.exports = [
       {
         name: "What is a feasibility study? What are the main objectives?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-feasibility-study-What-are-the-main-objectives"
+        link: "https://www.quora.com/What-is-a-feasibility-study-What-are-the-main-objectives"
       },
       {
         name: "How to Conduct a Feasibility Study - Project Management Training",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=WI6_snOjlm0"
+        link: "https://www.youtube.com/watch?v=WI6_snOjlm0"
       },
       {
         name: "Step by Step Guide to Write a Good Feasibility Report?",
         site: "medium",
-        url: "https://medium.com/waqar-hussain/step-by-step-guide-to-write-a-good-feasibility-report-f951896d6c87"
+        link: "https://medium.com/waqar-hussain/step-by-step-guide-to-write-a-good-feasibility-report-f951896d6c87"
       },
     ],
   },
@@ -3013,17 +3013,17 @@ module.exports = [
       {
         name: "What is the difference between functional and non functional requirement? [closed]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/16476014/9715166"
+        link: "https://stackoverflow.com/a/16476014/9715166"
       },
       {
         name: "Functional and Nonfunctional Requirements - Georgia Tech - Software Development Process",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=zCX-N1H8Vps"
+        link: "https://www.youtube.com/watch?v=zCX-N1H8Vps"
       },
       {
         name: "The Essential Function of Non-Functional Requirements",
         site: "medium",
-        url: "https://medium.com/elevator-up/the-essential-function-of-non-functional-requirements-668ae9686ee0"
+        link: "https://medium.com/elevator-up/the-essential-function-of-non-functional-requirements-668ae9686ee0"
       },
     ]
   },
@@ -3039,17 +3039,17 @@ module.exports = [
       {
         name: "What is software quality metrics?",
         site: "quora",
-        url: "https://www.quora.com/What-is-software-quality-metrics"
+        link: "https://www.quora.com/What-is-software-quality-metrics"
       },
       {
         name: "Software Quality Metrics You Need To Know",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=lc0Y1BX7Fig"
+        link: "https://www.youtube.com/watch?v=lc0Y1BX7Fig"
       },
       {
         name: "64 Test Metrics For Measuring Progress, Quality, Productivity & More!",
         site: "medium",
-        url: "https://medium.com/qasymphony/64-test-metrics-for-measuring-progress-quality-productivity-more-4ef220f78b1b"
+        link: "https://medium.com/qasymphony/64-test-metrics-for-measuring-progress-quality-productivity-more-4ef220f78b1b"
       },
     ]
   },
@@ -3065,17 +3065,17 @@ module.exports = [
       {
         name: "What is modularity?",
         site: "quora",
-        url: "https://www.quora.com/What-is-modularity"
+        link: "https://www.quora.com/What-is-modularity"
       },
       {
         name: "Modular Design",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=DuK4dKH0zOA"
+        link: "https://www.youtube.com/watch?v=DuK4dKH0zOA"
       },
       {
         name: "On Modular Architectures",
         site: "medium",
-        url: "https://medium.com/on-software-architecture/on-modular-architectures-53ec61f88ff4"
+        link: "https://medium.com/on-software-architecture/on-modular-architectures-53ec61f88ff4"
       },
     ]
   },
@@ -3091,17 +3091,17 @@ module.exports = [
       {
         name: "What is cohesion?",
         site: "quora",
-        url: "https://www.quora.com/What-is-cohesion"
+        link: "https://www.quora.com/What-is-cohesion"
       },
       {
         name: "Cohesion",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=7WWJceMwk48"
+        link: "https://www.youtube.com/watch?v=7WWJceMwk48"
       },
       {
         name: "Low Coupling, High Cohesion",
         site: "medium",
-        url: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
+        link: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
       },
     ]
   },
@@ -3117,17 +3117,17 @@ module.exports = [
       {
         name: "What is meant by cohesion and coupling in software engineering? Are there some examples available?",
         site: "quora",
-        url: "https://www.quora.com/What-is-meant-by-cohesion-and-coupling-in-software-engineering-Are-there-some-examples-available"
+        link: "https://www.quora.com/What-is-meant-by-cohesion-and-coupling-in-software-engineering-Are-there-some-examples-available"
       },
       {
         name: "Coupling and Cohesion",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Df0WVO-c3Sw"
+        link: "https://www.youtube.com/watch?v=Df0WVO-c3Sw"
       },
       {
         name: "Low Coupling, High Cohesion",
         site: "medium",
-        url: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
+        link: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
       },
     ]
   },
@@ -3143,17 +3143,17 @@ module.exports = [
       {
         name: "What is a data flow diagram?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-data-flow-diagram"
+        link: "https://www.quora.com/What-is-a-data-flow-diagram"
       },
       {
         name: "Data Flow Diagrams - What is DFD? Data Flow Diagram Symbols and More",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=6VGTvgaJllM"
+        link: "https://www.youtube.com/watch?v=6VGTvgaJllM"
       },
       {
         name: "Data Flow Diagram Comprehensive Guide with Examples",
         site: "medium",
-        url: "https://medium.com/@warren2lynch/data-flow-diagram-comprehensive-guide-with-examples-d9858387f25e"
+        link: "https://medium.com/@warren2lynch/data-flow-diagram-comprehensive-guide-with-examples-d9858387f25e"
       },
     ]
   },
@@ -3170,17 +3170,17 @@ module.exports = [
       {
         name: "What is black box testing and white box testing?",
         site: "quora",
-        url: "https://www.quora.com/What-is-black-box-testing-and-white-box-testing"
+        link: "https://www.quora.com/What-is-black-box-testing-and-white-box-testing"
       },
       {
         name: "Black and White Box Testing Introduction - Georgia Tech - Software Development Process",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=jRwwb7iaRsU"
+        link: "https://www.youtube.com/watch?v=jRwwb7iaRsU"
       },
       {
         name: "White Box Testing Vs. Black Box Testing",
         site: "medium",
-        url: "https://medium.com/@techbloggers/white-box-testing-vs-black-box-testing-19754e950398"
+        link: "https://medium.com/@techbloggers/white-box-testing-vs-black-box-testing-19754e950398"
       },
     ]
   },
@@ -3195,17 +3195,17 @@ module.exports = [
       {
         name: "Software Maintenance, Understanding the 4 Types",
         site: "globe",
-        url: "https://www.coderhood.com/software-maintenance-understanding-the-4-types/"
+        link: "https://www.coderhood.com/software-maintenance-understanding-the-4-types/"
       },
       {
         name: "software maintenance | software engineering |",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=8swQr0kckZI"
+        link: "https://www.youtube.com/watch?v=8swQr0kckZI"
       },
       {
         name: "The 4 Types of Software Maintenance",
         site: "medium",
-        url: "https://medium.com/endertech-insights/the-4-types-of-software-maintenance-7c3e96424f22"
+        link: "https://medium.com/endertech-insights/the-4-types-of-software-maintenance-7c3e96424f22"
       },
     ]
   },
@@ -3221,17 +3221,17 @@ module.exports = [
       {
         name: "Decorators  - TypeScriptLang",
         site: "globe",
-        url: "https://www.typescriptlang.org/docs/handbook/decorators.html#decorators"
+        link: "https://www.typescriptlang.org/docs/handbook/decorators.html#decorators"
       },
       {
         name: "The Magic of TypeScript Decorators",
         site: "youtube",
-        url: "https://youtu.be/O6A-u_FoEX8?t=80"
+        link: "https://youtu.be/O6A-u_FoEX8?t=80"
       },
       {
         name: "A Gentle Introduction to TypeScript Decorators",
         site: "medium",
-        url: "https://medium.com/iqoqo-engineering/understand-typescript-decorators-in-5-minutes-26ffc6189082"
+        link: "https://medium.com/iqoqo-engineering/understand-typescript-decorators-in-5-minutes-26ffc6189082"
       },
     ]
   },
@@ -3247,17 +3247,17 @@ module.exports = [
       {
         name: "What is DOM Event delegation?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1688293/9715166"
+        link: "https://stackoverflow.com/a/1688293/9715166"
       },
       {
         name: "What is Event Delegation? - JavaScript DOM Tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=pKzf80F3O0U"
+        link: "https://www.youtube.com/watch?v=pKzf80F3O0U"
       },
       {
         name: "Part 4: What is Event Delegation in JavaScript?",
         site: "medium",
-        url: "https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983"
+        link: "https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983"
       },
     ]
   },
@@ -3273,17 +3273,17 @@ module.exports = [
       {
         name: "prototypal inheritance concept in javascript as a prototype based language",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/12201800/9715166"
+        link: "https://stackoverflow.com/a/12201800/9715166"
       },
       {
         name: "Advanced Javascript - Prototypal Inheritance In 1 Minute",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=G6l5CHl67HQ"
+        link: "https://www.youtube.com/watch?v=G6l5CHl67HQ"
       },
       {
         name: "Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?",
         site: "medium",
-        url: "https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9"
+        link: "https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9"
       },
     ]
   },
@@ -3297,19 +3297,19 @@ module.exports = [
     id: "bb33agd",
     sources: [
       {
-        name: "JavaScript: Difference between .forEach() and .map()",
+        name: "JavaScript : Difference between .forEach() and .map()",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/34426481/9715166"
+        link: "https://stackoverflow.com/a/34426481/9715166"
       },
       {
         name: "Javascript Basics | Map V/s ForEach",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=zfkFIj-Nt0E"
+        link: "https://www.youtube.com/watch?v=zfkFIj-Nt0E"
       },
       {
         name: "JavaScript — Map vs. ForEach",
         site: "medium",
-        url: "https://codeburst.io/javascript-map-vs-foreach-f38111822c0f"
+        link: "https://codeburst.io/javascript-map-vs-foreach-f38111822c0f"
       },
     ]
   },
@@ -3325,17 +3325,17 @@ module.exports = [
       {
         name: "What is Modular JavaScript?",
         site: "quora",
-        url: "https://www.quora.com/What-is-Modular-JavaScript"
+        link: "https://www.quora.com/What-is-Modular-JavaScript"
       },
       {
         name: "Module Design Pattern - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=3pXVHRT-amw"
+        link: "https://www.youtube.com/watch?v=3pXVHRT-amw"
       },
       {
         name: "JavaScript Modules: A Beginner’s Guide",
         site: "medium",
-        url: "https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/"
+        link: "https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/"
       },
     ]
   },
@@ -3351,17 +3351,17 @@ module.exports = [
       {
         name: "What is Ajax and what is it used for?",
         site: "quora",
-        url: "https://www.quora.com/What-is-Ajax-and-what-is-it-used-for"
+        link: "https://www.quora.com/What-is-Ajax-and-what-is-it-used-for"
       },
       {
         name: "JavaScript and AJAX tutorial: What is AJAX? | lynda.com",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=RDo3hBL1rfA"
+        link: "https://www.youtube.com/watch?v=RDo3hBL1rfA"
       },
       {
         name: "The beginners guide to jQuery & AJAX",
         site: "medium",
-        url: "https://medium.com/@peterchic/how-to-care-for-your-ajax-f8bd167de6f6"
+        link: "https://medium.com/@peterchic/how-to-care-for-your-ajax-f8bd167de6f6"
       },
     ]
   },
@@ -3377,17 +3377,17 @@ module.exports = [
       {
         name: "Intro to JavaScript Template Engines",
         site: "globe",
-        url: "https://www.htmlgoodies.com/beyond/javascript/js-ref/intro-to-javascript-template-engines.html"
+        link: "https://www.htmlgoodies.com/beyond/javascript/js-ref/intro-to-javascript-template-engines.html"
       },
       {
         name: "JavaScript Templating Tutorial | Introduction",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=zO9pBjgR8N0"
+        link: "https://www.youtube.com/watch?v=zO9pBjgR8N0"
       },
       {
         name: "JavaScript Templating: What is Templating?",
         site: "medium",
-        url: "https://medium.com/@BuildMySite1/javascript-templating-what-is-templating-7ff49d97db6b"
+        link: "https://medium.com/@BuildMySite1/javascript-templating-what-is-templating-7ff49d97db6b"
       },
     ]
   },
@@ -3404,17 +3404,17 @@ module.exports = [
       {
         name: "What is the difference between properties and attributes in HTML?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/6004028/9715166"
+        link: "https://stackoverflow.com/a/6004028/9715166"
       },
       {
         name: "html attribute vs dom property",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Ut-ATm23_Pg"
+        link: "https://www.youtube.com/watch?v=Ut-ATm23_Pg"
       },
       {
         name: "HTML Attributes vs DOM Properties and Angular 2 Data Binding",
         site: "medium",
-        url: "https://medium.com/@vaqifagayev/html-attributes-vs-dom-properties-and-angular-2-data-binding-9e6e5a09c69d"
+        link: "https://medium.com/@vaqifagayev/html-attributes-vs-dom-properties-and-angular-2-data-binding-9e6e5a09c69d"
       },
     ]
   },
@@ -3430,17 +3430,17 @@ module.exports = [
       {
         name: "Why is extending native objects a bad practice?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/14034242/9715166"
+        link: "https://stackoverflow.com/a/14034242/9715166"
       },
       {
         name: "Extending built in JS objects. Good or bad?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=DbZz8AtxH8Q"
+        link: "https://www.youtube.com/watch?v=DbZz8AtxH8Q"
       },
       {
         name: "Extending Native JavaScript Objects",
         site: "globe",
-        url: "https://www.stevebrownlee.com/extending-native-javascript-objects/"
+        link: "https://www.stevebrownlee.com/extending-native-javascript-objects/"
       },
     ]
   },
@@ -3456,17 +3456,17 @@ module.exports = [
       {
         name: "What is same-origin policy? Why is it required? How is it a security vulnerability?",
         site: "quora",
-        url: "https://www.quora.com/What-is-same-origin-policy-Why-is-it-required-How-is-it-a-security-vulnerability"
+        link: "https://www.quora.com/What-is-same-origin-policy-Why-is-it-required-How-is-it-a-security-vulnerability"
       },
       {
         name: "CSRF Introduction and what is the Same-Origin Policy? - web 0x04",
         site: "yotube",
-        url: "https://youtu.be/KaEj_qZgiKY?t=50"
+        link: "https://youtu.be/KaEj_qZgiKY?t=50"
       },
       {
         name: "Same Origin Policy and ways to Bypass",
         site: "medium",
-        url: "https://medium.com/@minosagap/same-origin-policy-and-ways-to-bypass-250effdc4a12"
+        link: "https://medium.com/@minosagap/same-origin-policy-and-ways-to-bypass-250effdc4a12"
       },
     ]
   },
@@ -3482,17 +3482,17 @@ module.exports = [
       {
         name: "How do I use the conditional operator?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/392946/9715166"
+        link: "https://stackoverflow.com/a/392946/9715166"
       },
       {
         name: "Ternary Operator - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=s4sB1hm73tw"
+        link: "https://www.youtube.com/watch?v=s4sB1hm73tw"
       },
       {
         name: "Ternary Operators in JavaScript",
         site: "medium",
-        url: "https://medium.com/@davidokpare/ternary-operators-in-javascript-94467c6c9e12"
+        link: "https://medium.com/@davidokpare/ternary-operators-in-javascript-94467c6c9e12"
       },
     ]
   },
@@ -3508,17 +3508,17 @@ module.exports = [
       {
         name: "Why are global variables considered bad practice?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/10525602/9715166"
+        link: "https://stackoverflow.com/a/10525602/9715166"
       },
       {
         name: "4 Reasons to Stop Using Global Scope in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=kD-VkzQ5fXI"
+        link: "https://www.youtube.com/watch?v=kD-VkzQ5fXI"
       },
       {
         name: "JS and Global scope",
         site: "medium",
-        url: "https://medium.com/code-smells/js-and-global-scope-5014087badcd"
+        link: "https://medium.com/code-smells/js-and-global-scope-5014087badcd"
       },
     ]
   },
@@ -3534,17 +3534,17 @@ module.exports = [
       {
         name: "What is SPA (single page application)?",
         site: "quora",
-        url: "https://www.quora.com/What-is-SPA-single-page-application"
+        link: "https://www.quora.com/What-is-SPA-single-page-application"
       },
       {
         name: "What Is A Single Page Applicaiton?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=xfGciVdbktI"
+        link: "https://www.youtube.com/watch?v=xfGciVdbktI"
       },
       {
         name: "How Single-Page Applications Work",
         site: "medium",
-        url: "https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46"
+        link: "https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46"
       },
     ]
   },
@@ -3560,17 +3560,17 @@ module.exports = [
       {
         name: "Mutable vs immutable objects",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/214718"
+        link: "https://stackoverflow.com/a/214718"
       },
       {
         name: "Programming Terms: Mutable vs Immutable",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=5qQQ3yzbKp8"
+        link: "https://www.youtube.com/watch?v=5qQQ3yzbKp8"
       },
       {
         name: "Mutability & Immutability In Javascript",
         site: "medium",
-        url: "https://medium.com/@ibraheemabukaff/mutability-immutability-in-javascript-48022d660015"
+        link: "https://medium.com/@ibraheemabukaff/mutability-immutability-in-javascript-48022d660015"
       },
     ]
   },
@@ -3585,17 +3585,17 @@ module.exports = [
       {
         name: "What is the 'Event Loop' in Javascript?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-Event-Loop-in-Javascript"
+        link: "https://www.quora.com/What-is-the-Event-Loop-in-Javascript"
       },
       {
         name: "Javascript event loop | Every Javascript developer must know !",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=XzXIMZMN9k4"
+        link: "https://www.youtube.com/watch?v=XzXIMZMN9k4"
       },
       {
         name: "JavaScript Event Loop Explained",
         site: "medium",
-        url: "https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4"
+        link: "https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4"
       },
     ]
   },
@@ -3611,17 +3611,17 @@ module.exports = [
       {
         name: "What and where are the stack and heap?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/80113"
+        link: "https://stackoverflow.com/a/80113"
       },
       {
         name: "Stack Versus Heap",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=IX3fDYz0WyM"
+        link: "https://www.youtube.com/watch?v=IX3fDYz0WyM"
       },
       {
         name: "Stack vs Heap. What’s the difference and why should I care?",
         site: "medium",
-        url: "https://medium.com/@nickteixeira/stack-vs-heap-whats-the-difference-and-why-should-i-care-5abc78da1a88"
+        link: "https://medium.com/@nickteixeira/stack-vs-heap-whats-the-difference-and-why-should-i-care-5abc78da1a88"
       },
     ]
   },
@@ -3638,17 +3638,17 @@ module.exports = [
       {
         name: "Understanding \"this\" in javascript with arrow functions",
         site: "globe",
-        url: "https://www.codementor.io/dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc"
+        link: "https://www.codementor.io/dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc"
       },
       {
         name: "Arrow function and this keyword in javascript😃",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=tANuyOClBIY"
+        link: "https://www.youtube.com/watch?v=tANuyOClBIY"
       },
       {
         name: "Lexical This - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#lexical-this"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#lexical-this"
       },
     ]
   },
@@ -3664,17 +3664,17 @@ module.exports = [
       {
         name: "What do the three dots (...) mean in JavaScript?",
         site: "globe",
-        url: "https://oprea.rocks/blog/what-do-the-three-dots-mean-in-javascript/"
+        link: "https://oprea.rocks/blog/what-do-the-three-dots-mean-in-javascript/"
       },
       {
         name: "...spread operator and rest operator - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=iLx4ma8ZqvQ"
+        link: "https://www.youtube.com/watch?v=iLx4ma8ZqvQ"
       },
       {
         name: "JavaScript ES6: Spread Operator and Rest Parameters",
         site: "medium",
-        url: "https://medium.com/@luke_smaki/javascript-es6-spread-operator-and-rest-parameters-b3e89d112281"
+        link: "https://medium.com/@luke_smaki/javascript-es6-spread-operator-and-rest-parameters-b3e89d112281"
       },
     ]
   },
@@ -3689,19 +3689,19 @@ module.exports = [
     id: "s77x6ap",
     sources: [
       {
-        name: "JavaScript: test vs exec",
+        name: "JavaScript : test vs exec",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/11005065"
+        link: "https://stackoverflow.com/a/11005065"
       },
       {
         name: "2.6: Regular Expressions: test() and match() - Programming with Text",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=W7S_Vmq0GSs"
+        link: "https://www.youtube.com/watch?v=W7S_Vmq0GSs"
       },
       {
         name: "JS RegExp, Fast and Slow",
         site: "medium",
-        url: "https://medium.com/dailyjs/js-regexp-fast-and-slow-d29d6b77b06"
+        link: "https://medium.com/dailyjs/js-regexp-fast-and-slow-d29d6b77b06"
       },
     ]
   },
@@ -3717,17 +3717,17 @@ module.exports = [
       {
         name: "History API - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/API/History_API"
+        link: "https://developer.mozilla.org/en-US/docs/Web/API/History_API"
       },
       {
         name: "Browser history tutorial - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=C9vsQkMu5gk"
+        link: "https://www.youtube.com/watch?v=C9vsQkMu5gk"
       },
       {
         name: "A little bit of history",
         site: "medium",
-        url: "https://medium.com/@pshrmn/a-little-bit-of-history-f245306f48dd"
+        link: "https://medium.com/@pshrmn/a-little-bit-of-history-f245306f48dd"
       },
     ]
   },
@@ -3743,17 +3743,17 @@ module.exports = [
       {
         name: "Different ways of creating an Object in javascript",
         site: "globe",
-        url: "https://coderwall.com/p/p5cf5w/different-ways-of-creating-an-object-in-javascript"
+        link: "https://coderwall.com/p/p5cf5w/different-ways-of-creating-an-object-in-javascript"
       },
       {
         name: "Different Ways of Creating Objects in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=UrM9xgPxq1E"
+        link: "https://www.youtube.com/watch?v=UrM9xgPxq1E"
       },
       {
         name: "A thing or two about Objects in JavaScript.",
         site: "medium",
-        url: "https://medium.com/front-end-weekly/a-thing-or-two-about-objects-in-javascript-c426a12e8b5f"
+        link: "https://medium.com/front-end-weekly/a-thing-or-two-about-objects-in-javascript-c426a12e8b5f"
       },
     ]
   },
@@ -3770,17 +3770,17 @@ module.exports = [
       {
         name: "javascript deep copy using JSON",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/q/20662319"
+        link: "https://stackoverflow.com/q/20662319"
       },
       {
         name: "Copying Arrays (deep and shallow) - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://youtu.be/EeZBKv34mm4?t=236"
+        link: "https://youtu.be/EeZBKv34mm4?t=236"
       },
       {
         name: "Duplicating Objects - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#duplicating-objects"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#duplicating-objects"
       },
     ]
   },
@@ -3796,17 +3796,17 @@ module.exports = [
       {
         name: "What is array literal notation in javascript and when should you use it?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1094734"
+        link: "https://stackoverflow.com/a/1094734"
       },
       {
         name: "56 Array literal - Javascript Tutorial 2018",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=3gUIWMP1aHI"
+        link: "https://www.youtube.com/watch?v=3gUIWMP1aHI"
       },
       {
         name: "Arrays in JavaScript",
         site: "medium",
-        url: "https://medium.com/swlh/arrays-in-javascript-e64b873ad801"
+        link: "https://medium.com/swlh/arrays-in-javascript-e64b873ad801"
       },
     ]
   },
@@ -3822,17 +3822,17 @@ module.exports = [
       {
         name: "How can I access and process nested objects, arrays or JSON?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/48804507"
+        link: "https://stackoverflow.com/a/48804507"
       },
       {
         name: "Nested Loops & 2D Arrays | Javascript | Tutorial 25",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=6m6QWuhLGZc"
+        link: "https://www.youtube.com/watch?v=6m6QWuhLGZc"
       },
       {
-        name: "Basic JavaScript: Accessing Nested Arrays",
+        name: "Basic JavaScript : Accessing Nested Arrays",
         site: "free-code-camp",
-        url: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays/"
+        link: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays/"
       },
     ]
   },
@@ -3847,17 +3847,17 @@ module.exports = [
       {
         name: "All falsey values in JavaScript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/19839953"
+        link: "https://stackoverflow.com/a/19839953"
       },
       {
         name: "Truthy/Falsy - JavaScript Basics",
         site: "youtube",
-        url: "https://youtu.be/O7rZJdtG10g?t=42"
+        link: "https://youtu.be/O7rZJdtG10g?t=42"
       },
       {
         name: "Dealing with Javascript falsy values",
         site: "medium",
-        url: "https://medium.com/@sgobinda007/dealing-with-javascript-falsy-values-d75a2f1b1c90"
+        link: "https://medium.com/@sgobinda007/dealing-with-javascript-falsy-values-d75a2f1b1c90"
       },
     ]
   },
@@ -3873,17 +3873,17 @@ module.exports = [
       {
         name: "Keep track of how much time is spent showing certain elements on the page",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/6341813"
+        link: "https://stackoverflow.com/a/6341813"
       },
       {
         name: "JavaScript Tip: Tracking Elapsed Time",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=knbUg0Q3qLU"
+        link: "https://www.youtube.com/watch?v=knbUg0Q3qLU"
       },
       {
         name: "Javascript Date and Time in Detail",
         site: "medium",
-        url: "https://medium.com/front-end-weekly/javascript-date-and-time-in-detail-270e85a68124"
+        link: "https://medium.com/front-end-weekly/javascript-date-and-time-in-detail-270e85a68124"
       },
     ]
   },
@@ -3899,17 +3899,17 @@ module.exports = [
       {
         name: "How to round up a number in Javascript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/5191133"
+        link: "https://stackoverflow.com/a/5191133"
       },
       {
         name: "Rounding and Formatting Numbers",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=uyp6WkyPt9Y"
+        link: "https://www.youtube.com/watch?v=uyp6WkyPt9Y"
       },
       {
         name: "How to Round Numbers in JavaScript",
         site: "medium",
-        url: "https://medium.com/@hohanga/how-to-round-numbers-in-javascript-d0c5cfa1a0c"
+        link: "https://medium.com/@hohanga/how-to-round-numbers-in-javascript-d0c5cfa1a0c"
       },
     ]
   },
@@ -3924,17 +3924,17 @@ module.exports = [
       {
         name: "Understanding The Modulus Operator %",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/17525046"
+        link: "https://stackoverflow.com/a/17525046"
       },
       {
         name: "Modulus Operator - CS101 - Udacity",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=MrTtsX2Wg9Q"
+        link: "https://www.youtube.com/watch?v=MrTtsX2Wg9Q"
       },
       {
         name: "Arithmetic Operators - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators"
       },
     ]
   },
@@ -3950,17 +3950,17 @@ module.exports = [
       {
         name: "What is the use of the isNaN function in JavaScript?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-use-of-the-isNaN-function-in-JavaScript"
+        link: "https://www.quora.com/What-is-the-use-of-the-isNaN-function-in-JavaScript"
       },
       {
         name: "JavaScript Tutorial For Beginners - NaN (Not a Number)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=0ZiltZDg9Gg"
+        link: "https://www.youtube.com/watch?v=0ZiltZDg9Gg"
       },
       {
         name: "isNaN() - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN"
       },
     ]
   },
@@ -3977,17 +3977,17 @@ module.exports = [
       {
         name: "Is Number.IsNaN() more broken than isNaN()",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/25176685"
+        link: "https://stackoverflow.com/a/25176685"
       },
       {
         name: "JavaScript Tip: Testing for NaN",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=MOFCavcLVD0"
+        link: "https://www.youtube.com/watch?v=MOFCavcLVD0"
       },
       {
         name: "Difference between isNaN and Number.isNaN",
         site: "medium",
-        url: "https://medium.com/@ismailsimsek/difference-between-isnan-and-number-isnan-19e71c8b7faf"
+        link: "https://medium.com/@ismailsimsek/difference-between-isnan-and-number-isnan-19e71c8b7faf"
       },
     ]
   },
@@ -4003,17 +4003,17 @@ module.exports = [
       {
         name: "What is the difference between prefix and postfix operators?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/7031409"
+        link: "https://stackoverflow.com/a/7031409"
       },
       {
         name: "Programming Misconceptions #5: i++ vs ++i - prefix vs postfix increment or decrement operators",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=1SJMR0QW3Sw"
+        link: "https://www.youtube.com/watch?v=1SJMR0QW3Sw"
       },
       {
         name: "Increment/decrement operators in JS",
         site: "medium",
-        url: "https://medium.com/@Dragonza/increment-decrement-operators-in-js-7f21d4e8848d"
+        link: "https://medium.com/@Dragonza/increment-decrement-operators-in-js-7f21d4e8848d"
       },
     ]
   },
@@ -4029,17 +4029,17 @@ module.exports = [
       {
         name: "Should I be using object literals or constructor functions?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/4859846"
+        link: "https://stackoverflow.com/a/4859846"
       },
       {
         name: "JavaScript for Developers 20 - The Object Literal",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Ccop3E9pJoU"
+        link: "https://www.youtube.com/watch?v=Ccop3E9pJoU"
       },
       {
         name: "Object Literal vs. Constructor in Javascript",
         site: "medium",
-        url: "https://medium.com/@mandeepkaur1/object-literal-vs-constructor-in-javascript-df143296b816"
+        link: "https://medium.com/@mandeepkaur1/object-literal-vs-constructor-in-javascript-df143296b816"
       },
     ]
   },
@@ -4054,17 +4054,17 @@ module.exports = [
       {
         name: "Popups - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Popups"
+        link: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Popups"
       },
       {
         name: "Pop up boxes tutorial - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=y6P8uvqRYgw"
+        link: "https://www.youtube.com/watch?v=y6P8uvqRYgw"
       },
       {
         name: "Popup Boxes",
         site: "free-code-camp",
-        url: "https://guide.freecodecamp.org/javascript/popup-boxes/"
+        link: "https://guide.freecodecamp.org/javascript/popup-boxes/"
       },
     ]
   },
@@ -4079,17 +4079,17 @@ module.exports = [
       {
         name: "What are “concatenating strings” in C++?",
         site: "quora",
-        url: "https://www.quora.com/What-are-%E2%80%9Cconcatenating-strings%E2%80%9D-in-C++"
+        link: "https://www.quora.com/What-are-%E2%80%9Cconcatenating-strings%E2%80%9D-in-C++"
       },
       {
         name: "String Concatenation In Python 3",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=EBvVDmVm3YU"
+        link: "https://www.youtube.com/watch?v=EBvVDmVm3YU"
       },
       {
         name: "Working with strings in JavaScript",
         site: "medium",
-        url: "https://medium.com/swlh/working-with-strings-in-javascript-34060a1c17a9"
+        link: "https://medium.com/swlh/working-with-strings-in-javascript-34060a1c17a9"
       },
     ]
   },
@@ -4104,17 +4104,17 @@ module.exports = [
       {
         name: "How to remove leading and trailing white spaces from a given html string?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/54212708"
+        link: "https://stackoverflow.com/a/54212708"
       },
       {
         name: "32 Remove Whitespace from Start and End - Regular Expressions - freeCodeCamp",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Y1u0ETCwEj8"
+        link: "https://www.youtube.com/watch?v=Y1u0ETCwEj8"
       },
       {
         name: "Removing space in string in Javascript",
         site: "medium",
-        url: "https://medium.com/front-end-weekly/removing-space-in-string-in-javascript-c1bd09a63ad9"
+        link: "https://medium.com/front-end-weekly/removing-space-in-string-in-javascript-c1bd09a63ad9"
       },
     ]
   },
@@ -4130,17 +4130,17 @@ module.exports = [
       {
         name: "string.charAt(x) or string[x]?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/5943760"
+        link: "https://stackoverflow.com/a/5943760"
       },
       {
         name: "Strings: [bracket notation] - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=sPmRfjJdg5Y"
+        link: "https://www.youtube.com/watch?v=sPmRfjJdg5Y"
       },
       {
         name: "7 JavaScript Patterns Part 3: The Bracket Notation",
         site: "medium",
-        url: "https://medium.com/better-programming/7-js-pattern-part-3-the-bracket-notation-f571c2548c0a"
+        link: "https://medium.com/better-programming/7-js-pattern-part-3-the-bracket-notation-f571c2548c0a"
       },
     ]
   },
@@ -4157,17 +4157,17 @@ module.exports = [
       {
         name: "What is the difference between font-weight and font-style on CSS?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-difference-between-font-weight-and-font-style-on-CSS"
+        link: "https://www.quora.com/What-is-the-difference-between-font-weight-and-font-style-on-CSS"
       },
       {
         name: "XHTML and CSS Tutorial - 18 - font-weight & font-style",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=sW6CRoJaaoI"
+        link: "https://www.youtube.com/watch?v=sW6CRoJaaoI"
       },
       {
         name: "Weight and Style",
         site: "globe",
-        url: "https://smad.jmu.edu/shen/webtype/weight.html"
+        link: "https://smad.jmu.edu/shen/webtype/weight.html"
       },
     ]
   },
@@ -4184,17 +4184,17 @@ module.exports = [
       {
         name: "Attribute Selectors - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
       },
       {
         name: "CSS Tutorial For Beginners 18 - Attribute Selectors",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=GVocONem9lw"
+        link: "https://www.youtube.com/watch?v=GVocONem9lw"
       },
       {
         name: "What are CSS Selectors?",
         site: "medium",
-        url: "https://medium.com/beginners-guide-to-mobile-web-development/what-are-css-selectors-1ce3796c326c"
+        link: "https://medium.com/beginners-guide-to-mobile-web-development/what-are-css-selectors-1ce3796c326c"
       },
     ]
   },
@@ -4210,17 +4210,17 @@ module.exports = [
       {
         name: "What is a child selector in CSS?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-child-selector-in-CSS"
+        link: "https://www.quora.com/What-is-a-child-selector-in-CSS"
       },
       {
         name: "CSS Tutorial For Beginners 16 - Child Selectors",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=MlJrAhGVIis"
+        link: "https://www.youtube.com/watch?v=MlJrAhGVIis"
       },
       {
         name: "Introduction to nth-child CSS Selector",
         site: "medium",
-        url: "https://medium.com/better-programming/introduction-to-nth-child-css-selector-9a94c9f00268"
+        link: "https://medium.com/better-programming/introduction-to-nth-child-css-selector-9a94c9f00268"
       },
     ]
   },
@@ -4235,17 +4235,17 @@ module.exports = [
       {
         name: "Combinators",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators"
+        link: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators"
       },
       {
         name: "CSS Combinator Selectors",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=L6Y9Yltj15A"
+        link: "https://www.youtube.com/watch?v=L6Y9Yltj15A"
       },
       {
         name: "CSS Smart Selectors, Part 1 of 2",
         site: "medium",
-        url: "https://medium.com/@davidagash/css-smart-selectors-part-1-of-2-300597beba86"
+        link: "https://medium.com/@davidagash/css-smart-selectors-part-1-of-2-300597beba86"
       },
     ]
   },
@@ -4261,17 +4261,17 @@ module.exports = [
       {
         name: "Universal selectors - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors"
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors"
       },
       {
         name: "CSS Tutorial For Beginners 26 - The Universal Selector",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=EO4ToIX-ZQk"
+        link: "https://www.youtube.com/watch?v=EO4ToIX-ZQk"
       },
       {
         name: "Understanding CSS Selectors",
         site: "medium",
-        url: "https://medium.com/front-end-weekly/understanding-css-selectors-1c03267e7cd2"
+        link: "https://medium.com/front-end-weekly/understanding-css-selectors-1c03267e7cd2"
       },
     ]
   },
@@ -4287,17 +4287,17 @@ module.exports = [
       {
         name: "What is use of <div> tag?",
         site: "quora",
-        url: "https://www.quora.com/What-is-use-of-div-tag"
+        link: "https://www.quora.com/What-is-use-of-div-tag"
       },
       {
         name: "HTML Tutorial for Beginners 13 - The div Tag",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=-XQlr727A8w"
+        link: "https://www.youtube.com/watch?v=-XQlr727A8w"
       },
       {
         name: "Basic Introduction to CSS",
         site: "medium",
-        url: "https://medium.com/the-andela-way/basic-introduction-to-css-81f6041b92d0"
+        link: "https://medium.com/the-andela-way/basic-introduction-to-css-81f6041b92d0"
       },
     ]
   },
@@ -4313,17 +4313,17 @@ module.exports = [
       {
         name: "What is a hyperlink?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-hyperlink"
+        link: "https://www.quora.com/What-is-a-hyperlink"
       },
       {
         name: "12: How to Create Links in HTML | Basics of CSS | Learn HTML and CSS | HTML Tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=DiSvq5SgLMI"
+        link: "https://www.youtube.com/watch?v=DiSvq5SgLMI"
       },
       {
         name: "How to hyperlink!",
         site: "medium",
-        url: "https://medium.com/@jack411ig/how-to-hyperlink-ac5a7a54d45c"
+        link: "https://medium.com/@jack411ig/how-to-hyperlink-ac5a7a54d45c"
       },
     ]
   },
@@ -4338,17 +4338,17 @@ module.exports = [
       {
         name: "How do I redirect to another webpage?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/506004"
+        link: "https://stackoverflow.com/a/506004"
       },
       {
         name: "JavaScript Tutorial 34 - Redirect Page in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=jjxvNpsb6H0"
+        link: "https://www.youtube.com/watch?v=jjxvNpsb6H0"
       },
       {
         name: "How do you redirect to another page in Javascript?",
         site: "medium",
-        url: "https://medium.com/@marikalam/how-do-you-redirect-to-another-page-in-javascript-6c7524c1f88a"
+        link: "https://medium.com/@marikalam/how-do-you-redirect-to-another-page-in-javascript-6c7524c1f88a"
       },
     ]
   },
@@ -4363,17 +4363,17 @@ module.exports = [
       {
         name: "How to check whether a string contains a substring in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1789952"
+        link: "https://stackoverflow.com/a/1789952"
       },
       {
         name: "JavaScript Array includes method",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=iOml7u_sAVk"
+        link: "https://www.youtube.com/watch?v=iOml7u_sAVk"
       },
       {
         name: "Array Includes() and IndexOf() Methods in JavaScript",
         site: "medium",
-        url: "https://medium.com/better-programming/array-includes-method-in-javascript-38d919b59c41"
+        link: "https://medium.com/better-programming/array-includes-method-in-javascript-38d919b59c41"
       },
     ]
   },
@@ -4388,17 +4388,17 @@ module.exports = [
       {
         name: "How do I remove a particular element from an array in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/5767357"
+        link: "https://stackoverflow.com/a/5767357"
       },
       {
         name: "JavaScript Tip: Deleting an Element from an Array",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=lQ5TnRXZoPs"
+        link: "https://www.youtube.com/watch?v=lQ5TnRXZoPs"
       },
       {
         name: "How to remove an element from a JavaScript array.",
         site: "medium",
-        url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
+        link: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
       },
     ]
   },
@@ -4414,17 +4414,17 @@ module.exports = [
       {
         name: "How do I remove a property from a JavaScript object?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/208106"
+        link: "https://stackoverflow.com/a/208106"
       },
       {
         name: "JavaScript for Developers 27 - Deleting properties with the delete operator",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ET8WE2pVihU"
+        link: "https://www.youtube.com/watch?v=ET8WE2pVihU"
       },
       {
         name: "Object’s tricky parts in JavaScript",
         site: "medium",
-        url: "https://medium.com/code-to-express/objects-its-tricky-part-in-javascript-f40eb096f18a"
+        link: "https://medium.com/code-to-express/objects-its-tricky-part-in-javascript-f40eb096f18a"
       },
     ]
   },
@@ -4440,17 +4440,17 @@ module.exports = [
       {
         name: "What is the most efficient way to deep clone an object in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/122704"
+        link: "https://stackoverflow.com/a/122704"
       },
       {
         name: "Deep Copying vs Shallow Copying",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=duyshh9Fs1U"
+        link: "https://www.youtube.com/watch?v=duyshh9Fs1U"
       },
       {
         name: "Duplicating Objects - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#duplicating-objects"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#duplicating-objects"
       },
     ]
   },
@@ -4466,17 +4466,17 @@ module.exports = [
       {
         name: "How do I return the response from an asynchronous call?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/14220323"
+        link: "https://stackoverflow.com/a/14220323"
       },
       {
         name: "Async JS Crash Course - Callbacks, Promises, Async Await",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=PoRJizFvM7s"
+        link: "https://www.youtube.com/watch?v=PoRJizFvM7s"
       },
       {
         name: "Callbacks, Promises and Async/Await",
         site: "medium",
-        url: "https://medium.com/front-end-weekly/callbacks-promises-and-async-await-ad4756e01d90"
+        link: "https://medium.com/front-end-weekly/callbacks-promises-and-async-await-ad4756e01d90"
       },
     ]
   },
@@ -4491,17 +4491,17 @@ module.exports = [
       {
         name: "How do I include a JavaScript file in another JavaScript file?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/950146"
+        link: "https://stackoverflow.com/a/950146"
       },
       {
         name: "import / export (modules) - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Jqn_wjkSZwo"
+        link: "https://www.youtube.com/watch?v=Jqn_wjkSZwo"
       },
       {
         name: "A simple intro to Javascript imports and exports",
         site: "medium",
-        url: "https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac"
+        link: "https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac"
       },
     ]
   },
@@ -4516,17 +4516,17 @@ module.exports = [
       {
         name: "Checking if a checkbox is checked with Javascript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/5176274"
+        link: "https://stackoverflow.com/a/5176274"
       },
       {
         name: "Javascript Checkbox - How To Check If A Check Box Is Checked Or Not [ with source code ]",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=yFYEHSh2iTQ"
+        link: "https://www.youtube.com/watch?v=yFYEHSh2iTQ"
       },
       {
         name: "Handling Checkboxes Onclick",
         site: "globe",
-        url: "https://www.dyn-web.com/tutorials/forms/checkbox/group.php"
+        link: "https://www.dyn-web.com/tutorials/forms/checkbox/group.php"
       },
     ]
   },
@@ -4541,17 +4541,17 @@ module.exports = [
       {
         name: "How to validate an email address in JavaScript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/46181"
+        link: "https://stackoverflow.com/a/46181"
       },
       {
         name: "Regular Expressions (RegEx) Tutorial #15 - Email RegEx Pattern",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=QxjAOSUQjP0"
+        link: "https://www.youtube.com/watch?v=QxjAOSUQjP0"
       },
       {
         name: "How to validate an email address in JavaScript",
         site: "medium",
-        url: "https://medium.com/swlh/how-to-validate-an-email-address-in-javascript-78d33f87f5c6"
+        link: "https://medium.com/swlh/how-to-validate-an-email-address-in-javascript-78d33f87f5c6"
       },
     ]
   },
@@ -4567,17 +4567,17 @@ module.exports = [
       {
         name: "What is href=“#” and why is it used?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/21397285"
+        link: "https://stackoverflow.com/a/21397285"
       },
       {
         name: "12: How to Create Links in HTML | Basics of CSS | Learn HTML and CSS | HTML Tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=DiSvq5SgLMI"
+        link: "https://www.youtube.com/watch?v=DiSvq5SgLMI"
       },
       {
         name: "How to link to a specific paragraph in your Medium article (2018 Table of Contents method)",
         site: "free-code-camp",
-        url: "https://www.freecodecamp.org/news/how-to-link-to-a-specific-paragraph-in-your-medium-article-2018-table-of-contents-method-e66595fea549/"
+        link: "https://www.freecodecamp.org/news/how-to-link-to-a-specific-paragraph-in-your-medium-article-2018-table-of-contents-method-e66595fea549/"
       },
     ]
   },
@@ -4592,19 +4592,19 @@ module.exports = [
     id: "8ld9vff",
     sources: [
       {
-        name: "Which “href” value should I use for JavaScript links, “#” or “javascript:void(0)”?",
+        name: "Which “href” value should I use for JavaScript links, “#” or “javascript :void(0)”?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/138233"
+        link: "https://stackoverflow.com/a/138233"
       },
       {
         name: "JavaScript void Operator",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=TcVdiO6Pw90"
+        link: "https://www.youtube.com/watch?v=TcVdiO6Pw90"
       },
       {
         name: "void operator and JavaScript URIs - MDN",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void#JavaScript_URIs"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void#JavaScript_URIs"
       },
     ]
   },
@@ -4619,17 +4619,17 @@ module.exports = [
       {
         name: "Create GUID / UUID in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/2117523"
+        link: "https://stackoverflow.com/a/2117523"
       },
       {
         name: "JS Package Spotlight Ep.1 - Moment, BcryptJS, JWT Simple, Request & More",
         site: "youtube",
-        url: "https://youtu.be/ON3I5N3PZKs?t=1680"
+        link: "https://youtu.be/ON3I5N3PZKs?t=1680"
       },
       {
         name: "It’s ok to use JavaScript generated GUID in a browser?",
         site: "medium",
-        url: "https://medium.com/este-js-framework/its-ok-to-use-javascript-generated-guid-in-a-browser-373ca6431cf7"
+        link: "https://medium.com/este-js-framework/its-ok-to-use-javascript-generated-guid-in-a-browser-373ca6431cf7"
       },
     ]
   },
@@ -4644,17 +4644,17 @@ module.exports = [
       {
         name: "How do you get a timestamp in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/221297"
+        link: "https://stackoverflow.com/a/221297"
       },
       {
         name: "How to get the current timestamp in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=dOq9q-nCgLE"
+        link: "https://www.youtube.com/watch?v=dOq9q-nCgLE"
       },
       {
         name: "Javascript Date and Time in Detail",
         site: "youtube",
-        url: "https://medium.com/front-end-weekly/javascript-date-and-time-in-detail-270e85a68124"
+        link: "https://medium.com/front-end-weekly/javascript-date-and-time-in-detail-270e85a68124"
       },
     ]
   },
@@ -4669,17 +4669,17 @@ module.exports = [
       {
         name: "How do I make the first letter of a string uppercase in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1026087"
+        link: "https://stackoverflow.com/a/1026087"
       },
       {
         name: "JavaScript Capitalize First Letter: How to make strings and arrays sentence case",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=8IEI-7fj2j4"
+        link: "https://www.youtube.com/watch?v=8IEI-7fj2j4"
       },
       {
         name: "Three Ways to Title Case a Sentence in JavaScript",
         site: "free-code-camp",
-        url: "https://www.freecodecamp.org/news/three-ways-to-title-case-a-sentence-in-javascript-676a9175eb27/"
+        link: "https://www.freecodecamp.org/news/three-ways-to-title-case-a-sentence-in-javascript-676a9175eb27/"
       },
     ]
   },
@@ -4694,17 +4694,17 @@ module.exports = [
       {
         name: "How to append something to an array?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/351421"
+        link: "https://stackoverflow.com/a/351421"
       },
       {
         name: "Common Array Methods - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=MeZVVxLn26E"
+        link: "https://www.youtube.com/watch?v=MeZVVxLn26E"
       },
       {
-        name: "JavaScript: Array Methods Cheatsheet",
+        name: "JavaScript : Array Methods Cheatsheet",
         site: "medium",
-        url: "https://medium.com/@timhancodes/javascript-array-methods-cheatsheet-633f761ac250"
+        link: "https://medium.com/@timhancodes/javascript-array-methods-cheatsheet-633f761ac250"
       },
     ]
   },
@@ -4720,17 +4720,17 @@ module.exports = [
       {
         name: "prevent refresh of page when button inside form clicked",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/13262305"
+        link: "https://stackoverflow.com/a/13262305"
       },
       {
         name: "How to Disable a Submit Button on Submit - JavaScript Tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ACVnMfeXo_U"
+        link: "https://www.youtube.com/watch?v=ACVnMfeXo_U"
       },
       {
         name: "Form validation with JavaScript",
         site: "medium",
-        url: "https://medium.com/the-ui-files/form-validation-with-javascript-4fcf4dd32846"
+        link: "https://medium.com/the-ui-files/form-validation-with-javascript-4fcf4dd32846"
       },
     ]
   },
@@ -4746,17 +4746,17 @@ module.exports = [
       {
         name: "What is the !! (not not) operator in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/784946"
+        link: "https://stackoverflow.com/a/784946"
       },
       {
         name: "JavaScript Double Bang!! Cast to Boolean",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=vsYc4K23FAM"
+        link: "https://www.youtube.com/watch?v=vsYc4K23FAM"
       },
       {
         name: "JS Double Bang — or “The Not Operator Part !!”",
         site: "medium",
-        url: "https://medium.com/@edplatomail/js-double-bang-or-the-not-operator-part-40e55d089bf0"
+        link: "https://medium.com/@edplatomail/js-double-bang-or-the-not-operator-part-40e55d089bf0"
       },
     ]
   },
@@ -4771,17 +4771,17 @@ module.exports = [
       {
         name: "Checking if a key exists in a JavaScript object?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1098955"
+        link: "https://stackoverflow.com/a/1098955"
       },
       {
         name: "Checking if a key exists in a JavaScript object?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=qPHAgHW7a8E"
+        link: "https://www.youtube.com/watch?v=qPHAgHW7a8E"
       },
       {
         name: "A thing or two about Objects in JavaScript.",
         site: "medium",
-        url: "https://medium.com/front-end-weekly/a-thing-or-two-about-objects-in-javascript-c426a12e8b5f"
+        link: "https://medium.com/front-end-weekly/a-thing-or-two-about-objects-in-javascript-c426a12e8b5f"
       },
     ]
   },
@@ -4796,17 +4796,17 @@ module.exports = [
       {
         name: "Iterate through object properties",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/16735184"
+        link: "https://stackoverflow.com/a/16735184"
       },
       {
         name: "JavaScript Nested Loops with Arrays and Objects",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=AqgVLYpBWG8"
+        link: "https://www.youtube.com/watch?v=AqgVLYpBWG8"
       },
       {
         name: "Ways to Loop Through Objects in JavaScript",
         site: "medium",
-        url: "https://medium.com/@darrion/ways-to-loop-through-an-object-in-javascript-622353049c7f"
+        link: "https://medium.com/@darrion/ways-to-loop-through-an-object-in-javascript-622353049c7f"
       },
     ]
   },
@@ -4821,17 +4821,17 @@ module.exports = [
       {
         name: "How to change an element's class with JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/196038/9715166"
+        link: "https://stackoverflow.com/a/196038/9715166"
       },
       {
         name: "JavaScript Change CSS Class Style className Toggle Tutorial",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=degwrcZeGF0"
+        link: "https://www.youtube.com/watch?v=degwrcZeGF0"
       },
       {
         name: "Set CSS styles with javascript",
         site: "dev",
-        url: "https://dev.to/karataev/set-css-styles-with-javascript-3nl5"
+        link: "https://dev.to/karataev/set-css-styles-with-javascript-3nl5"
       },
     ]
   },
@@ -4846,17 +4846,17 @@ module.exports = [
       {
         name: "How do I test for an empty JavaScript object?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/32108184/9715166"
+        link: "https://stackoverflow.com/a/32108184/9715166"
       },
       {
         name: "How to check if an object is empty in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=93nVK7o9ZTM"
+        link: "https://www.youtube.com/watch?v=93nVK7o9ZTM"
       },
       {
         name: "Understanding JavaScript Objects",
         site: "medium",
-        url: "https://blog.halolabs.io/understanding-javascript-objects-d31cd24ca60f"
+        link: "https://blog.halolabs.io/understanding-javascript-objects-d31cd24ca60f"
       },
     ]
   },
@@ -4871,17 +4871,17 @@ module.exports = [
       {
         name: "How to sort an array of integers correctly",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1063027/9715166"
+        link: "https://stackoverflow.com/a/1063027/9715166"
       },
       {
         name: "Sorting Arrays in JavaScript (Array.prototype.sort)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=BbuLjEqFlw0"
+        link: "https://www.youtube.com/watch?v=BbuLjEqFlw0"
       },
       {
         name: "Is Javascript Array.sort() Stable?",
         site: "medium",
-        url: "https://medium.com/@fsufitch/is-javascript-array-sort-stable-46b90822543f"
+        link: "https://medium.com/@fsufitch/is-javascript-array-sort-stable-46b90822543f"
       },
     ]
   },
@@ -4896,17 +4896,17 @@ module.exports = [
       {
         name: "Sorting an array of JavaScript objects by property",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/979289/9715166"
+        link: "https://stackoverflow.com/a/979289/9715166"
       },
       {
         name: "Custom Array Sorts in JavaScript",
         site: "youtube",
-        url: "https://youtu.be/zVevl-K-m7Y?t=301"
+        link: "https://youtu.be/zVevl-K-m7Y?t=301"
       },
       {
         name: "Swift: Sort an array of objects, depending on a boolean property",
         site: "medium",
-        url: "https://medium.com/@flxschmidt/sort-an-array-of-objects-depending-on-a-boolean-property-in-swift-544150965f14"
+        link: "https://medium.com/@flxschmidt/sort-an-array-of-objects-depending-on-a-boolean-property-in-swift-544150965f14"
       },
     ]
   },
@@ -4922,17 +4922,17 @@ module.exports = [
         {
           name: "What does it mean to 'debug' a code?",
           site: "quora",
-          url: "https://www.quora.com/What-does-it-mean-to-debug-a-code"
+          link: "https://www.quora.com/What-does-it-mean-to-debug-a-code"
         },
         {
           name: "Debugging Tips - What is bug and debugging?",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
+          link: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
         },
         {
           name: "How Debugging Can Make You a Better Developer.",
           site: "medium",
-          url: "https://medium.com/swlh/how-debugging-can-make-you-a-better-developer-93db511be8cb"
+          link: "https://medium.com/swlh/how-debugging-can-make-you-a-better-developer-93db511be8cb"
         },
       ]
   },
@@ -4948,17 +4948,17 @@ module.exports = [
       {
         name: "What is the inversion of control principle?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-inversion-of-control-principle"
+        link: "https://www.quora.com/What-is-the-inversion-of-control-principle"
       },
       {
         name: "Inversion of Control",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=vFzP2SaMyA0"
+        link: "https://www.youtube.com/watch?v=vFzP2SaMyA0"
       },
       {
         name: "Overview of Inversion of Control (IoC) and Dependency Injection (DI)",
         site: "medium",
-        url: "https://medium.com/@mena.meseha/inversion-of-control-ioc-and-dependency-injection-di-cad15b9e6ab"
+        link: "https://medium.com/@mena.meseha/inversion-of-control-ioc-and-dependency-injection-di-cad15b9e6ab"
       },
     ]
   },
@@ -4974,17 +4974,17 @@ module.exports = [
       {
         name: "What is Law of Demeter?",
         site: "quora",
-        url: "https://www.quora.com/What-is-Law-of-Demeter"
+        link: "https://www.quora.com/What-is-Law-of-Demeter"
       },
       {
         name: "Law of Demeter",
         site: "quora",
-        url: "https://www.youtube.com/watch?v=C139R2bLews"
+        link: "https://www.youtube.com/watch?v=C139R2bLews"
       },
       {
         name: "Law of Demeter",
         site: "medium",
-        url: "https://medium.com/@bean00/law-of-demeter-68e98f5d2535"
+        link: "https://medium.com/@bean00/law-of-demeter-68e98f5d2535"
       },
     ]
   },
@@ -5000,17 +5000,17 @@ module.exports = [
       {
         name: "Active Record",
         site: "globe",
-        url: "https://www.martinfowler.com/eaaCatalog/activeRecord.html"
+        link: "https://www.martinfowler.com/eaaCatalog/activeRecord.html"
       },
       {
         name: "v41 Active Record",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=UfIq6-C5HFQ"
+        link: "https://www.youtube.com/watch?v=UfIq6-C5HFQ"
       },
       {
         name: "The Active Record and Data Mappers of ORM Pattern",
         site: "medium",
-        url: "https://medium.com/oceanize-geeks/the-active-record-and-data-mappers-of-orm-pattern-eefb8262b7bb"
+        link: "https://medium.com/oceanize-geeks/the-active-record-and-data-mappers-of-orm-pattern-eefb8262b7bb"
       },
     ]
   },
@@ -5026,17 +5026,17 @@ module.exports = [
       {
         name: "Data Mapper",
         site: "globe",
-        url: "https://martinfowler.com/eaaCatalog/dataMapper.html"
+        link: "https://martinfowler.com/eaaCatalog/dataMapper.html"
       },
       {
         name: "Data Mapper Design Pattern",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=DWiupph7ezE"
+        link: "https://www.youtube.com/watch?v=DWiupph7ezE"
       },
       {
         name: "The Active Record and Data Mappers of ORM Pattern",
         site: "medium",
-        url: "https://medium.com/oceanize-geeks/the-active-record-and-data-mappers-of-orm-pattern-eefb8262b7bb"
+        link: "https://medium.com/oceanize-geeks/the-active-record-and-data-mappers-of-orm-pattern-eefb8262b7bb"
       },
     ]
   },
@@ -5052,17 +5052,17 @@ module.exports = [
       {
         name: "What is an Anti-Corruption layer, and how is it used?",
         site: "stack-overflow",
-        url: "https://softwareengineering.stackexchange.com/questions/184464/what-is-an-anti-corruption-layer-and-how-is-it-used"
+        link: "https://softwareengineering.stackexchange.com/questions/184464/what-is-an-anti-corruption-layer-and-how-is-it-used"
       },
       {
         name: "7.5 Designing an Anti Corruption Layer Event Driven Microservices",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=7fT6B7lO9OU"
+        link: "https://www.youtube.com/watch?v=7fT6B7lO9OU"
       },
       {
         name: "The Anti-Corruption Layer Pattern",
         site: "dev",
-        url: "https://dev.to/asarnaout/the-anti-corruption-layer-pattern-pcd"
+        link: "https://dev.to/asarnaout/the-anti-corruption-layer-pattern-pcd"
       },
     ]
   },
@@ -5078,17 +5078,17 @@ module.exports = [
       {
         name: "What is singleton design pattern?",
         site: "quora",
-        url: "https://www.quora.com/What-is-singleton-design-pattern-1"
+        link: "https://www.quora.com/What-is-singleton-design-pattern-1"
       },
       {
         name: "Singleton Design Pattern - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=bgU7FeiWKzc"
+        link: "https://www.youtube.com/watch?v=bgU7FeiWKzc"
       },
       {
         name: "Design patterns: Singleton",
         site: "medium",
-        url: "https://medium.com/@sawomirkowalski/design-patterns-singleton-a343e5bdb47b"
+        link: "https://medium.com/@sawomirkowalski/design-patterns-singleton-a343e5bdb47b"
       },
     ]
   },
@@ -5104,17 +5104,17 @@ module.exports = [
       {
         name: "What does data abstraction exactly mean?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/3635024/9715166"
+        link: "https://stackoverflow.com/a/3635024/9715166"
       },
       {
         name: "Data Abstraction & It's Levels",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ADnzACd-E_c"
+        link: "https://www.youtube.com/watch?v=ADnzACd-E_c"
       },
       {
         name: "Critical Concept: Abstraction",
         site: "medium",
-        url: "https://medium.com/@mattburgess/critical-concept-abstraction-ba9e9c0f225e"
+        link: "https://medium.com/@mattburgess/critical-concept-abstraction-ba9e9c0f225e"
       },
     ]
   },
@@ -5130,17 +5130,17 @@ module.exports = [
       {
         name: "What is DRY in Microservices architecture?",
         site: "quora",
-        url: "https://www.quora.com/What-is-DRY-in-Microservices-architecture"
+        link: "https://www.quora.com/What-is-DRY-in-Microservices-architecture"
       },
       {
         name: "Programming Terms: DRY (Don't Repeat Yourself)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=IGH4-ZhfVDk"
+        link: "https://www.youtube.com/watch?v=IGH4-ZhfVDk"
       },
       {
         name: "Step 30: Don’t Repeat Yourself ~ Steve Smith",
         site: "medium",
-        url: "https://medium.com/@biratkirat/step-30-dont-repeat-yourself-steve-smith-ae98fe7943f"
+        link: "https://medium.com/@biratkirat/step-30-dont-repeat-yourself-steve-smith-ae98fe7943f"
       },
     ]
   },
@@ -5157,17 +5157,17 @@ module.exports = [
       {
         name: "GOTO still considered harmful? [closed]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/46789/9715166"
+        link: "https://stackoverflow.com/a/46789/9715166"
       },
       {
         name: "C-20 goto statement (DANGEROUS)!!!",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=GqWseLqOdzM"
+        link: "https://www.youtube.com/watch?v=GqWseLqOdzM"
       },
       {
         name: "GOTO has never gone (away)",
         site: "medium",
-        url: "https://medium.com/eloquent-coding/goto-has-never-gone-away-f8c0f0851ce6"
+        link: "https://medium.com/eloquent-coding/goto-has-never-gone-away-f8c0f0851ce6"
       },
     ]
   },
@@ -5182,17 +5182,17 @@ module.exports = [
       {
         name: "Postel's Law / Robustness principle: good or bad?",
         site: "quora",
-        url: "https://www.quora.com/Postels-Law-Robustness-principle-good-or-bad"
+        link: "https://www.quora.com/Postels-Law-Robustness-principle-good-or-bad"
       },
       {
         name: "What is the robustness principle?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=_KrCQPR2I4s"
+        link: "https://www.youtube.com/watch?v=_KrCQPR2I4s"
       },
       {
         name: "(Bonus) SOLID Series — 6/5 — Robustness principle",
         site: "medium",
-        url: "https://medium.com/@ipapikas/bonus-solid-series-6-5-robustness-principle-b63a2fd1a4a0"
+        link: "https://medium.com/@ipapikas/bonus-solid-series-6-5-robustness-principle-b63a2fd1a4a0"
       },
     ]
   },
@@ -5208,17 +5208,17 @@ module.exports = [
       {
         name: "What is the separation of concerns in software development?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-separation-of-concerns-in-software-development"
+        link: "https://www.quora.com/What-is-the-separation-of-concerns-in-software-development"
       },
       {
         name: "Software Architecture - Seperation of Concerns",
         site: "youtube",
-        url: "https://youtu.be/GRTQ896UWaI?t=20"
+        link: "https://youtu.be/GRTQ896UWaI?t=20"
       },
       {
         name: "Separation of Concerns",
         site: "medium",
-        url: "https://medium.com/machine-words/separation-of-concerns-1d735b703a60"
+        link: "https://medium.com/machine-words/separation-of-concerns-1d735b703a60"
       },
     ]
   },
@@ -5234,17 +5234,17 @@ module.exports = [
       {
         name: "What does 'low in coupling and high in cohesion' mean",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/14000957/9715166"
+        link: "https://stackoverflow.com/a/14000957/9715166"
       },
       {
         name: "Coupling and Cohesion",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Df0WVO-c3Sw&"
+        link: "https://www.youtube.com/watch?v=Df0WVO-c3Sw&"
       },
       {
         name: "What does Low Coupling and High Cohesion means?",
         site: "medium",
-        url: "https://medium.com/@radinreth/what-does-low-coupling-and-high-cohesion-means-341498c3c97b"
+        link: "https://medium.com/@radinreth/what-does-low-coupling-and-high-cohesion-means-341498c3c97b"
       },
     ]
   },
@@ -5260,17 +5260,17 @@ module.exports = [
       {
         name: "Difference Between Cohesion and Coupling",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/3085419/9715166"
+        link: "https://stackoverflow.com/a/3085419/9715166"
       },
       {
         name: "Coupling and Cohesion",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Df0WVO-c3Sw"
+        link: "https://www.youtube.com/watch?v=Df0WVO-c3Sw"
       },
       {
         name: "Software Engineering | Coupling and Cohesion",
         site: "globe",
-        url: "https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/"
+        link: "https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/"
       },
     ]
   },
@@ -5286,17 +5286,17 @@ module.exports = [
       {
         name: "What is code refactoring and what is it used for?",
         site: "quora",
-        url: "https://www.quora.com/What-is-code-refactoring-and-what-is-it-used-for"
+        link: "https://www.quora.com/What-is-code-refactoring-and-what-is-it-used-for"
       },
       {
         name: "Programming tutorial: What refactoring is | lynda.com",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=7VdSoCqrr8w"
+        link: "https://www.youtube.com/watch?v=7VdSoCqrr8w"
       },
       {
         name: "Code Refactoring — How to Write Better Code",
         site: "medium",
-        url: "https://medium.com/@fionnachan/code-refactoring-how-to-write-better-code-d1aeab549597"
+        link: "https://medium.com/@fionnachan/code-refactoring-how-to-write-better-code-d1aeab549597"
       },
     ]
   },
@@ -5312,17 +5312,17 @@ module.exports = [
       {
         name: "Advantages of stateless programming?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/844548/9715166"
+        link: "https://stackoverflow.com/a/844548/9715166"
       },
       {
         name: "Stateless - Web Development",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=SkXbGKeQPGM"
+        link: "https://www.youtube.com/watch?v=SkXbGKeQPGM"
       },
       {
         name: "Stateless Over Stateful Applications",
         site: "medium",
-        url: "https://medium.com/@rachna3singhal/stateless-over-stateful-applications-73cbe025f07"
+        link: "https://medium.com/@rachna3singhal/stateless-over-stateful-applications-73cbe025f07"
       },
     ]
   },
@@ -5338,17 +5338,17 @@ module.exports = [
       {
         name: "What is eventual consistency?",
         site: "quora",
-        url: "https://www.quora.com/What-is-eventual-consistency"
+        link: "https://www.quora.com/What-is-eventual-consistency"
       },
       {
         name: "Eventual Consistency",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=fIfH-kUaX4c"
+        link: "https://www.youtube.com/watch?v=fIfH-kUaX4c"
       },
       {
         name: "Strong consistency vs Eventual consistency",
         site: "medium",
-        url: "https://medium.com/@sharmaNK/strong-consistency-vs-eventual-consistency-2d2ad35c003c"
+        link: "https://medium.com/@sharmaNK/strong-consistency-vs-eventual-consistency-2d2ad35c003c"
       },
     ]
   },
@@ -5364,17 +5364,17 @@ module.exports = [
       {
         name: "What Is CAP Theorem?",
         site: "quora",
-        url: "https://www.quora.com/What-Is-CAP-Theorem-1"
+        link: "https://www.quora.com/What-Is-CAP-Theorem-1"
       },
       {
         name: "L16: The CAP Theorem",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=k-Yaq8AHlFA"
+        link: "https://www.youtube.com/watch?v=k-Yaq8AHlFA"
       },
       {
         name: "CAP theorem explained",
         site: "medium",
-        url: "https://medium.com/@shankarvasudevan/cap-theorem-explained-a0f5f64af446"
+        link: "https://medium.com/@shankarvasudevan/cap-theorem-explained-a0f5f64af446"
       },
     ]
   },
@@ -5390,17 +5390,17 @@ module.exports = [
       {
         name: "What are the differences between the SQL and NoSQL databases?",
         site: "quora",
-        url: "https://www.quora.com/What-are-the-differences-between-the-SQL-and-NoSQL-databases"
+        link: "https://www.quora.com/What-are-the-differences-between-the-SQL-and-NoSQL-databases"
       },
       {
         name: "Difference Between SQL Vs NoSQL",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=9G5960c2EQ4"
+        link: "https://www.youtube.com/watch?v=9G5960c2EQ4"
       },
       {
         name: "The SQL vs NoSQL",
         site: "medium",
-        url: "https://medium.com/@sam20gh/the-sql-vs-nosql-713613cdac5c"
+        link: "https://medium.com/@sam20gh/the-sql-vs-nosql-713613cdac5c"
       },
     ]
   },
@@ -5416,17 +5416,17 @@ module.exports = [
       {
         name: "What is Kubernetes in simple words?",
         site: "quora",
-        url: "https://www.quora.com/What-is-Kubernetes-in-simple-words"
+        link: "https://www.quora.com/What-is-Kubernetes-in-simple-words"
       },
       {
         name: "Kubernetes in 5 mins",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=PH-2FfFD2PU"
+        link: "https://www.youtube.com/watch?v=PH-2FfFD2PU"
       },
       {
         name: "Kubernetes 101: Pods, Nodes, Containers, and Clusters",
         site: "medium",
-        url: "https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16"
+        link: "https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16"
       },
     ]
   },
@@ -5441,17 +5441,17 @@ module.exports = [
       {
         name: "What is a virtual machine?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-virtual-machine"
+        link: "https://www.quora.com/What-is-a-virtual-machine"
       },
       {
         name: "What's a Virtual Machine?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=2v_3f_jjLL4"
+        link: "https://www.youtube.com/watch?v=2v_3f_jjLL4"
       },
       {
         name: "Containers and Virtual Machines: An Overview",
         site: "medium",
-        url: "https://medium.com/better-programming/containers-and-virtual-machines-an-overview-94c558905b6"
+        link: "https://medium.com/better-programming/containers-and-virtual-machines-an-overview-94c558905b6"
       },
     ]
   },
@@ -5467,17 +5467,17 @@ module.exports = [
       {
         name: "What is Linux?",
         site: "quora",
-        url: "https://www.quora.com/What-is-Linux-4"
+        link: "https://www.quora.com/What-is-Linux-4"
       },
       {
         name: "What is Linux?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=zA3vmx0GaO8"
+        link: "https://www.youtube.com/watch?v=zA3vmx0GaO8"
       },
       {
         name: "What is Linux?",
         site: "medium",
-        url: "https://medium.com/@manujarvinen/what-is-linux-a80383275724"
+        link: "https://medium.com/@manujarvinen/what-is-linux-a80383275724"
       },
     ]
   },
@@ -5493,17 +5493,17 @@ module.exports = [
       {
         name: "What are the advantages of the Linux server over the Windows server? [closed]",
         site: "stack-overflow",
-        url: "https://serverfault.com/a/11727"
+        link: "https://serverfault.com/a/11727"
       },
       {
         name: "Is Windows or Linux Better for Web Hosting?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=wjAPWtCadb0"
+        link: "https://www.youtube.com/watch?v=wjAPWtCadb0"
       },
       {
         name: "6 Reasons Why Linux is Better than Windows For Servers",
         site: "globe",
-        url: "https://www.tecmint.com/why-linux-is-better-than-windows-for-servers/"
+        link: "https://www.tecmint.com/why-linux-is-better-than-windows-for-servers/"
       },
     ]
   },
@@ -5519,17 +5519,17 @@ module.exports = [
       {
         name: "Which one is better: Linux or Windows?",
         site: "quora",
-        url: "https://www.quora.com/Which-one-is-better-Linux-or-Windows"
+        link: "https://www.quora.com/Which-one-is-better-Linux-or-Windows"
       },
       {
         name: "Is Linux Finally Beating Windows? (Microsoft Windows vs Linux OS Battle)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=EB5hPlqrGU8"
+        link: "https://www.youtube.com/watch?v=EB5hPlqrGU8"
       },
       {
         name: "I switched from Windows to Linux. Here are the lessons I learned along the way.",
         site: "free-code-camp",
-        url: "https://www.freecodecamp.org/news/i-switched-from-windows-to-linux-here-are-the-lessons-i-learned-along-the-way-434da84ab63f/"
+        link: "https://www.freecodecamp.org/news/i-switched-from-windows-to-linux-here-are-the-lessons-i-learned-along-the-way-434da84ab63f/"
       },
     ]
   },
@@ -5545,17 +5545,17 @@ module.exports = [
       {
         name: "What is agile development?",
         site: "quora",
-        url: "https://www.quora.com/What-is-agile-development"
+        link: "https://www.quora.com/What-is-agile-development"
       },
       {
         name: "What is Agile Methodology?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ZZ_vnqvW4DQ"
+        link: "https://www.youtube.com/watch?v=ZZ_vnqvW4DQ"
       },
       {
         name: "An Introduction To: Agile Software Development",
         site: "medium",
-        url: "https://medium.com/shecancode/an-introduction-to-agile-software-development-914339dcec66"
+        link: "https://medium.com/shecancode/an-introduction-to-agile-software-development-914339dcec66"
       },
     ]
   },
@@ -5571,17 +5571,17 @@ module.exports = [
       {
         name: "What is sprint in agile?",
         site: "quora",
-        url: "https://www.quora.com/What-is-sprint-in-agile"
+        link: "https://www.quora.com/What-is-sprint-in-agile"
       },
       {
         name: "What is a Sprint?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=7wGQU37fyiI"
+        link: "https://www.youtube.com/watch?v=7wGQU37fyiI"
       },
       {
         name: "A Short Introduction to the Scrum Methodology",
         site: "medium",
-        url: "https://medium.com/chingu/a-short-introduction-to-the-scrum-methodology-7a23431b9f17"
+        link: "https://medium.com/chingu/a-short-introduction-to-the-scrum-methodology-7a23431b9f17"
       },
     ]
   },
@@ -5597,17 +5597,17 @@ module.exports = [
       {
         name: "What is an API?",
         site: "quora",
-        url: "https://www.quora.com/What-is-an-API-4"
+        link: "https://www.quora.com/What-is-an-API-4"
       },
       {
         name: "What is an API? (Application Programming Interface)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=6STSHbdXQWI"
+        link: "https://www.youtube.com/watch?v=6STSHbdXQWI"
       },
       {
         name: "What exactly IS an API?",
         site: "medium",
-        url: "https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f"
+        link: "https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f"
       },
     ]
   },
@@ -5623,17 +5623,17 @@ module.exports = [
       {
         name: "What is a REST API?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-REST-API"
+        link: "https://www.quora.com/What-is-a-REST-API"
       },
       {
         name: "What are RESTful Services (RESTful APIs)? | Mosh",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=SLwpqD8n3d0"
+        link: "https://www.youtube.com/watch?v=SLwpqD8n3d0"
       },
       {
         name: "What is a RESTful API?",
         site: "medium",
-        url: "https://medium.com/@lazlojuly/what-is-a-restful-api-fabb8dc2afeb"
+        link: "https://medium.com/@lazlojuly/what-is-a-restful-api-fabb8dc2afeb"
       },
     ]
   },
@@ -5648,17 +5648,17 @@ module.exports = [
       {
         name: "What are HTTP methods and what are they used for?",
         site: "quora",
-        url: "https://www.quora.com/What-are-HTTP-methods-and-what-are-they-used-for"
+        link: "https://www.quora.com/What-are-HTTP-methods-and-what-are-they-used-for"
       },
       {
         name: "Http Methods",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=guYMSP7JVTA"
+        link: "https://www.youtube.com/watch?v=guYMSP7JVTA"
       },
       {
         name: "Using HTTP Methods for RESTful Services",
         site: "medium",
-        url: "https://medium.com/@kumaraksi/using-http-methods-for-restful-services-e6671cf70d4d"
+        link: "https://medium.com/@kumaraksi/using-http-methods-for-restful-services-e6671cf70d4d"
       },
     ]
   },
@@ -5674,17 +5674,17 @@ module.exports = [
         {
           name: "What is jQuery?",
           site: "quora",
-          url: "https://www.quora.com/What-is-jQuery"
+          link: "https://www.quora.com/What-is-jQuery"
         },
         {
           name: "jQuery Basics - What is jQuery?",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=U4UZVbQ8md0"
+          link: "https://www.youtube.com/watch?v=U4UZVbQ8md0"
         },
         {
           name: "The Life and Death of jQuery",
           site: "medium",
-          url: "https://medium.com/mayazine/the-life-and-death-of-jquery-9aca562c80b9"
+          link: "https://medium.com/mayazine/the-life-and-death-of-jquery-9aca562c80b9"
         },
       ]
   },
@@ -5700,17 +5700,17 @@ module.exports = [
         {
           name: "What is Coffeescript ? Where is it used?",
           site: "quora",
-          url: "https://www.quora.com/What-is-Coffeescript-Where-is-it-used"
+          link: "https://www.quora.com/What-is-Coffeescript-Where-is-it-used"
         },
         {
           name: "What is CoffeeScript All About - An Introduction plus How You Can Benefit from Using it",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=bNpXerBejPg"
+          link: "https://www.youtube.com/watch?v=bNpXerBejPg"
         },
         {
           name: "Why CoffeeScript is still alive",
           site: "medium",
-          url: "https://codeburst.io/why-coffeescript-is-still-alive-aeb369b91b85"
+          link: "https://codeburst.io/why-coffeescript-is-still-alive-aeb369b91b85"
         },
       ]
   },
@@ -5726,17 +5726,17 @@ module.exports = [
         {
           name: "Should I learn jQuery or CoffeeScript?",
           site: "quora",
-          url: "https://www.quora.com/Should-I-learn-jQuery-or-CoffeeScript"
+          link: "https://www.quora.com/Should-I-learn-jQuery-or-CoffeeScript"
         },
         {
           name: "Library vs Framework 1 - JavaScript Design Patterns",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=JRU-w8O2Ziw"
+          link: "https://www.youtube.com/watch?v=JRU-w8O2Ziw"
         },
         {
           name: "Libraries vs. Frameworks",
           site: "medium",
-          url: "https://medium.com/datafire-io/libraries-vs-frameworks-626cdde799a7"
+          link: "https://medium.com/datafire-io/libraries-vs-frameworks-626cdde799a7"
         },
       ]
   },
@@ -5752,17 +5752,17 @@ module.exports = [
         {
           name: "Is jQuery still popular for 2019?",
           site: "quora",
-          url: "https://www.quora.com/Is-jQuery-still-popular-for-2019"
+          link: "https://www.quora.com/Is-jQuery-still-popular-for-2019"
         },
         {
           name: "Is jQuery Still Relevant in 2018?",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=pk3tsynNZ0w"
+          link: "https://www.youtube.com/watch?v=pk3tsynNZ0w"
         },
         {
           name: "The Life and Death of jQuery",
           site: "medium",
-          url: "https://medium.com/mayazine/the-life-and-death-of-jquery-9aca562c80b9"
+          link: "https://medium.com/mayazine/the-life-and-death-of-jquery-9aca562c80b9"
         },
       ]
   },
@@ -5778,17 +5778,17 @@ module.exports = [
         {
           name: "What is a computer bug?",
           site: "quora",
-          url: "https://www.quora.com/What-is-a-computer-bug"
+          link: "https://www.quora.com/What-is-a-computer-bug"
         },
         {
           name: "Debugging Tips - What is bug and debugging?",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
+          link: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
         },
         {
           name: "How to find your first open source bug to fix",
           site: "medium",
-          url: "https://medium.com/free-code-camp/finding-your-first-open-source-project-or-bug-to-work-on-1712f651e5ba"
+          link: "https://medium.com/free-code-camp/finding-your-first-open-source-project-or-bug-to-work-on-1712f651e5ba"
         },
       ]
   },
@@ -5804,17 +5804,17 @@ module.exports = [
         {
           name: "What is coding?",
           site: "quora",
-          url: "https://www.quora.com/What-is-coding"
+          link: "https://www.quora.com/What-is-coding"
         },
         {
           name: "What is Coding?",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=N7ZmPYaXoic"
+          link: "https://www.youtube.com/watch?v=N7ZmPYaXoic"
         },
         {
           name: "Learning to code",
           site: "medium",
-          url: "https://medium.com/swlh/learning-to-code-45f7e1657c1e"
+          link: "https://medium.com/swlh/learning-to-code-45f7e1657c1e"
         },
       ]
   },
@@ -5830,17 +5830,17 @@ module.exports = [
         {
           name: "What is deployment generally mean in computer science?",
           site: "quora",
-          url: "https://www.quora.com/What-is-deployment-generally-mean-in-computer-science"
+          link: "https://www.quora.com/What-is-deployment-generally-mean-in-computer-science"
         },
         {
           name: "03 L What Is Deployment-",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=nZ3BaTY8c9M"
+          link: "https://www.youtube.com/watch?v=nZ3BaTY8c9M"
         },
         {
           name: "A Journey to Better Deployments",
           site: "medium",
-          url: "https://medium.com/spaceapetech/a-journey-to-better-deployments-a255eb69bbf2"
+          link: "https://medium.com/spaceapetech/a-journey-to-better-deployments-a255eb69bbf2"
         },
       ]
   },
@@ -5856,17 +5856,17 @@ module.exports = [
         {
           name: "What must software documentation contain?",
           site: "quora",
-          url: "https://www.quora.com/What-must-software-documentation-contain"
+          link: "https://www.quora.com/What-must-software-documentation-contain"
         },
         {
           name: "Software Documentation",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=ApqnZIWPw7s"
+          link: "https://www.youtube.com/watch?v=ApqnZIWPw7s"
         },
         {
           name: "Writing great documentation",
           site: "medium",
-          url: "https://medium.com/@episod/writing-great-documentation-44d90367115a"
+          link: "https://medium.com/@episod/writing-great-documentation-44d90367115a"
         },
       ]
   },
@@ -5882,17 +5882,17 @@ module.exports = [
         {
           name: "What does domain name mean?",
           site: "quora",
-          url: "https://www.quora.com/What-does-domain-name-mean"
+          link: "https://www.quora.com/What-does-domain-name-mean"
         },
         {
           name: "DNS as Fast As Possible",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=Rck3BALhI5c"
+          link: "https://www.youtube.com/watch?v=Rck3BALhI5c"
         },
         {
           name: "What Exactly Is DNS Anyways?",
           site: "medium",
-          url: "https://medium.com/@maheshkariya/what-exactly-is-dns-anyways-4239278ab1b4"
+          link: "https://medium.com/@maheshkariya/what-exactly-is-dns-anyways-4239278ab1b4"
         },
       ]
   },
@@ -5908,17 +5908,17 @@ module.exports = [
         {
           name: "What is a framework in programming?",
           site: "quora",
-          url: "https://www.quora.com/What-is-a-framework-in-programming"
+          link: "https://www.quora.com/What-is-a-framework-in-programming"
         },
         {
           name: "What Is a Framework in Programming? | Why Is It Useful?",
           site: "youtube",
-          url: "https://www.youtube.com/watch?v=BfhSoFARn6w"
+          link: "https://www.youtube.com/watch?v=BfhSoFARn6w"
         },
         {
           name: "JavaScript Frameworks, Performance Comparison",
           site: "medium",
-          url: "https://medium.com/@ajmeyghani/javascript-frameworks-performance-comparison-c566d19ab65b"
+          link: "https://medium.com/@ajmeyghani/javascript-frameworks-performance-comparison-c566d19ab65b"
         },
       ]
   },
@@ -5934,17 +5934,17 @@ module.exports = [
       {
         name: "What is a front-end developer?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-front-end-developer"
+        link: "https://www.quora.com/What-is-a-front-end-developer"
       },
       {
         name: "What front end development means",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=3VJItso0MsM"
+        link: "https://www.youtube.com/watch?v=3VJItso0MsM"
       },
       {
         name: "Learn to become a modern Frontend Developer in 2019",
         site: "medium",
-        url: "https://medium.com/@kamranahmedse/modern-frontend-developer-in-2018-4c2072fa2b9c"
+        link: "https://medium.com/@kamranahmedse/modern-frontend-developer-in-2018-4c2072fa2b9c"
       },
     ]
   },
@@ -5960,17 +5960,17 @@ module.exports = [
       {
         name: "What is a back-end developer?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-back-end-developer"
+        link: "https://www.quora.com/What-is-a-back-end-developer"
       },
       {
         name: "What Is Back-End?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=WwbBOQaM0Zw"
+        link: "https://www.youtube.com/watch?v=WwbBOQaM0Zw"
       },
       {
         name: "What Is Back-End Development?",
         site: "medium",
-        url: "https://medium.com/@larong2122/what-is-back-end-development-d93732c129e9"
+        link: "https://medium.com/@larong2122/what-is-back-end-development-d93732c129e9"
       },
     ]
   },
@@ -5986,17 +5986,17 @@ module.exports = [
       {
         name: "What does a Full Stack developer do, in simple terms?",
         site: "quora",
-        url: "https://www.quora.com/What-does-a-Full-Stack-developer-do-in-simple-terms"
+        link: "https://www.quora.com/What-does-a-Full-Stack-developer-do-in-simple-terms"
       },
       {
         name: "What Is a Full Stack Developer & How To Become a Full Stack Developer in 1 Year",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=UtDpYVf9jKU"
+        link: "https://www.youtube.com/watch?v=UtDpYVf9jKU"
       },
       {
         name: "How to become a full stack developer — Backend",
         site: "medium",
-        url: "https://medium.com/datadriveninvestor/how-to-become-a-full-stack-developer-backend-53c0330eaa64"
+        link: "https://medium.com/datadriveninvestor/how-to-become-a-full-stack-developer-backend-53c0330eaa64"
       },
     ]
   },
@@ -6012,17 +6012,17 @@ module.exports = [
       {
         name: "What is Git and why should I use it?",
         site: "quora",
-        url: "https://www.quora.com/What-is-Git-and-why-should-I-use-it"
+        link: "https://www.quora.com/What-is-Git-and-why-should-I-use-it"
       },
       {
         name: "What is Git and Github?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=uUuTYDg9XoI"
+        link: "https://www.youtube.com/watch?v=uUuTYDg9XoI"
       },
       {
         name: "Learn the Basics of Git in Under 10 Minutes",
         site: "free-code-camp",
-        url: "https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/"
+        link: "https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/"
       },
     ]
   },
@@ -6037,17 +6037,17 @@ module.exports = [
       {
         name: "What is GitHub for a beginner and how do I get started with it?",
         site: "quora",
-        url: "https://www.quora.com/What-is-GitHub-for-a-beginner-and-how-do-I-get-started-with-it"
+        link: "https://www.quora.com/What-is-GitHub-for-a-beginner-and-how-do-I-get-started-with-it"
       },
       {
         name: "What is GitHub?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+        link: "https://www.youtube.com/watch?v=w3jLJU7DT5E"
       },
       {
         name: "A Beginner’s Guide to Github",
         site: "medium",
-        url: "https://medium.com/swlh/a-beginners-guide-to-github-e4747a93765c"
+        link: "https://medium.com/swlh/a-beginners-guide-to-github-e4747a93765c"
       },
     ]
   },
@@ -6062,17 +6062,17 @@ module.exports = [
       {
         name: "Longest Substring Without Repeating Characters in JS",
         site: "stack-overflow",
-        url: "https://codereview.stackexchange.com/a/220231"
+        link: "https://codereview.stackexchange.com/a/220231"
       },
       {
         name: "CODING INTERVIEW PRACTICE | EP 2 | LONGEST SUBSTRING WITHOUT REPEATS",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=sZosU8JjVaA"
+        link: "https://www.youtube.com/watch?v=sZosU8JjVaA"
       },
       {
         name: "Longest Substring Without Repeating Characters",
         site: "medium",
-        url: "https://medium.com/@dimko1/longest-substring-without-repeating-characters-997ded46e89d"
+        link: "https://medium.com/@dimko1/longest-substring-without-repeating-characters-997ded46e89d"
       },
     ]
   },
@@ -6087,17 +6087,17 @@ module.exports = [
       {
         name: "Convert a string to an integer?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1133814"
+        link: "https://stackoverflow.com/a/1133814"
       },
       {
         name: "Easily Convert JavaScript Strings to Numbers",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=nhOnfbAmebg"
+        link: "https://www.youtube.com/watch?v=nhOnfbAmebg"
       },
       {
         name: "JS String to Number",
         site: "medium",
-        url: "https://medium.com/@cristi.nord/js-string-to-number-7d82010ef263"
+        link: "https://medium.com/@cristi.nord/js-string-to-number-7d82010ef263"
       },
     ]
   },
@@ -6112,17 +6112,17 @@ module.exports = [
       {
         name: "What's the best way to convert a number to a string in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/5765401"
+        link: "https://stackoverflow.com/a/5765401"
       },
       {
         name: "JavaScript Strings",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=09BwruU4kiY"
+        link: "https://www.youtube.com/watch?v=09BwruU4kiY"
       },
       {
         name: "5 Ways to Convert a Value to String in JavaScript",
         site: "medium",
-        url: "https://medium.com/dailyjs/5-ways-to-convert-a-value-to-string-in-javascript-6b334b2fc778"
+        link: "https://medium.com/dailyjs/5-ways-to-convert-a-value-to-string-in-javascript-6b334b2fc778"
       },
     ]
   },
@@ -6137,17 +6137,17 @@ module.exports = [
       {
         name: "Counting number of vowels in a string with JavaScript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/29450463"
+        link: "https://stackoverflow.com/a/29450463"
       },
       {
         name: "Javascript Challenges - Count the number of vowels in a string",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=j8CU_quwHv0"
+        link: "https://www.youtube.com/watch?v=j8CU_quwHv0"
       },
       {
         name: "Javascript Algorithms #1: Counting the Vowels in a String Of Text",
         site: "dev",
-        url: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
+        link: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
       },
     ]
   },
@@ -6162,17 +6162,17 @@ module.exports = [
       {
         name: "What is the most efficient way to reverse an array in Javascript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/9113136/9715166"
+        link: "https://stackoverflow.com/a/9113136/9715166"
       },
       {
         name: "Javascript reverse an Array",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=_KUdewtpQL4"
+        link: "https://www.youtube.com/watch?v=_KUdewtpQL4"
       },
       {
         name: "Code Recipe: How to Reverse an Array in JavaScript",
         site: "medium",
-        url: "https://medium.com/dailyjs/code-recipe-how-to-reverse-an-array-in-javascript-4a0306001d28"
+        link: "https://medium.com/dailyjs/code-recipe-how-to-reverse-an-array-in-javascript-4a0306001d28"
       },
     ]
   },
@@ -6187,17 +6187,17 @@ module.exports = [
       {
         name: "How do you reverse a string in place in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/959004/9715166"
+        link: "https://stackoverflow.com/a/959004/9715166"
       },
       {
         name: "Javascript Coding Challenge #1: Reverse a String (FreeCodeCamp)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=miiM5JJgrQo"
+        link: "https://www.youtube.com/watch?v=miiM5JJgrQo"
       },
       {
         name: "Reverse a String in JavaScript",
         site: "medium",
-        url: "https://medium.com/sonyamoisset/reverse-a-string-in-javascript-a18027b8e91c"
+        link: "https://medium.com/sonyamoisset/reverse-a-string-in-javascript-a18027b8e91c"
       },
     ]
   },
@@ -6212,17 +6212,17 @@ module.exports = [
       {
         name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1077692/9715166"
+        link: "https://stackoverflow.com/a/1077692/9715166"
       },
       {
         name: "Core Javascript Tutorial - toLowerCase(), toUpperCase() and trim() method of String Object",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=hivLxFl-kAg"
+        link: "https://www.youtube.com/watch?v=hivLxFl-kAg"
       },
       {
         name: "String.prototype.toUpperCase()",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
       },
     ]
   },
@@ -6237,17 +6237,17 @@ module.exports = [
       {
         name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1077692/9715166"
+        link: "https://stackoverflow.com/a/1077692/9715166"
       },
       {
         name: "Core Javascript Tutorial - toLowerCase(), toUpperCase() and trim() method of String Object",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=hivLxFl-kAg"
+        link: "https://www.youtube.com/watch?v=hivLxFl-kAg"
       },
       {
         name: "String.prototype.toLowerCase()",
         site: "firefox",
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase"
       },
     ]
   },
@@ -6262,17 +6262,17 @@ module.exports = [
       {
         name: "Finding the most frequent character in a string javascript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/22590204/9715166"
+        link: "https://stackoverflow.com/a/22590204/9715166"
       },
       {
         name: "Javascript Array Exercise: Majority Element",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=wQIEnwsXECs"
+        link: "https://www.youtube.com/watch?v=wQIEnwsXECs"
       },
       {
         name: "Find the most commonly used character in string",
         site: "medium",
-        url: "https://medium.com/@Dragonza/find-the-most-commonly-used-character-in-string-ed00dc2279be"
+        link: "https://medium.com/@Dragonza/find-the-most-commonly-used-character-in-string-ed00dc2279be"
       },
     ]
   },
@@ -6287,17 +6287,17 @@ module.exports = [
       {
         name: "Permutations in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/20871714/9715166"
+        link: "https://stackoverflow.com/a/20871714/9715166"
       },
       {
         name: "JavaScript the Basics - Algorithms Part 3 Permutations",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=rxO6BFKr6ww"
+        link: "https://www.youtube.com/watch?v=rxO6BFKr6ww"
       },
       {
         name: "Implement All Permutations of a Set in JavaScript",
         site: "medium",
-        url: "https://initjs.org/all-permutations-of-a-set-f1be174c79f8"
+        link: "https://initjs.org/all-permutations-of-a-set-f1be174c79f8"
       },
     ]
   },
@@ -6312,17 +6312,17 @@ module.exports = [
       {
         name: "Reverse a sentence and print each word in reverse order in Javascript [closed]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/34083746/9715166"
+        link: "https://stackoverflow.com/a/34083746/9715166"
       },
       {
         name: "How to reverse word order in a sentence in 40 seconds ! JavaScript.",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=XK8-AUQSPW0"
+        link: "https://www.youtube.com/watch?v=XK8-AUQSPW0"
       },
       {
         name: "A popular programming interview question — reverse words of a sentence.",
         site: "medium",
-        url: "https://medium.com/@hmurari/a-popular-programming-interview-question-reverse-words-of-a-sentence-3bac606d15a2"
+        link: "https://medium.com/@hmurari/a-popular-programming-interview-question-reverse-words-of-a-sentence-3bac606d15a2"
       },
     ]
   },
@@ -6337,17 +6337,17 @@ module.exports = [
       {
         name: "return the first non repeating character in a string in javascript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/24793128/9715166"
+        link: "https://stackoverflow.com/a/24793128/9715166"
       },
       {
         name: "Finding the First Non Repeating Character - JavaScript - Simplest Approach",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=tGoqKsPltxE"
+        link: "https://www.youtube.com/watch?v=tGoqKsPltxE"
       },
       {
         name: "First non-repeating letter",
         site: "medium",
-        url: "https://medium.com/@brendt_bly/first-non-repeating-letter-c00ef6a2e9b8"
+        link: "https://medium.com/@brendt_bly/first-non-repeating-letter-c00ef6a2e9b8"
       },
     ]
   },
@@ -6362,17 +6362,17 @@ module.exports = [
       {
         name: "Palindrome check in Javascript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/14813569/9715166"
+        link: "https://stackoverflow.com/a/14813569/9715166"
       },
       {
         name: "Javascript Coding Challenge #3: Palindrome Check (Freecodecamp)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=hvV48xfwZCs"
+        link: "https://www.youtube.com/watch?v=hvV48xfwZCs"
       },
       {
         name: "Three ways to check for palindromes in JavaScript",
         site: "dev",
-        url: "https://dev.to/domazet93/three-ways-to-check-for-palindromes-in-javascript-jbk"
+        link: "https://dev.to/domazet93/three-ways-to-check-for-palindromes-in-javascript-jbk"
       },
     ]
   },
@@ -6387,17 +6387,17 @@ module.exports = [
       {
         name: "What is responsive web design",
         site: "quora",
-        url: "https://www.quora.com/What-is-responsive-web-design-2"
+        link: "https://www.quora.com/What-is-responsive-web-design-2"
       },
       {
         name: "Responsive Website Basics (in 3 simple steps)",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=h3IdEqpjMvQ"
+        link: "https://www.youtube.com/watch?v=h3IdEqpjMvQ"
       },
       {
         name: "Responsive design",
         site: "medium",
-        url: "https://medium.com/owl-studios/responsive-design-af7a1f14b991"
+        link: "https://medium.com/owl-studios/responsive-design-af7a1f14b991"
       },
     ]
   },
@@ -6412,17 +6412,17 @@ module.exports = [
       {
         name: "What's the best way to explain big-O notation in laymen's terms?",
         site: "quora",
-        url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
+        link: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
       },
       {
         name: "Big O Notation",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
+        link: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
       },
       {
         name: "The Big Scary O Notation",
         site: "medium",
-        url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
+        link: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
       },
     ]
   },
@@ -6437,17 +6437,17 @@ module.exports = [
       {
         name: "What's the best way to explain big-O notation in laymen's terms?",
         site: "quora",
-        url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
+        link: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
       },
       {
         name: "Big O Notation",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
+        link: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
       },
       {
         name: "The Big Scary O Notation",
         site: "medium",
-        url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
+        link: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
       },
     ]
   },
@@ -6462,17 +6462,17 @@ module.exports = [
       {
         name: "What's the best way to explain big-O notation in laymen's terms?",
         site: "quora",
-        url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
+        link: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
       },
       {
         name: "Big O Notation",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
+        link: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
       },
       {
         name: "The Big Scary O Notation",
         site: "medium",
-        url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
+        link: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
       },
     ]
   },
@@ -6487,17 +6487,17 @@ module.exports = [
       {
         name: "What are hash tables and why are they useful?",
         site: "quora",
-        url: "https://www.quora.com/What-are-hash-tables-and-why-are-they-useful"
+        link: "https://www.quora.com/What-are-hash-tables-and-why-are-they-useful"
       },
       {
         name: "Hash Tables - Beau teaches JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=F95z5Wxd9ks"
+        link: "https://www.youtube.com/watch?v=F95z5Wxd9ks"
       },
       {
         name: "Hash Tables",
         site: "medium",
-        url: "https://medium.com/@bilalak90/hash-tables-c84d1b7aeb96"
+        link: "https://medium.com/@bilalak90/hash-tables-c84d1b7aeb96"
       },
     ]
   },
@@ -6512,17 +6512,17 @@ module.exports = [
       {
         name: "Software Stack - Techopedia",
         site: "globe",
-        url: "https://www.techopedia.com/definition/27268/software-stack"
+        link: "https://www.techopedia.com/definition/27268/software-stack"
       },
       {
         name: "What is Technology Stack? - Fast Tech Skills",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=AGBnP_CSp7Y"
+        link: "https://www.youtube.com/watch?v=AGBnP_CSp7Y"
       },
       {
         name: "What is a tech stack?",
         site: "globe",
-        url: "https://learn.g2.com/what-is-a-tech-stack"
+        link: "https://learn.g2.com/what-is-a-tech-stack"
       },
     ]
   },
@@ -6538,17 +6538,17 @@ module.exports = [
       {
         name: "Microsoft Asks: Singly List or Doubly List? What are the pros and cons of using each?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/10708820/9715166"
+        link: "https://stackoverflow.com/a/10708820/9715166"
       },
       {
         name: "Data Structures: Linked Lists",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=njTh_OwMljA"
+        link: "https://www.youtube.com/watch?v=njTh_OwMljA"
       },
       {
         name: "Data Structures — Linked List & Doubly Linked List",
         site: "medium",
-        url: "https://medium.com/@ariel.salem1989/data-structures-linked-list-doubly-linked-list-f8cf1b1c9f28"
+        link: "https://medium.com/@ariel.salem1989/data-structures-linked-list-doubly-linked-list-f8cf1b1c9f28"
       },
     ]
   },
@@ -6563,17 +6563,17 @@ module.exports = [
       {
         name: "What's the point of a hash table?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/2180053/9715166"
+        link: "https://stackoverflow.com/a/2180053/9715166"
       },
       {
         name: "Data Structures: Hash Tables",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=shs0KM3wKv8"
+        link: "https://www.youtube.com/watch?v=shs0KM3wKv8"
       },
       {
         name: "Hash Crash: The Basics of Hash Tables",
         site: "medium",
-        url: "https://medium.com/@bartobri/hash-crash-the-basics-of-hash-tables-bef82a8ea550"
+        link: "https://medium.com/@bartobri/hash-crash-the-basics-of-hash-tables-bef82a8ea550"
       },
     ]
   },
@@ -6588,17 +6588,17 @@ module.exports = [
       {
         name: "What is the difference between UI design and UX design?",
         site: "quora",
-        url: "https://www.quora.com/What-is-the-difference-between-UI-design-and-UX-design"
+        link: "https://www.quora.com/What-is-the-difference-between-UI-design-and-UX-design"
       },
       {
         name: "UX vs UI Design - What each of them does",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=hQ1rpJKyj68"
+        link: "https://www.youtube.com/watch?v=hQ1rpJKyj68"
       },
       {
         name: "UI vs UX Design (an overview)",
         site: "medium",
-        url: "https://medium.com/@iamjesseshow/ux-vs-us-7431dd859418"
+        link: "https://medium.com/@iamjesseshow/ux-vs-us-7431dd859418"
       },
     ]
   },
@@ -6613,17 +6613,17 @@ module.exports = [
       {
         name: "What are the difference between web app and mobile app?",
         site: "quora",
-        url: "https://www.quora.com/What-are-the-difference-between-web-app-and-mobile-app"
+        link: "https://www.quora.com/What-are-the-difference-between-web-app-and-mobile-app"
       },
       {
         name: "Mobile Apps - Web vs. Native vs. Hybrid",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ZikVtdopsfY"
+        link: "https://www.youtube.com/watch?v=ZikVtdopsfY"
       },
       {
         name: "Mobile Website or Mobile App: What to choose?",
         site: "medium",
-        url: "https://medium.com/swlh/mobile-website-or-mobile-app-what-to-choose-28d0cf19d93c"
+        link: "https://medium.com/swlh/mobile-website-or-mobile-app-what-to-choose-28d0cf19d93c"
       },
     ]
   },
@@ -6638,17 +6638,17 @@ module.exports = [
       {
         name: "Check if string contains only digits",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1779019/9715166"
+        link: "https://stackoverflow.com/a/1779019/9715166"
       },
       {
         name: "Javascript - how to make html input text Allow only Numeric values In JS [ with source code ]",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=6bKvevjR7GM"
+        link: "https://www.youtube.com/watch?v=6bKvevjR7GM"
       },
       {
         name: "Regex tutorial — A quick cheatsheet by examples",
         site: "medium",
-        url: "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285"
+        link: "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285"
       },
     ]
   },
@@ -6663,17 +6663,17 @@ module.exports = [
       {
         name: "Counting number of vowels in a string with JavaScript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/29450463"
+        link: "https://stackoverflow.com/a/29450463"
       },
       {
         name: "Javascript Challenges - Count the number of vowels in a string",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=j8CU_quwHv0"
+        link: "https://www.youtube.com/watch?v=j8CU_quwHv0"
       },
       {
         name: "Javascript Algorithms #1: Counting the Vowels in a String Of Text",
         site: "dev",
-        url: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
+        link: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
       },
     ]
   },
@@ -6688,17 +6688,17 @@ module.exports = [
       {
         name: "Count the number of occurrences of a character in a string in Javascript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/881111"
+        link: "https://stackoverflow.com/a/881111"
       },
       {
         name: "JavaScript Tips and Tricks 03 - Count number of characters",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=BxPxXk0ubA4"
+        link: "https://www.youtube.com/watch?v=BxPxXk0ubA4"
       },
       {
         name: "String Practice Problems",
         site: "medium",
-        url: "https://medium.com/@codingfreak/string-practice-problems-i-c64e073a7138"
+        link: "https://medium.com/@codingfreak/string-practice-problems-i-c64e073a7138"
       },
     ]
   },
@@ -6713,17 +6713,17 @@ module.exports = [
       {
         name: "Given a string s, find the longest palindromic substring in s.",
         site: "jsfiddle",
-        url: "https://jsfiddle.net/vovchuck_bogdan/yv6u9d1u/2/"
+        link: "https://jsfiddle.net/vovchuck_bogdan/yv6u9d1u/2/"
       },
       {
         name: "LONGEST PALINDROME SUB STRING WITH DYNAMIC PROGRAMMING",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=Fi5INvcmDos"
+        link: "https://www.youtube.com/watch?v=Fi5INvcmDos"
       },
       {
         name: "Longest Palindromic Substring",
         site: "medium",
-        url: "https://medium.com/@bhprtk/longest-palindromic-substring-a8190fab03ff"
+        link: "https://medium.com/@bhprtk/longest-palindromic-substring-a8190fab03ff"
       },
     ]
   },
@@ -6739,17 +6739,17 @@ module.exports = [
       {
         name: "Get all unique values in a JavaScript array (remove duplicates)",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/14438954/9715166"
+        link: "https://stackoverflow.com/a/14438954/9715166"
       },
       {
         name: "Remove duplicates from array in JavaScript – the only right way",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
+        link: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
       },
       {
         name: "How to Remove Array Duplicates in ES6",
         site: "medium",
-        url: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
+        link: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
       },
     ]
   },
@@ -6764,17 +6764,17 @@ module.exports = [
       {
         name: "How do I check if an array includes an object in JavaScript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1473742/9715166"
+        link: "https://stackoverflow.com/a/1473742/9715166"
       },
       {
         name: "JavaScript Problem: Searching an Array for a Value",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=MLNmrzGQYdU"
+        link: "https://www.youtube.com/watch?v=MLNmrzGQYdU"
       },
       {
         name: "Arrays in JavaScript",
         site: "medium",
-        url: "https://medium.com/swlh/arrays-in-javascript-e64b873ad801"
+        link: "https://medium.com/swlh/arrays-in-javascript-e64b873ad801"
       },
     ]
   },
@@ -6789,17 +6789,17 @@ module.exports = [
       {
         name: "Check if an array contains duplicate values",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/34192063/9715166"
+        link: "https://stackoverflow.com/a/34192063/9715166"
       },
       {
         name: "Remove duplicates from array in JavaScript – the only right way",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
+        link: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
       },
       {
         name: "How to Remove Array Duplicates in ES6",
         site: "medium",
-        url: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
+        link: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
       },
     ]
   },
@@ -6814,17 +6814,17 @@ module.exports = [
       {
         name: "Find the min/max element of an Array in JavaScript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1669222/9715166"
+        link: "https://stackoverflow.com/a/1669222/9715166"
       },
       {
         name: "JavaScript Tip: Finding the Minimum or Maximum Value in an Array",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=IY7TRbXLU6c"
+        link: "https://www.youtube.com/watch?v=IY7TRbXLU6c"
       },
       {
         name: "Calculate the Max/Min value from an array",
         site: "globe",
-        url: "https://www.jstips.co/en/javascript/calculate-the-max-min-value-from-an-array/"
+        link: "https://www.jstips.co/en/javascript/calculate-the-max-min-value-from-an-array/"
       },
     ]
   },
@@ -6839,17 +6839,17 @@ module.exports = [
       {
         name: "Simplest code for array intersection in javascript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/1885569/9715166"
+        link: "https://stackoverflow.com/a/1885569/9715166"
       },
       {
         name: "How to find intersection of two arrays in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=m3U69xPawkw"
+        link: "https://www.youtube.com/watch?v=m3U69xPawkw"
       },
       {
         name: "Array intersection, difference and union in ES6",
         site: "medium",
-        url: "https://medium.com/@alvaro.saburido/set-theory-for-arrays-in-es6-eb2f20a61848"
+        link: "https://medium.com/@alvaro.saburido/set-theory-for-arrays-in-es6-eb2f20a61848"
       },
     ]
   },
@@ -6864,17 +6864,17 @@ module.exports = [
       {
         name: "JavaScript anagram comparison",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/23785653/9715166"
+        link: "https://stackoverflow.com/a/23785653/9715166"
       },
       {
         name: "JS Interview - Anagrams - Question 15",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=YCpxWfxU0NQ"
+        link: "https://www.youtube.com/watch?v=YCpxWfxU0NQ"
       },
       {
         name: "Solving the anagram problem",
         site: "medium",
-        url: "https://medium.com/@gianpaul.r/solving-the-anagram-problem-c4589211c130"
+        link: "https://medium.com/@gianpaul.r/solving-the-anagram-problem-c4589211c130"
       },
     ]
   },
@@ -6889,17 +6889,17 @@ module.exports = [
       {
         name: "Testing whether a value is odd or even",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/6211660/9715166"
+        link: "https://stackoverflow.com/a/6211660/9715166"
       },
       {
         name: "How to Check a Number is Even or Odd in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=h9gsO0arDgY"
+        link: "https://www.youtube.com/watch?v=h9gsO0arDgY"
       },
       {
         name: "Check if Number is Even/Odd",
         site: "globe",
-        url: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
+        link: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
       },
     ]
   },
@@ -6914,17 +6914,17 @@ module.exports = [
       {
         name: "Testing whether a value is odd or even",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/6211660/9715166"
+        link: "https://stackoverflow.com/a/6211660/9715166"
       },
       {
         name: "How to Check a Number is Even or Odd in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=h9gsO0arDgY"
+        link: "https://www.youtube.com/watch?v=h9gsO0arDgY"
       },
       {
         name: "Check if Number is Even/Odd",
         site: "globe",
-        url: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
+        link: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
       },
     ]
   },
@@ -6937,19 +6937,19 @@ module.exports = [
     id: "q2b43jv",
     sources: [
       {
-        name: "Javascript: How to find first duplicate value and return its index?",
+        name: "Javascript : How to find first duplicate value and return its index?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/39346715/9715166"
+        link: "https://stackoverflow.com/a/39346715/9715166"
       },
       {
         name: "CodeFights: Interview Practice - First Duplicate from Google",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=L0VivTGm0nQ"
+        link: "https://www.youtube.com/watch?v=L0VivTGm0nQ"
       },
       {
         name: "Algorithms Exercise: Find the First Duplicate in an Array",
         site: "medium",
-        url: "https://medium.com/@joshsaintjacque/algorithms-exercise-find-the-first-duplicate-in-an-array-e97e9ed282c1"
+        link: "https://medium.com/@joshsaintjacque/algorithms-exercise-find-the-first-duplicate-in-an-array-e97e9ed282c1"
       },
     ]
   },
@@ -6964,17 +6964,17 @@ module.exports = [
       {
         name: "https://stackoverflow.com/questions/2003815/how-to-remove-element-from-an-array-in-javascript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/2003825/9715166"
+        link: "https://stackoverflow.com/a/2003825/9715166"
       },
       {
         name: "How to remove the first element of a JavaScript Array - Array.prototype.shift()",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=8xFxxhfuw7g"
+        link: "https://www.youtube.com/watch?v=8xFxxhfuw7g"
       },
       {
         name: "How to remove an element from a JavaScript array.",
         site: "medium",
-        url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
+        link: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
       },
     ]
   },
@@ -6989,17 +6989,17 @@ module.exports = [
       {
         name: "How to randomize (shuffle) a JavaScript array?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/12646864/9715166"
+        link: "https://stackoverflow.com/a/12646864/9715166"
       },
       {
         name: "JavaScript Problem: Shuffling an Array",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=myL4xmtAVtw"
+        link: "https://www.youtube.com/watch?v=myL4xmtAVtw"
       },
       {
         name: "How To Correctly Shuffle An Array in JavaScript",
         site: "medium",
-        url: "https://medium.com/@nitinpatel_20236/how-to-shuffle-correctly-shuffle-an-array-in-javascript-15ea3f84bfb"
+        link: "https://medium.com/@nitinpatel_20236/how-to-shuffle-correctly-shuffle-an-array-in-javascript-15ea3f84bfb"
       },
     ]
   },
@@ -7015,17 +7015,17 @@ module.exports = [
       {
         name: "What is compilation?",
         site: "quora",
-        url: "https://www.quora.com/What-is-compilation"
+        link: "https://www.quora.com/What-is-compilation"
       },
       {
         name: "Compilation - Part One: Overview of the Stages of Compilation",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=0A079QpDAzY"
+        link: "https://www.youtube.com/watch?v=0A079QpDAzY"
       },
       {
         name: "Compiler Theory - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch1.md#compiler-theory"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch1.md#compiler-theory"
       },
     ]
   },
@@ -7041,17 +7041,17 @@ module.exports = [
       {
         name: "Cheating Lexical Scope: eval",
         site: "globe",
-        url: "https://frontendmasters.com/courses/advanced-javascript/cheating-lexical-scope-eval/"
+        link: "https://frontendmasters.com/courses/advanced-javascript/cheating-lexical-scope-eval/"
       },
       {
         name: "Cheating lexical scoping in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=W_StzOwiKXk"
+        link: "https://www.youtube.com/watch?v=W_StzOwiKXk"
       },
       {
         name: "Cheating Lexical - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#cheating-lexical"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#cheating-lexical"
       },
     ]
   },
@@ -7068,17 +7068,17 @@ module.exports = [
       {
         name: "what are the advantages and disadvantages of anonymous methods in javascript?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/9123921/9715166"
+        link: "https://stackoverflow.com/a/9123921/9715166"
       },
       {
         name: "16.3: ES6 Arrow Function - Topics of JavaScript/ES6",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=mrYMzpbFz18"
+        link: "https://www.youtube.com/watch?v=mrYMzpbFz18"
       },
       {
         name: "Unlexical - You Don't Know JS",
         site: "github",
-        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch6.md#unlexical"
+        link: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch6.md#unlexical"
       },
     ]
   },
@@ -7094,17 +7094,17 @@ module.exports = [
       {
         name: "What is a variable?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-variable"
+        link: "https://www.quora.com/What-is-a-variable"
       },
       {
         name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
         site: "youtube",
-        url: "https://youtu.be/l26oaHV7D40?t=56"
+        link: "https://youtu.be/l26oaHV7D40?t=56"
       },
       {
         name: "The Visual Guide To JavaScript Variable Definitions & Scope",
         site: "medium",
-        url: "https://medium.com/@js_tut/the-visual-guide-to-javascript-variable-definitions-scope-abfb86edad"
+        link: "https://medium.com/@js_tut/the-visual-guide-to-javascript-variable-definitions-scope-abfb86edad"
       },
     ]
   },
@@ -7120,17 +7120,17 @@ module.exports = [
       {
         name: "What is a for loop?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-for-loop"
+        link: "https://www.quora.com/What-is-a-for-loop"
       },
       {
         name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
         site: "youtube",
-        url: "https://youtu.be/l26oaHV7D40?t=256"
+        link: "https://youtu.be/l26oaHV7D40?t=256"
       },
       {
         name: "The Complete Guide To Loops",
         site: "medium",
-        url: "https://medium.com/@js_tut/the-complete-guide-to-loops-cfa6522157e9"
+        link: "https://medium.com/@js_tut/the-complete-guide-to-loops-cfa6522157e9"
       },
     ]
   },
@@ -7146,17 +7146,17 @@ module.exports = [
       {
         name: "debugging vs. troubleshooting",
         site: "globe",
-        url: "https://forum.wordreference.com/threads/debugging-vs-troubleshooting.2909914/"
+        link: "https://forum.wordreference.com/threads/debugging-vs-troubleshooting.2909914/"
       },
       {
         name: "Debugging Tips - What is bug and debugging?",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
+        link: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
       },
       {
         name: "Troubleshooting vs Debugging: What’s the Difference & Best Practices",
         site: "globe",
-        url: "https://stackify.com/troubleshooting-vs-debugging-whats-the-difference-best-practices/"
+        link: "https://stackify.com/troubleshooting-vs-debugging-whats-the-difference-best-practices/"
       },
     ]
   },
@@ -7172,17 +7172,17 @@ module.exports = [
       {
         name: "What exactly is a data structure?",
         site: "quora",
-        url: "https://www.quora.com/What-exactly-is-a-data-structure"
+        link: "https://www.quora.com/What-exactly-is-a-data-structure"
       },
       {
         name: "Data Structures: Crash Course Computer Science #14",
         site: "youtube",
-        url: "https://youtu.be/DuDz6B4cqVc"
+        link: "https://youtu.be/DuDz6B4cqVc"
       },
       {
         name: "Introduction to Data Structures",
         site: "medium",
-        url: "https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6"
+        link: "https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6"
       },
     ]
   },
@@ -7198,17 +7198,17 @@ module.exports = [
       {
         name: "What is a function in computer programming?",
         site: "quora",
-        url: "https://www.quora.com/What-is-a-function-in-computer-programming"
+        link: "https://www.quora.com/What-is-a-function-in-computer-programming"
       },
       {
         name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
         site: "youtube",
-        url: "https://youtu.be/l26oaHV7D40?t=459"
+        link: "https://youtu.be/l26oaHV7D40?t=459"
       },
       {
         name: "Basic JavaScript: Write Reusable JavaScript with Functions",
         site: "free-code-camp",
-        url: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions/"
+        link: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions/"
       },
     ]
   },
@@ -7224,17 +7224,17 @@ module.exports = [
       {
         name: "What is recursion?",
         site: "quora",
-        url: "https://www.quora.com/What-is-recursion"
+        link: "https://www.quora.com/What-is-recursion"
       },
       {
         name: "What Is Recursion - Recursion Explained In 3 Minutes",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=YZcO_jRhvxs"
+        link: "https://www.youtube.com/watch?v=YZcO_jRhvxs"
       },
       {
         name: "Recursion Made Simple",
         site: "medium",
-        url: "https://medium.com/code-zen/recursion-demystified-24867f045c62"
+        link: "https://medium.com/code-zen/recursion-demystified-24867f045c62"
       },
     ]
   },
@@ -7249,17 +7249,17 @@ module.exports = [
       {
         name: "Generate random string/characters in JavaScript",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/8084248/9715166"
+        link: "https://stackoverflow.com/a/8084248/9715166"
       },
       {
         name: "Using Math.random() in JavaScript",
         site: "medium",
-        url: "https://medium.com/@josephcardillo/using-math-random-in-javascript-c49eff920b11"
+        link: "https://medium.com/@josephcardillo/using-math-random-in-javascript-c49eff920b11"
       },
       {
         name: "How to generate random numbers in JavaScript - Math.random",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=1Rq_LrpcgIM"
+        link: "https://www.youtube.com/watch?v=1Rq_LrpcgIM"
       },
     ]
   },
@@ -7275,17 +7275,17 @@ module.exports = [
       {
         name: "What is Software Localization?",
         site: "globe",
-        url: "https://www.sdltrados.com/solutions/software-localization/"
+        link: "https://www.sdltrados.com/solutions/software-localization/"
       },
       {
         name: "Translation and Localization",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=J7ODeZK8TDI"
+        link: "https://www.youtube.com/watch?v=J7ODeZK8TDI"
       },
       {
         name: "Best Practices for the Software Localization Process",
         site: "medium",
-        url: "https://medium.com/webeagle/best-practices-for-the-software-localization-process-d35b8dac6f0f"
+        link: "https://medium.com/webeagle/best-practices-for-the-software-localization-process-d35b8dac6f0f"
       },
     ]
   },
@@ -7301,17 +7301,17 @@ module.exports = [
       {
         name: "What is scope of the variable?",
         site: "quora",
-        url: "https://www.quora.com/What-is-scope-of-the-variable"
+        link: "https://www.quora.com/What-is-scope-of-the-variable"
       },
       {
         name: "Scope - Programming Languages",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=wTn6oQ56MV8"
+        link: "https://www.youtube.com/watch?v=wTn6oQ56MV8"
       },
       {
         name: "Scope vs. Context in JavaScript",
         site: "medium",
-        url: "https://medium.com/better-programming/scope-vs-context-in-javascript-b31818f58558"
+        link: "https://medium.com/better-programming/scope-vs-context-in-javascript-b31818f58558"
       },
     ]
   },
@@ -7326,17 +7326,17 @@ module.exports = [
       {
         name: "How to replace all occurrences of a string?",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/17606289/9715166"
+        link: "https://stackoverflow.com/a/17606289/9715166"
       },
       {
         name: "How to replace all occurrences of a string in JavaScript",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=7FcavNZnLAc"
+        link: "https://www.youtube.com/watch?v=7FcavNZnLAc"
       },
       {
         name: "How to replace all occurrences of a string in JavaScript",
         site: "globe",
-        url: "https://flaviocopes.com/how-to-replace-all-occurrences-string-javascript/"
+        link: "https://flaviocopes.com/how-to-replace-all-occurrences-string-javascript/"
       },
     ]
   },
@@ -7351,17 +7351,17 @@ module.exports = [
       {
         name: "Remove last item from array",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/19544478/9715166"
+        link: "https://stackoverflow.com/a/19544478/9715166"
       },
       {
         name: "JavaScript Array - 05 - Remove the last element",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=RbrrOQEiotU"
+        link: "https://www.youtube.com/watch?v=RbrrOQEiotU"
       },
       {
         name: "How to remove an element from a JavaScript array.",
         site: "medium",
-        url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
+        link: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
       },
     ]
   },
@@ -7376,17 +7376,17 @@ module.exports = [
       {
         name: "What's the difference between unit tests and integration tests? [duplicate]",
         site: "stack-overflow",
-        url: "https://stackoverflow.com/a/5357837/9715166"
+        link: "https://stackoverflow.com/a/5357837/9715166"
       },
       {
         name: "Unit vs Integration testing — what's the difference? | Code Walks 005",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=uCxL7NGEohI"
+        link: "https://www.youtube.com/watch?v=uCxL7NGEohI"
       },
       {
         name: "Towards a robust testing future: Unit Vs Integration Testing",
         site: "medium",
-        url: "https://medium.com/the-andela-way/towards-a-robust-testing-future-unit-vs-integration-tests-700f7a1f6a7f"
+        link: "https://medium.com/the-andela-way/towards-a-robust-testing-future-unit-vs-integration-tests-700f7a1f6a7f"
       },
     ]
   },

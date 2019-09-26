@@ -28,7 +28,7 @@ export default {
         }
     },
     getFaqsByTags : function(tags) {
-        let foundFaqs = faqsData.filter(faqData => faqData.tags.sort().toString() == tags.sort().toString());
+        let foundFaqs = faqsData.filter(faqData => faqData.tags.sort().toString() === tags.sort().toString());
         return {
             name: tags.join(" + "),
             total: foundFaqs.length,
