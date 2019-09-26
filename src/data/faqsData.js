@@ -2540,7 +2540,7 @@ module.exports = [
     answer:
       "Setting the border-radius to a set value of pixels will round the corners.",
     tags: ["css", "front-end"],
-    type: "code",
+    type: "explanation",
     number: 99,
     id: "qjmpnhw",
     sources: [
@@ -4407,7 +4407,7 @@ module.exports = [
     answer:
       "The delete operator will allow you to remove an property from an object.",
     tags: ["javascript"],
-    type: "code",
+    type: "explanation",
     number: 171,
     id: "u0g7hrb",
     sources: [

@@ -20,7 +20,7 @@ import typesData from "./data/typesData";
 const App = () => {
     const [activeTab, setActiveTab] = useState("Sets");
     const [activeOption, setActiveOption] = useState(setsData[0]);
-  
+    const options = [{name: "Sets", data: setsData}, {name: "Types", data: typesData}, {name:"Tags",data:tagsData}]
     function handleOptionClick(content) {
       setActiveOption(content);
     }
@@ -35,65 +35,25 @@ const App = () => {
             <Col xs="4">
               <OptionBar activeTab={activeTab} setActiveTab={setActiveTab} />
               <TabContent activeTab={activeTab}>
-                <TabPane tabId="Sets">
-                <br></br>
-                  <Scrollbar
-                    style={{
-                      height: "45rem"
-                    }}
-                  >
-                  <div>
-                    {setsData.map(item => (
-                      <OptionCard
-                        key={item.id}
-                        content={item}
-                        clickHandler={handleOptionClick}
-                        activeOption={activeOption}
-                        activeTab={activeTab}
-                        type="Sets"
-                      />
-                    ))}
-                    </div>
-                  </Scrollbar>
-                </TabPane>
-                <TabPane tabId="Types">
-                <br></br>
-                  <Scrollbar
-                    style={{
-                      height: "45rem"
-                    }}
-                  >
-                    {typesData.map(item => (
-                      <OptionCard
-                        key={item.id}
-                        content={item}
-                        clickHandler={handleOptionClick}
-                        activeOption={activeOption}
-                        activeTab={activeTab}
-                        type="Types"
-                      />
-                    ))}
-                  </Scrollbar>
-                </TabPane>
-                <TabPane tabId="Tags">
-                <br></br>
-                  <Scrollbar
-                    style={{
-                      height: "45rem"
-                    }}
-                  >
-                    {tagsData.map(item => (
-                      <OptionCard
-                        key={item.id}
-                        content={item}
-                        clickHandler={handleOptionClick}
-                        activeOption={activeOption}
-                        activeTab={activeTab}
-                        type="Tags"
-                      />
-                    ))}
-                  </Scrollbar>
-                </TabPane>
+                  {options.map(option => 
+                    <TabPane tabId={option.name}>
+                        <br></br>
+                        <Scrollbar style={{height: "45rem"}}>
+                            <div>
+                                {option.data.map(item => 
+                                    <OptionCard
+                                     key={item.id}
+                                     content={item}
+                                     clickHandler={handleOptionClick}
+                                     activeOption={activeOption}
+                                     activeTab={activeTab}
+                                     type={option.name}
+                                   />
+                                )}
+                            </div>
+                        </Scrollbar>
+                    </TabPane>
+                    )}
               </TabContent>
             </Col>
             <Col xs="8">
