@@ -5,27 +5,25 @@ import tagsData from "../data/tagsData";
 import typesData from "../data/typesData";
 
 export default function OptionBar({ activeTab, setActiveTab }) {
-  const options = ["Sets", "Types", "Tags"]
+  const options = [{name: "Sets", data: setsData},{name: "Types", data: typesData}, {name: "Tags", data:tagsData}]
   return (
     <Navbar color="light" light expand="md">
-      {options.map(elem =>
+      {options.map(option =>
         <Button
           style={{
-            color: activeTab === elem ? "white" : "black",
+            color: activeTab === option.name ? "white" : "black",
             textDecoration: "none"
           }}
-          color= {activeTab === elem ? "dark" : "link"}
-          onClick= {() => setActiveTab(elem)}
+          color= {activeTab === option.name ? "dark" : "link"}
+          onClick= {() => setActiveTab(option.name)}
         >
           <Badge
-            color={activeTab === elem ? "light" : "dark"}
+            color={activeTab === option.name ? "light" : "dark"}
             className="m-1"
           >
-            {elem === "Sets" && setsData.length}
-            {elem === "Tags" && tagsData.length}
-            {elem === "Types" && typesData.length}
+            {option.data.length}
           </Badge>
-          {elem}
+          {option.name}
         </Button>)}
     </Navbar>
   );

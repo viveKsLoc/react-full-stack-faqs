@@ -1,12 +1,6 @@
 import React, {useState} from "react";
 import Scrollbar from "react-scrollbars-custom";
-import {
-  Container,
-  Row,
-  Col,
-  TabContent,
-  TabPane,
-} from "reactstrap";
+import { Container, Row, Col, TabContent, TabPane } from "reactstrap";
 
 import OptionCard from "./components/OptionCard";
 import DisplayCard from "./components/DisplayCard";
@@ -19,7 +13,7 @@ import typesData from "./data/typesData";
 
 const App = () => {
     const [activeTab, setActiveTab] = useState("Sets");
-    const [activeOption, setActiveOption] = useState(setsData[0]);
+    const [activeOption, setActiveOption] = useState(setsData[2]);
     const options = [{name: "Sets", data: setsData}, {name: "Types", data: typesData}, {name:"Tags",data:tagsData}]
     function handleOptionClick(content) {
       setActiveOption(content);
