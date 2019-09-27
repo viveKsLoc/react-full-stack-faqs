@@ -11,60 +11,56 @@ import setsData from "./data/setsData";
 import tagsData from "./data/tagsData";
 import typesData from "./data/typesData";
 
-const App = () => {
+export const App = () => {
     const [activeTab, setActiveTab] = useState("Sets");
     const [activeOption, setActiveOption] = useState(setsData[2]);
     const options = [{name: "Sets", data: setsData}, {name: "Types", data: typesData}, {name:"Tags",data:tagsData}]
+
     function handleOptionClick(content) {
       setActiveOption(content);
     }
     return (
-      <>
-        <TopBar />
+      <div>
+        <TopBar/>
         <Container
-          style={{ background: "white", padding: "0", marginTop: "1em" }}
+          style={{ background: "white", padding: "0", marginTop: "1rem" }}
           className="rounded"
         >
           <Row>
             <Col xs="4">
               <OptionBar activeTab={activeTab} setActiveTab={setActiveTab} />
               <TabContent activeTab={activeTab}>
-                  {options.map(option => 
-                    <TabPane tabId={option.name}>
-                        <br></br>
-                        <Scrollbar style={{height: "45rem"}}>
-                            <div>
-                                {option.data.map(item => 
-                                    <OptionCard
-                                     key={item.id}
-                                     content={item}
-                                     clickHandler={handleOptionClick}
-                                     activeOption={activeOption}
-                                     activeTab={activeTab}
-                                     type={option.name}
-                                   />
-                                )}
-                            </div>
-                        </Scrollbar>
-                    </TabPane>
-                    )}
+                {options.map(option => 
+                  <TabPane tabId={option.name}>
+                    <Scrollbar style={{height: "45rem", margin: "0rem"}}>
+                      <div>
+                        {option.data.map(item => 
+                          <OptionCard
+                            key={item.id}
+                            content={item}
+                            clickHandler={handleOptionClick}
+                            activeOption={activeOption}
+                            activeTab={activeTab}
+                            type={option.name}
+                          />
+                        )}
+                      </div>
+                    </Scrollbar>
+                  </TabPane>
+                )}
               </TabContent>
             </Col>
             <Col xs="8">
               <DisplayBar activeOption={activeOption}/>
-              <Scrollbar
-                style={{
-                  height: "50rem"
-                }}
-              >
-                {activeOption.faqs.map(item => (
+              <Scrollbar style={{height: "55rem"}}>
+                {activeOption.faqs.map(item => 
                   <DisplayCard content={item} key={item.id} />
-                ))}
+                )}
               </Scrollbar>
             </Col>
           </Row>
         </Container>
-      </>
+      </div>
     );
   }
 
