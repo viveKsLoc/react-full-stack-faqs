@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, NavbarBrand, NavItem, NavLink } from "reactstrap";
 
-export default function DisplayBar({ activeOption }) {
+export default function DisplayBar({ activeOption, activeTab }) {
   return (
     <Navbar color="light" light expand="md">
       <NavbarBrand href="">

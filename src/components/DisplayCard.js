@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardBody, CardTitle, CardText, Badge } from "reactstrap";
 import Gist from "react-gist";
-import {getIcon} from "../helpers/iconsHelper";
+import { getIcon } from "../helpers/iconsHelper";
 import "../styles.css";
 
 export default function SetCard({ content }) {

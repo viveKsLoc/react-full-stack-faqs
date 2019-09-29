@@ -1,30 +1,26 @@
 import React from "react";
 import { Badge, Button } from "reactstrap";
-import faqsHelper from "../helpers/faqsHelper";
-
+import { getFaqsByTag, getFaqsByType } from "../helpers/faqsHelper";
 import "../styles.css";
 
-export default function OptionCard({
-  content,
-  clickHandler,
-  activeOption,
-  activeTab,
-  type
-}) {
+const cleanStr = (str) => str.toLowerCase().replace(/ /g, "-").replace(/\./g, "-")
+const compStrs = (str1,str2,attr) => cleanStr(str1[attr]) === cleanStr(str2[attr])
+export default function OptionCard({ content, clickHandler, activeOption, activeTab,}) {
   return (
     <Button
       className="element p-1 m-1 border border-3-dark"
       onClick={() => {
         activeTab === "Sets" && clickHandler(content)
-        activeTab === "Types" && clickHandler(faqsHelper.getFaqsByType(content.name))
-        activeTab === "Tags" && clickHandler(faqsHelper.getFaqsByTag(content.id)) }}
+        activeTab === "Types" && clickHandler(getFaqsByType(content.name))
+        activeTab === "Tags" && clickHandler(getFaqsByTag(content.id)) 
+      }}
       style={{
-        background: activeOption.name === content.name ? "#343a40" : "white",
-        color: activeOption.name === content.name ? "white" : "black"
+        background: compStrs(activeOption,content,"name") ? "#343a40" : "white",
+        color:  compStrs(activeOption,content,"name") ? "white" : "black"
       }}
     >
       <Badge
-        color={activeOption.name === content.name ? "light" : "dark"}
+        color={compStrs(activeOption,content,"name") ? "light" : "dark"}
         className="element m-1"
       >
         {content.faqs && content.faqs.length}

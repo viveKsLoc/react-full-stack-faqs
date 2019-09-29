@@ -51,7 +51,7 @@ export const App = () => {
               </TabContent>
             </Col>
             <Col xs="8">
-              <DisplayBar activeOption={activeOption}/>
+              <DisplayBar activeOption={activeOption} activeTab={activeTab}/>
               <Scrollbar style={{height: "55rem"}}>
                 {activeOption.faqs.map(item => 
                   <DisplayCard content={item} key={item.id} />
